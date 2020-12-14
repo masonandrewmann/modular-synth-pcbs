@@ -1,0 +1,390 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "ADSR Envelope Generator"
+Date ""
+Rev ""
+Comp ""
+Comment1 "Designed by: Ray Wilson"
+Comment2 "Layout by: Mason Mann"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:AudioJack2 J?
+U 1 1 5FD42B13
+P 1100 1050
+F 0 "J?" H 921 1033 50  0000 R CNN
+F 1 "AudioJack2" H 921 1124 50  0000 R CNN
+F 2 "" H 1100 1050 50  0001 C CNN
+F 3 "~" H 1100 1050 50  0001 C CNN
+	1    1100 1050
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5FD43BF1
+P 1550 1350
+F 0 "R?" H 1618 1396 50  0000 L CNN
+F 1 "R_US" H 1618 1305 50  0000 L CNN
+F 2 "" V 1590 1340 50  0001 C CNN
+F 3 "~" H 1550 1350 50  0001 C CNN
+	1    1550 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5FD446E8
+P 1950 1050
+F 0 "R?" V 1745 1050 50  0000 C CNN
+F 1 "R_US" V 1836 1050 50  0000 C CNN
+F 2 "" V 1990 1040 50  0001 C CNN
+F 3 "~" H 1950 1050 50  0001 C CNN
+	1    1950 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5FD44D81
+P 2650 1050
+F 0 "R?" V 2445 1050 50  0000 C CNN
+F 1 "R_US" V 2536 1050 50  0000 C CNN
+F 2 "" V 2690 1040 50  0001 C CNN
+F 3 "~" H 2650 1050 50  0001 C CNN
+	1    2650 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5FD45925
+P 2650 700
+F 0 "C?" V 2398 700 50  0000 C CNN
+F 1 "CP1" V 2489 700 50  0000 C CNN
+F 2 "" H 2650 700 50  0001 C CNN
+F 3 "~" H 2650 700 50  0001 C CNN
+	1    2650 700 
+	0    1    1    0   
+$EndComp
+$Comp
+L Amplifier_Operational:TL082 U?
+U 2 1 5FD45F6B
+P 2650 1550
+F 0 "U?" H 2650 1917 50  0000 C CNN
+F 1 "TL082" H 2650 1826 50  0000 C CNN
+F 2 "" H 2650 1550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 2650 1550 50  0001 C CNN
+	2    2650 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL082 U?
+U 1 1 5FD49DB1
+P 2650 2550
+F 0 "U?" H 2650 2183 50  0000 C CNN
+F 1 "TL082" H 2650 2274 50  0000 C CNN
+F 2 "" H 2650 2550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 2650 2550 50  0001 C CNN
+	1    2650 2550
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL082 U?
+U 3 1 5FD4EFD7
+P 2650 2550
+F 0 "U?" H 2463 2504 50  0000 R CNN
+F 1 "TL082" H 2463 2595 50  0000 R CNN
+F 2 "" H 2650 2550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 2650 2550 50  0001 C CNN
+	3    2650 2550
+	1    0    0    1   
+$EndComp
+$Comp
+L power:-12V #PWR?
+U 1 1 5FD52B76
+P 2550 2250
+F 0 "#PWR?" H 2550 2350 50  0001 C CNN
+F 1 "-12V" H 2565 2423 50  0000 C CNN
+F 2 "" H 2550 2250 50  0001 C CNN
+F 3 "" H 2550 2250 50  0001 C CNN
+	1    2550 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5FD5378F
+P 2550 2850
+F 0 "#PWR?" H 2550 2700 50  0001 C CNN
+F 1 "+12V" H 2565 3023 50  0000 C CNN
+F 2 "" H 2550 2850 50  0001 C CNN
+F 3 "" H 2550 2850 50  0001 C CNN
+	1    2550 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5FD53FF9
+P 2300 1950
+F 0 "R?" V 2095 1950 50  0000 C CNN
+F 1 "R_US" V 2186 1950 50  0000 C CNN
+F 2 "" V 2340 1940 50  0001 C CNN
+F 3 "~" H 2300 1950 50  0001 C CNN
+	1    2300 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5FD547D0
+P 2100 2200
+F 0 "C?" H 1985 2154 50  0000 R CNN
+F 1 "CP1" H 1985 2245 50  0000 R CNN
+F 2 "" H 2100 2200 50  0001 C CNN
+F 3 "~" H 2100 2200 50  0001 C CNN
+	1    2100 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5FD55D28
+P 2100 2450
+F 0 "#PWR?" H 2100 2200 50  0001 C CNN
+F 1 "Earth" H 2100 2300 50  0001 C CNN
+F 2 "" H 2100 2450 50  0001 C CNN
+F 3 "~" H 2100 2450 50  0001 C CNN
+	1    2100 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5FD56539
+P 3000 2250
+F 0 "#PWR?" H 3000 2000 50  0001 C CNN
+F 1 "Earth" H 3000 2100 50  0001 C CNN
+F 2 "" H 3000 2250 50  0001 C CNN
+F 3 "~" H 3000 2250 50  0001 C CNN
+	1    3000 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5FD56961
+P 3450 2000
+F 0 "#PWR?" H 3450 1750 50  0001 C CNN
+F 1 "Earth" H 3450 1850 50  0001 C CNN
+F 2 "" H 3450 2000 50  0001 C CNN
+F 3 "~" H 3450 2000 50  0001 C CNN
+	1    3450 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5FD56FC8
+P 1300 1250
+F 0 "#PWR?" H 1300 1000 50  0001 C CNN
+F 1 "Earth" H 1300 1100 50  0001 C CNN
+F 2 "" H 1300 1250 50  0001 C CNN
+F 3 "~" H 1300 1250 50  0001 C CNN
+	1    1300 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5FD57435
+P 1650 1650
+F 0 "#PWR?" H 1650 1400 50  0001 C CNN
+F 1 "Earth" H 1650 1500 50  0001 C CNN
+F 2 "" H 1650 1650 50  0001 C CNN
+F 3 "~" H 1650 1650 50  0001 C CNN
+	1    1650 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5FD57C7F
+P 1600 2050
+F 0 "R?" V 1395 2050 50  0000 C CNN
+F 1 "R_US" V 1486 2050 50  0000 C CNN
+F 2 "" V 1640 2040 50  0001 C CNN
+F 3 "~" H 1600 2050 50  0001 C CNN
+	1    1600 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5FD59050
+P 3200 1550
+F 0 "D?" H 3200 1766 50  0000 C CNN
+F 1 "D" H 3200 1675 50  0000 C CNN
+F 2 "" H 3200 1550 50  0001 C CNN
+F 3 "~" H 3200 1550 50  0001 C CNN
+	1    3200 1550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5FD5999F
+P 3500 1800
+F 0 "R?" H 3432 1754 50  0000 R CNN
+F 1 "R_US" H 3432 1845 50  0000 R CNN
+F 2 "" V 3540 1790 50  0001 C CNN
+F 3 "~" H 3500 1800 50  0001 C CNN
+	1    3500 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5FD5A6BB
+P 3950 1550
+F 0 "C?" V 3698 1550 50  0000 C CNN
+F 1 "CP1" V 3789 1550 50  0000 C CNN
+F 2 "" H 3950 1550 50  0001 C CNN
+F 3 "~" H 3950 1550 50  0001 C CNN
+	1    3950 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5FD5A9EB
+P 3200 2550
+F 0 "D?" H 3200 2766 50  0000 C CNN
+F 1 "D" H 3200 2675 50  0000 C CNN
+F 2 "" H 3200 2550 50  0001 C CNN
+F 3 "~" H 3200 2550 50  0001 C CNN
+	1    3200 2550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5FD5AE6F
+P 3800 2550
+F 0 "C?" V 3548 2550 50  0000 C CNN
+F 1 "CP1" V 3639 2550 50  0000 C CNN
+F 2 "" H 3800 2550 50  0001 C CNN
+F 3 "~" H 3800 2550 50  0001 C CNN
+	1    3800 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5FD5C2F2
+P 4400 1850
+F 0 "#PWR?" H 4400 1600 50  0001 C CNN
+F 1 "Earth" H 4400 1700 50  0001 C CNN
+F 2 "" H 4400 1850 50  0001 C CNN
+F 3 "~" H 4400 1850 50  0001 C CNN
+	1    4400 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5FD5C2F8
+P 4450 1650
+F 0 "R?" H 4382 1604 50  0000 R CNN
+F 1 "R_US" H 4382 1695 50  0000 R CNN
+F 2 "" V 4490 1640 50  0001 C CNN
+F 3 "~" H 4450 1650 50  0001 C CNN
+	1    4450 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5FD5C328
+P 2600 3250
+F 0 "R?" V 2395 3250 50  0000 C CNN
+F 1 "R_US" V 2486 3250 50  0000 C CNN
+F 2 "" V 2640 3240 50  0001 C CNN
+F 3 "~" H 2600 3250 50  0001 C CNN
+	1    2600 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5FD5C77C
+P 2600 3450
+F 0 "C?" V 2348 3450 50  0000 C CNN
+F 1 "CP1" V 2439 3450 50  0000 C CNN
+F 2 "" H 2600 3450 50  0001 C CNN
+F 3 "~" H 2600 3450 50  0001 C CNN
+	1    2600 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:AudioJack2 J?
+U 1 1 5FD5CDF1
+P 1100 2450
+F 0 "J?" H 921 2433 50  0000 R CNN
+F 1 "AudioJack2" H 921 2524 50  0000 R CNN
+F 2 "" H 1100 2450 50  0001 C CNN
+F 3 "~" H 1100 2450 50  0001 C CNN
+	1    1100 2450
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5FD5D4B7
+P 1600 2600
+F 0 "R?" H 1668 2646 50  0000 L CNN
+F 1 "R_US" H 1668 2555 50  0000 L CNN
+F 2 "" V 1640 2590 50  0001 C CNN
+F 3 "~" H 1600 2600 50  0001 C CNN
+	1    1600 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5FD5DDB0
+P 1300 2650
+F 0 "#PWR?" H 1300 2400 50  0001 C CNN
+F 1 "Earth" H 1300 2500 50  0001 C CNN
+F 2 "" H 1300 2650 50  0001 C CNN
+F 3 "~" H 1300 2650 50  0001 C CNN
+	1    1300 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5FD5E2BE
+P 1600 2900
+F 0 "#PWR?" H 1600 2650 50  0001 C CNN
+F 1 "Earth" H 1600 2750 50  0001 C CNN
+F 2 "" H 1600 2900 50  0001 C CNN
+F 3 "~" H 1600 2900 50  0001 C CNN
+	1    1600 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5FD5E742
+P 2000 2800
+F 0 "R?" V 1795 2800 50  0000 C CNN
+F 1 "R_US" V 1886 2800 50  0000 C CNN
+F 2 "" V 2040 2790 50  0001 C CNN
+F 3 "~" H 2000 2800 50  0001 C CNN
+	1    2000 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5FD5EC8D
+P 3550 3050
+F 0 "R?" H 3618 3096 50  0000 L CNN
+F 1 "R_US" H 3618 3005 50  0000 L CNN
+F 2 "" V 3590 3040 50  0001 C CNN
+F 3 "~" H 3550 3050 50  0001 C CNN
+	1    3550 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5FD5FEB3
+P 3400 3200
+F 0 "#PWR?" H 3400 2950 50  0001 C CNN
+F 1 "Earth" H 3400 3050 50  0001 C CNN
+F 2 "" H 3400 3200 50  0001 C CNN
+F 3 "~" H 3400 3200 50  0001 C CNN
+	1    3400 3200
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

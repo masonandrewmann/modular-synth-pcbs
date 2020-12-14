@@ -1,0 +1,1638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/masonmann/Documents/KiCad/Modular Synth/VCO - MFOS/VCO - MFOS.sch</source>
+    <date>Saturday, December 12, 2020 at 03:23:56 PM</date>
+    <tool>Eeschema (5.1.2-1)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>VCO 1V/Oct</title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>VCO - MFOS.sch</source>
+        <comment number="1" value="Designed by: Ray Wilson"/>
+        <comment number="2" value="Layout by: Mason Mann"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Sheet5FA537AF/" tstamps="/5FA537B0/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>VCO Sheet 2.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R1">
+      <value>200k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F924402</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9251F8</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>200k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F925BEE</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9262D4</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9264B8</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F92708A</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F927C7E</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F927F02</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F928181</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9284C6</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>100k</value>
+      <footprint>Connector_Wire:SolderWirePad_1x03_P3.175mm_Drill1mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_US" description="Potentiometer, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F92891C</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>100k</value>
+      <footprint>Connector_Wire:SolderWirePad_1x03_P3.175mm_Drill1mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_US" description="Potentiometer, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F92905A</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>OP275</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_Socket</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/OP275.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="OP275" description="Dual Bipolar/JFET, Audio Operational Amplifier, DIP-8/SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F929752</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TL072</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="TL072" description="Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F93B1D8</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100pF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F944BED</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>475</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F946B68</tstamp>
+    </comp>
+    <comp ref="RV3">
+      <value>100</value>
+      <footprint>Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_US" description="Potentiometer, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F947D7E</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F94C80A</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F94E729</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F94F4D8</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100pF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9503C1</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>1M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F950C30</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.005uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9516CD</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F953DCD</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>2K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9548FE</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>4.7pF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9551F4</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F955BE2</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.001uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9564E9</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F957109</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F959126</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>18k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F959B13</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F95A28B</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F95AF99</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100pF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F95BAD2</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>1M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F95C85B</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F95D179</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>Q_PJFET_GSD</value>
+      <footprint>Package_TO_SOT_THT:TO-92</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_PJFET_GSD" description="P-JFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F963F8C</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>SSM2210</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_Socket</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/SSM2210.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="SSM2210" description="Audio Dual Matched NPN transistor, DIP-8/SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F99D44C</tstamp>
+    </comp>
+    <comp ref="RV4">
+      <value>100K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_US" description="Potentiometer, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F94BBBE</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>4.7K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F94B5AC</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F94ABB2</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>1M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA32AE3</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>AudioJack2</value>
+      <footprint>Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE4642E</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>AudioJack2</value>
+      <footprint>Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE5B0D7</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>AudioJack2</value>
+      <footprint>Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE5B515</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>AudioJack2</value>
+      <footprint>Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE5BA2B</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>AudioJack2</value>
+      <footprint>Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE87174</tstamp>
+    </comp>
+    <comp ref="RV5">
+      <value>10K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_US" description="Potentiometer, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA584E6</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA595FA</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA59C85</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>47K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA5B014</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA5B71D</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>20k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA5C28C</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TL074</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="TL074" description="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA5C5FD</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA62A46</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA630ED</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA6D79F</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>20K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA6EEC6</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.002uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA6F8F0</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>D</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA6FEBA</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA7058B</tstamp>
+    </comp>
+    <comp ref="RV7">
+      <value>10K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_US" description="Potentiometer, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA73636</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA74564</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>D</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA755E0</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>D</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA760DE</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>D</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA76B6D</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>D</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA7705C</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>1uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA775D5</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>1uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA7804D</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>TL072</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="TL072" description="Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA79211</tstamp>
+    </comp>
+    <comp ref="RV10">
+      <value>100K</value>
+      <footprint>Connector_Wire:SolderWirePad_1x03_P3.175mm_Drill1mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_US" description="Potentiometer, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA86238</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA86C9E</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA87AF2</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA889EF</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>TL071</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="TL071" description="Single Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA89F2D</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA8CC14</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>10pF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA8F20C</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>10M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA8FCD8</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA90733</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>4.7K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA913EA</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>3K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA91DD5</tstamp>
+    </comp>
+    <comp ref="RV6">
+      <value>100K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_US" description="Potentiometer, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA9313B</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>470K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA95E99</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA96E53</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>20K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA97CC9</tstamp>
+    </comp>
+    <comp ref="RV8">
+      <value>100K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_US" description="Potentiometer, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA985F5</tstamp>
+    </comp>
+    <comp ref="RV9">
+      <value>1M</value>
+      <footprint>Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_US" description="Potentiometer, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA99142</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA9A6D3</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>1M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA9B493</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA9C99D</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>4.7K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA9D4F4</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>130K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA9E233</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>LM13700</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm13700.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="LM13700" description="Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA9FB69</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FAD00C6</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FB1E3BA</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FC7E311</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FC7F34D</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FA711DD</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FE2C838</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>AudioJack2</value>
+      <footprint>Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FEA9358</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>AudioJack2</value>
+      <footprint>Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FEC02B7</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>AudioJack2</value>
+      <footprint>Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FEC110E</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>AudioJack2</value>
+      <footprint>Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FEC17B9</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>AudioJack2</value>
+      <footprint>Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <sheetpath names="/Sheet5FA537AF/" tstamps="/5FA537B0/"/>
+      <tstamp>5FEC2173</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Operational" part="LM13700">
+      <aliases>
+        <alias>LM13600</alias>
+      </aliases>
+      <description>Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm13700.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM13700</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="DIODE_BIAS" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="~" type="output"/>
+        <pin num="6" name="V-" type="power_in"/>
+        <pin num="7" name="~" type="input"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="~" type="output"/>
+        <pin num="10" name="~" type="input"/>
+        <pin num="11" name="V+" type="power_in"/>
+        <pin num="12" name="~" type="output"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="+" type="input"/>
+        <pin num="15" name="DIODE_BIAS" type="input"/>
+        <pin num="16" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifier_Operational" part="LM2902">
+      <aliases>
+        <alias>LM324</alias>
+        <alias>TLC274</alias>
+        <alias>TLC279</alias>
+        <alias>TL074</alias>
+        <alias>LM324A</alias>
+        <alias>MCP6004</alias>
+        <alias>TL084</alias>
+        <alias>TL064</alias>
+        <alias>LMV324</alias>
+        <alias>LMC6484</alias>
+        <alias>MCP604</alias>
+        <alias>MC33079</alias>
+        <alias>MC33174</alias>
+        <alias>MC33179</alias>
+        <alias>OPA1604</alias>
+        <alias>OPA4134</alias>
+        <alias>OPA4340UA</alias>
+        <alias>OPA4376</alias>
+        <alias>MCP6L94</alias>
+        <alias>TSV914</alias>
+        <alias>ADA4807-4</alias>
+        <alias>TSV994</alias>
+      </aliases>
+      <description>Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SSOP*5.3x6.2mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2902</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="-" type="input"/>
+        <pin num="10" name="+" type="input"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+" type="input"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="~" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifier_Operational" part="LM2904">
+      <aliases>
+        <alias>LM358</alias>
+        <alias>AD8620</alias>
+        <alias>LMC6062</alias>
+        <alias>LMC6082</alias>
+        <alias>TL062</alias>
+        <alias>TL072</alias>
+        <alias>TL082</alias>
+        <alias>NE5532</alias>
+        <alias>SA5532</alias>
+        <alias>RC4558</alias>
+        <alias>RC4560</alias>
+        <alias>RC4580</alias>
+        <alias>LMV358</alias>
+        <alias>TS912</alias>
+        <alias>TSV912IDT</alias>
+        <alias>TSV912IST</alias>
+        <alias>TLC272</alias>
+        <alias>TLC277</alias>
+        <alias>MCP602</alias>
+        <alias>OPA2134</alias>
+        <alias>OPA2340</alias>
+        <alias>OPA2376xxD</alias>
+        <alias>OPA2376xxDGK</alias>
+        <alias>MC33078</alias>
+        <alias>MC33178</alias>
+        <alias>LM4562</alias>
+        <alias>OP249</alias>
+        <alias>OP275</alias>
+        <alias>ADA4075-2</alias>
+        <alias>MCP6002-xP</alias>
+        <alias>MCP6002-xSN</alias>
+        <alias>MCP6002-xMS</alias>
+        <alias>LM7332</alias>
+        <alias>OPA2333xxD</alias>
+        <alias>OPA2333xxDGK</alias>
+        <alias>LMC6482</alias>
+        <alias>LT1492</alias>
+        <alias>LTC6081xMS8</alias>
+        <alias>LM6172</alias>
+        <alias>MCP6L92</alias>
+        <alias>NJM2043</alias>
+        <alias>NJM2114</alias>
+        <alias>NJM4556A</alias>
+        <alias>NJM4558</alias>
+        <alias>NJM4559</alias>
+        <alias>NJM4560</alias>
+        <alias>NJM4580</alias>
+        <alias>NJM5532</alias>
+        <alias>ADA4807-2ARM</alias>
+        <alias>OPA2691</alias>
+        <alias>LT6234</alias>
+        <alias>OPA2356xxD</alias>
+        <alias>OPA2356xxDGK</alias>
+        <alias>OPA1612AxD</alias>
+        <alias>MC33172</alias>
+        <alias>OPA1602</alias>
+        <alias>TLV2372</alias>
+        <alias>LT6237</alias>
+      </aliases>
+      <description>Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm358.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
+        <fp>LFCSP*2x2mm*P0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2904</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifier_Operational" part="LM741">
+      <aliases>
+        <alias>AD8610</alias>
+        <alias>LF155</alias>
+        <alias>LF156</alias>
+        <alias>LF256</alias>
+        <alias>LF257</alias>
+        <alias>LF355</alias>
+        <alias>LF356</alias>
+        <alias>LF357</alias>
+        <alias>TL081</alias>
+        <alias>TL061</alias>
+        <alias>TL071</alias>
+      </aliases>
+      <description>Operational Amplifier, DIP-8/TO-99-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm741.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM741</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NULL" type="input"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="NULL" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+        <pin num="8" name="NC" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="AudioJack2">
+      <description>Audio Jack, 2 Poles (Mono / TS)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack2</field>
+      </fields>
+      <pins>
+        <pin num="S" name="~" type="passive"/>
+        <pin num="T" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PJFET_GSD">
+      <description>P-JFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PJFET_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT_US">
+      <description>Potentiometer, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="SSM2210">
+      <description>Audio Dual Matched NPN transistor, DIP-8/SOIC-8</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/SSM2210.pdf</docs>
+      <footprints>
+        <fp>SOIC*8*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*8*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">SSM2210</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C1" type="passive"/>
+        <pin num="2" name="B1" type="input"/>
+        <pin num="3" name="E1" type="passive"/>
+        <pin num="6" name="E2" type="passive"/>
+        <pin num="7" name="B2" type="input"/>
+        <pin num="8" name="C2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Operational">
+      <uri>/Library/Application Support/kicad/library/Amplifier_Operational.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Library/Application Support/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/Library/Application Support/kicad/library/Transistor_BJT.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="-12V">
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R37" pin="1"/>
+      <node ref="U3" pin="11"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U5" pin="4"/>
+      <node ref="U6" pin="4"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C16" pin="1"/>
+      <node ref="RV6" pin="3"/>
+      <node ref="U2" pin="4"/>
+      <node ref="C9" pin="2"/>
+      <node ref="R44" pin="1"/>
+      <node ref="U4" pin="6"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="2" name="+12V">
+      <node ref="C17" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="R23" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U4" pin="11"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R40" pin="1"/>
+      <node ref="RV9" pin="3"/>
+      <node ref="R10" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="RV6" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U6" pin="7"/>
+      <node ref="R27" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="R35" pin="1"/>
+      <node ref="U5" pin="8"/>
+    </net>
+    <net code="3" name="Net-(R10-Pad2)">
+      <node ref="RV1" pin="1"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="4" name="Net-(R3-Pad2)">
+      <node ref="RV2" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="5" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="RV1" pin="2"/>
+    </net>
+    <net code="6" name="Net-(J1-PadT)">
+      <node ref="J1" pin="T"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="7" name="Net-(J2-PadT)">
+      <node ref="J2" pin="T"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="8" name="Net-(J3-PadT)">
+      <node ref="R7" pin="2"/>
+      <node ref="J3" pin="T"/>
+    </net>
+    <net code="9" name="Net-(J4-PadT)">
+      <node ref="R8" pin="2"/>
+      <node ref="J4" pin="T"/>
+    </net>
+    <net code="10" name="Net-(R9-Pad2)">
+      <node ref="R9" pin="2"/>
+      <node ref="RV2" pin="1"/>
+    </net>
+    <net code="11" name="Net-(R1-Pad1)">
+      <node ref="RV2" pin="3"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="12" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="RV1" pin="3"/>
+    </net>
+    <net code="13" name="Net-(R12-Pad1)">
+      <node ref="RV3" pin="3"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="14" name="Net-(C1-Pad2)">
+      <node ref="U1" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="RV3" pin="1"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="15" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="RV3" pin="2"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="16" name="Earth">
+      <node ref="RV7" pin="1"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="J8" pin="S"/>
+      <node ref="J6" pin="S"/>
+      <node ref="J10" pin="S"/>
+      <node ref="J7" pin="S"/>
+      <node ref="R46" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="J9" pin="S"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R51" pin="2"/>
+      <node ref="U3" pin="12"/>
+      <node ref="U3" pin="5"/>
+      <node ref="R42" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U4" pin="13"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U4" pin="14"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="Q1" pin="7"/>
+      <node ref="C11" pin="2"/>
+      <node ref="R24" pin="1"/>
+      <node ref="RV5" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="J1" pin="S"/>
+      <node ref="J2" pin="S"/>
+      <node ref="J3" pin="S"/>
+      <node ref="J4" pin="S"/>
+      <node ref="J5" pin="S"/>
+      <node ref="R20" pin="2"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="17" name="Net-(C2-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="R14" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R17" pin="2"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="18" name="Net-(C2-Pad2)">
+      <node ref="RV4" pin="3"/>
+      <node ref="U1" pin="7"/>
+      <node ref="R16" pin="1"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="19" name="Net-(R22-Pad1)">
+      <node ref="U2" pin="6"/>
+      <node ref="R22" pin="1"/>
+      <node ref="R24" pin="2"/>
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="20" name="Net-(C6-Pad1)">
+      <node ref="U2" pin="5"/>
+      <node ref="R21" pin="1"/>
+      <node ref="R25" pin="2"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="21" name="Net-(C4-Pad2)">
+      <node ref="R22" pin="2"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="22" name="Net-(C4-Pad1)">
+      <node ref="J5" pin="T"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="23" name="Net-(C5-Pad1)">
+      <node ref="R18" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="24" name="Net-(R13-Pad2)">
+      <node ref="R13" pin="2"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="25" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="26" name="RAW">
+      <node ref="Q2" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="R21" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="27" name="Net-(C3-Pad1)">
+      <node ref="U2" pin="2"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="Q1" pin="8"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="28" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="29" name="Net-(Q1-Pad3)">
+      <node ref="R16" pin="2"/>
+      <node ref="Q1" pin="6"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="30" name="Net-(R15-Pad1)">
+      <node ref="R15" pin="1"/>
+      <node ref="RV4" pin="1"/>
+      <node ref="RV4" pin="2"/>
+    </net>
+    <net code="31" name="Net-(D1-Pad1)">
+      <node ref="R15" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="32" name="Net-(C6-Pad2)">
+      <node ref="U2" pin="7"/>
+      <node ref="D2" pin="2"/>
+      <node ref="R25" pin="1"/>
+      <node ref="C6" pin="2"/>
+    </net>
+    <net code="48" name="Net-(C10-Pad1)">
+      <node ref="RV5" pin="2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="49" name="Net-(R27-Pad1)">
+      <node ref="RV5" pin="3"/>
+      <node ref="R27" pin="1"/>
+    </net>
+    <net code="50" name="Net-(C11-Pad1)">
+      <node ref="RV7" pin="2"/>
+      <node ref="U3" pin="10"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="51" name="Net-(U3-Pad13)">
+      <node ref="U3" pin="14"/>
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="52" name="Net-(D4-Pad2)">
+      <node ref="R30" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="R33" pin="2"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="53" name="Net-(R29-Pad2)">
+      <node ref="R30" pin="2"/>
+      <node ref="R29" pin="2"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="54" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="R28" pin="1"/>
+      <node ref="R29" pin="1"/>
+    </net>
+    <net code="55" name="Net-(J7-PadT)">
+      <node ref="J7" pin="T"/>
+      <node ref="R41" pin="1"/>
+    </net>
+    <net code="56" name="Net-(R36-Pad1)">
+      <node ref="U3" pin="9"/>
+      <node ref="R39" pin="1"/>
+      <node ref="R36" pin="1"/>
+    </net>
+    <net code="57" name="Net-(R39-Pad2)">
+      <node ref="R41" pin="2"/>
+      <node ref="R39" pin="2"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="58" name="Net-(R35-Pad2)">
+      <node ref="RV7" pin="3"/>
+      <node ref="R35" pin="2"/>
+    </net>
+    <net code="59" name="Net-(C13-Pad1)">
+      <node ref="D6" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="60" name="Net-(C12-Pad1)">
+      <node ref="D6" pin="2"/>
+      <node ref="R45" pin="2"/>
+      <node ref="R36" pin="2"/>
+      <node ref="R37" pin="2"/>
+      <node ref="D5" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="61" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="62" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="63" name="Net-(RV10-Pad3)">
+      <node ref="RV10" pin="3"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="64" name="Net-(RV10-Pad1)">
+      <node ref="RV10" pin="1"/>
+      <node ref="U5" pin="7"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="65" name="Net-(R49-Pad1)">
+      <node ref="R49" pin="1"/>
+      <node ref="RV10" pin="2"/>
+    </net>
+    <net code="66" name="Net-(J9-PadT)">
+      <node ref="J9" pin="T"/>
+      <node ref="R46" pin="1"/>
+      <node ref="R47" pin="2"/>
+    </net>
+    <net code="67" name="Net-(U6-Pad1)">
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="68" name="Net-(R47-Pad1)">
+      <node ref="R47" pin="1"/>
+      <node ref="R49" pin="2"/>
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="69" name="Net-(U6-Pad5)">
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="70" name="Net-(U6-Pad8)">
+      <node ref="U6" pin="8"/>
+    </net>
+    <net code="71" name="Net-(C15-Pad1)">
+      <node ref="R45" pin="1"/>
+      <node ref="R48" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="72" name="Net-(C15-Pad2)">
+      <node ref="R50" pin="1"/>
+      <node ref="R48" pin="1"/>
+      <node ref="U6" pin="6"/>
+      <node ref="C15" pin="2"/>
+    </net>
+    <net code="73" name="Net-(R31-Pad1)">
+      <node ref="R31" pin="1"/>
+      <node ref="RV6" pin="2"/>
+    </net>
+    <net code="74" name="Net-(R34-Pad1)">
+      <node ref="RV8" pin="2"/>
+      <node ref="RV8" pin="1"/>
+      <node ref="R34" pin="1"/>
+    </net>
+    <net code="75" name="Net-(C14-Pad2)">
+      <node ref="U5" pin="5"/>
+      <node ref="C14" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="RV8" pin="3"/>
+    </net>
+    <net code="76" name="Net-(R38-Pad1)">
+      <node ref="RV9" pin="1"/>
+      <node ref="RV9" pin="2"/>
+      <node ref="R38" pin="1"/>
+    </net>
+    <net code="77" name="Net-(R40-Pad2)">
+      <node ref="R40" pin="2"/>
+      <node ref="R42" pin="2"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="78" name="Net-(J8-PadT)">
+      <node ref="R43" pin="1"/>
+      <node ref="J8" pin="T"/>
+    </net>
+    <net code="79" name="Net-(R43-Pad2)">
+      <node ref="R44" pin="2"/>
+      <node ref="R43" pin="2"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="80" name="Net-(R38-Pad2)">
+      <node ref="R38" pin="2"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="81" name="Net-(U4-Pad2)">
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="82" name="Net-(R31-Pad2)">
+      <node ref="R32" pin="1"/>
+      <node ref="R34" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="R31" pin="2"/>
+    </net>
+    <net code="83" name="Net-(R32-Pad2)">
+      <node ref="R32" pin="2"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="84" name="Net-(U4-Pad12)">
+      <node ref="U4" pin="12"/>
+    </net>
+    <net code="85" name="Net-(U4-Pad15)">
+      <node ref="U4" pin="15"/>
+    </net>
+    <net code="86" name="Net-(U4-Pad16)">
+      <node ref="U4" pin="16"/>
+    </net>
+    <net code="87" name="Net-(U4-Pad10)">
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="88" name="Net-(U4-Pad9)">
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="91" name="Net-(J6-PadT)">
+      <node ref="J6" pin="T"/>
+      <node ref="R33" pin="1"/>
+    </net>
+    <net code="98" name="/Sheet5FA537AF/SQU">
+      <node ref="J10" pin="T"/>
+      <node ref="R51" pin="1"/>
+      <node ref="R50" pin="2"/>
+    </net>
+    <net code="100" name="Net-(R26-Pad1)">
+      <node ref="U3" pin="2"/>
+      <node ref="R28" pin="2"/>
+      <node ref="R26" pin="1"/>
+    </net>
+  </nets>
+</export>

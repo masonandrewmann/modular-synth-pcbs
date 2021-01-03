@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:VCA - MFOS-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -13,50 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector:AudioJack2 J?
-U 1 1 5FCA5885
-P 1000 1100
-F 0 "J?" H 821 1083 50  0000 R CNN
-F 1 "AudioJack2" H 821 1174 50  0000 R CNN
-F 2 "" H 1000 1100 50  0001 C CNN
-F 3 "~" H 1000 1100 50  0001 C CNN
-	1    1000 1100
-	1    0    0    1   
-$EndComp
-$Comp
-L Connector:AudioJack2 J?
-U 1 1 5FCA6831
-P 1000 1750
-F 0 "J?" H 821 1733 50  0000 R CNN
-F 1 "AudioJack2" H 821 1824 50  0000 R CNN
-F 2 "" H 1000 1750 50  0001 C CNN
-F 3 "~" H 1000 1750 50  0001 C CNN
-	1    1000 1750
-	1    0    0    1   
-$EndComp
-$Comp
-L Connector:AudioJack2 J?
-U 1 1 5FCA6A97
-P 1000 3550
-F 0 "J?" H 821 3533 50  0000 R CNN
-F 1 "AudioJack2" H 821 3624 50  0000 R CNN
-F 2 "" H 1000 3550 50  0001 C CNN
-F 3 "~" H 1000 3550 50  0001 C CNN
-	1    1000 3550
-	1    0    0    1   
-$EndComp
-$Comp
-L Connector:AudioJack2 J?
-U 1 1 5FCA6CC2
-P 5450 3400
-F 0 "J?" H 5270 3383 50  0000 R CNN
-F 1 "AudioJack2" H 5270 3474 50  0000 R CNN
-F 2 "" H 5450 3400 50  0001 C CNN
-F 3 "~" H 5450 3400 50  0001 C CNN
-	1    5450 3400
-	-1   0    0    1   
-$EndComp
 $Comp
 L Device:R_US R?
 U 1 1 5FCA72EE
@@ -684,60 +641,8 @@ F 3 "~" H 4450 4350 50  0001 C CNN
 	1    4450 4350
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:Earth #PWR?
-U 1 1 5FCDC05E
-P 1250 1250
-F 0 "#PWR?" H 1250 1000 50  0001 C CNN
-F 1 "Earth" H 1250 1100 50  0001 C CNN
-F 2 "" H 1250 1250 50  0001 C CNN
-F 3 "~" H 1250 1250 50  0001 C CNN
-	1    1250 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR?
-U 1 1 5FCDC8A8
-P 1250 1900
-F 0 "#PWR?" H 1250 1650 50  0001 C CNN
-F 1 "Earth" H 1250 1750 50  0001 C CNN
-F 2 "" H 1250 1900 50  0001 C CNN
-F 3 "~" H 1250 1900 50  0001 C CNN
-	1    1250 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR?
-U 1 1 5FCDD063
-P 1250 3700
-F 0 "#PWR?" H 1250 3450 50  0001 C CNN
-F 1 "Earth" H 1250 3550 50  0001 C CNN
-F 2 "" H 1250 3700 50  0001 C CNN
-F 3 "~" H 1250 3700 50  0001 C CNN
-	1    1250 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR?
-U 1 1 5FCDD761
-P 5200 3550
-F 0 "#PWR?" H 5200 3300 50  0001 C CNN
-F 1 "Earth" H 5200 3400 50  0001 C CNN
-F 2 "" H 5200 3550 50  0001 C CNN
-F 3 "~" H 5200 3550 50  0001 C CNN
-	1    5200 3550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 1250 1250 1200
-Wire Wire Line
-	1250 1200 1200 1200
 Wire Wire Line
 	1300 1100 1200 1100
-Wire Wire Line
-	1250 1900 1250 1850
-Wire Wire Line
-	1250 1850 1200 1850
 Wire Wire Line
 	1300 1750 1200 1750
 Wire Wire Line
@@ -879,10 +784,6 @@ Connection ~ 4800 2250
 Wire Wire Line
 	4800 2250 4700 2250
 Wire Wire Line
-	1250 3700 1250 3650
-Wire Wire Line
-	1250 3650 1200 3650
-Wire Wire Line
 	1300 3550 1200 3550
 Wire Wire Line
 	1600 3550 1900 3550
@@ -956,10 +857,6 @@ Wire Wire Line
 	4050 4600 4050 4300
 Wire Wire Line
 	5250 3400 5100 3400
-Wire Wire Line
-	5200 3550 5200 3500
-Wire Wire Line
-	5200 3500 5250 3500
 $Comp
 L Device:R_US R?
 U 1 1 5FD9536A
@@ -990,50 +887,6 @@ Wire Wire Line
 Connection ~ 1300 6850
 Wire Wire Line
 	1300 6850 1300 7000
-$Comp
-L Connector:AudioJack2 J?
-U 1 1 5FEADD03
-P 6000 1500
-F 0 "J?" H 5821 1483 50  0000 R CNN
-F 1 "AudioJack2" H 5821 1574 50  0000 R CNN
-F 2 "" H 6000 1500 50  0001 C CNN
-F 3 "~" H 6000 1500 50  0001 C CNN
-	1    6000 1500
-	1    0    0    1   
-$EndComp
-$Comp
-L Connector:AudioJack2 J?
-U 1 1 5FEADD09
-P 6000 2150
-F 0 "J?" H 5821 2133 50  0000 R CNN
-F 1 "AudioJack2" H 5821 2224 50  0000 R CNN
-F 2 "" H 6000 2150 50  0001 C CNN
-F 3 "~" H 6000 2150 50  0001 C CNN
-	1    6000 2150
-	1    0    0    1   
-$EndComp
-$Comp
-L Connector:AudioJack2 J?
-U 1 1 5FEADD0F
-P 6000 3950
-F 0 "J?" H 5821 3933 50  0000 R CNN
-F 1 "AudioJack2" H 5821 4024 50  0000 R CNN
-F 2 "" H 6000 3950 50  0001 C CNN
-F 3 "~" H 6000 3950 50  0001 C CNN
-	1    6000 3950
-	1    0    0    1   
-$EndComp
-$Comp
-L Connector:AudioJack2 J?
-U 1 1 5FEADD15
-P 10450 3800
-F 0 "J?" H 10270 3783 50  0000 R CNN
-F 1 "AudioJack2" H 10270 3874 50  0000 R CNN
-F 2 "" H 10450 3800 50  0001 C CNN
-F 3 "~" H 10450 3800 50  0001 C CNN
-	1    10450 3800
-	-1   0    0    1   
-$EndComp
 $Comp
 L Device:R_US R?
 U 1 1 5FEADD1B
@@ -1474,60 +1327,8 @@ F 3 "~" H 9450 4750 50  0001 C CNN
 	1    9450 4750
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:Earth #PWR?
-U 1 1 5FEADE29
-P 6250 1650
-F 0 "#PWR?" H 6250 1400 50  0001 C CNN
-F 1 "Earth" H 6250 1500 50  0001 C CNN
-F 2 "" H 6250 1650 50  0001 C CNN
-F 3 "~" H 6250 1650 50  0001 C CNN
-	1    6250 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR?
-U 1 1 5FEADE2F
-P 6250 2300
-F 0 "#PWR?" H 6250 2050 50  0001 C CNN
-F 1 "Earth" H 6250 2150 50  0001 C CNN
-F 2 "" H 6250 2300 50  0001 C CNN
-F 3 "~" H 6250 2300 50  0001 C CNN
-	1    6250 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR?
-U 1 1 5FEADE35
-P 6250 4100
-F 0 "#PWR?" H 6250 3850 50  0001 C CNN
-F 1 "Earth" H 6250 3950 50  0001 C CNN
-F 2 "" H 6250 4100 50  0001 C CNN
-F 3 "~" H 6250 4100 50  0001 C CNN
-	1    6250 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR?
-U 1 1 5FEADE3B
-P 10200 3950
-F 0 "#PWR?" H 10200 3700 50  0001 C CNN
-F 1 "Earth" H 10200 3800 50  0001 C CNN
-F 2 "" H 10200 3950 50  0001 C CNN
-F 3 "~" H 10200 3950 50  0001 C CNN
-	1    10200 3950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6250 1650 6250 1600
-Wire Wire Line
-	6250 1600 6200 1600
 Wire Wire Line
 	6300 1500 6200 1500
-Wire Wire Line
-	6250 2300 6250 2250
-Wire Wire Line
-	6250 2250 6200 2250
 Wire Wire Line
 	6300 2150 6200 2150
 Wire Wire Line
@@ -1658,10 +1459,6 @@ Connection ~ 9800 2650
 Wire Wire Line
 	9800 2650 9700 2650
 Wire Wire Line
-	6250 4100 6250 4050
-Wire Wire Line
-	6250 4050 6200 4050
-Wire Wire Line
 	6300 3950 6200 3950
 Wire Wire Line
 	6600 3950 6900 3950
@@ -1722,12 +1519,6 @@ Wire Wire Line
 	6600 5000 9050 5000
 Wire Wire Line
 	9050 5000 9050 4700
-Wire Wire Line
-	10250 3800 10100 3800
-Wire Wire Line
-	10200 3950 10200 3900
-Wire Wire Line
-	10200 3900 10250 3900
 $Comp
 L Device:R_US R?
 U 1 1 5FEADEBE
@@ -1804,4 +1595,94 @@ Wire Wire Line
 Wire Wire Line
 	8450 4150 8450 4350
 Connection ~ 9050 4350
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5FF31830
+P 1000 1100
+F 0 "J?" H 892 1285 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 892 1194 50  0000 C CNN
+F 2 "" H 1000 1100 50  0001 C CNN
+F 3 "~" H 1000 1100 50  0001 C CNN
+	1    1000 1100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5FF7F45B
+P 1000 1750
+F 0 "J?" H 892 1935 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 892 1844 50  0000 C CNN
+F 2 "" H 1000 1750 50  0001 C CNN
+F 3 "~" H 1000 1750 50  0001 C CNN
+	1    1000 1750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5FF910DC
+P 1000 3550
+F 0 "J?" H 892 3735 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 892 3644 50  0000 C CNN
+F 2 "" H 1000 3550 50  0001 C CNN
+F 3 "~" H 1000 3550 50  0001 C CNN
+	1    1000 3550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5FF9182F
+P 5450 3400
+F 0 "J?" H 5478 3426 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 5478 3335 50  0000 L CNN
+F 2 "" H 5450 3400 50  0001 C CNN
+F 3 "~" H 5450 3400 50  0001 C CNN
+	1    5450 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5FF9A8C7
+P 6000 3950
+F 0 "J?" H 5892 4135 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 5892 4044 50  0000 C CNN
+F 2 "" H 6000 3950 50  0001 C CNN
+F 3 "~" H 6000 3950 50  0001 C CNN
+	1    6000 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5FFBC46A
+P 6000 2150
+F 0 "J?" H 5892 2335 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 5892 2244 50  0000 C CNN
+F 2 "" H 6000 2150 50  0001 C CNN
+F 3 "~" H 6000 2150 50  0001 C CNN
+	1    6000 2150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5FFBCC11
+P 6000 1500
+F 0 "J?" H 5892 1685 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 5892 1594 50  0000 C CNN
+F 2 "" H 6000 1500 50  0001 C CNN
+F 3 "~" H 6000 1500 50  0001 C CNN
+	1    6000 1500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 3800 10100 3800
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5FFBD007
+P 10450 3800
+F 0 "J?" H 10478 3826 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 10478 3735 50  0000 L CNN
+F 2 "" H 10450 3800 50  0001 C CNN
+F 3 "~" H 10450 3800 50  0001 C CNN
+	1    10450 3800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

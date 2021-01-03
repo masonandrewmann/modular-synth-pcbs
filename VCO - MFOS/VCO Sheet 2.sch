@@ -1679,4 +1679,18 @@ Wire Wire Line
 	9850 5500 9850 5600
 Connection ~ 9850 5500
 Connection ~ 9850 5600
+$Comp
+L power:Earth #PWR?
+U 1 1 5FF7FD6C
+P 3400 6650
+F 0 "#PWR?" H 3400 6400 50  0001 C CNN
+F 1 "Earth" H 3400 6500 50  0001 C CNN
+F 2 "" H 3400 6650 50  0001 C CNN
+F 3 "~" H 3400 6650 50  0001 C CNN
+	1    3400 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 6650 3400 6600
+Connection ~ 3400 6600
 $EndSCHEMATC

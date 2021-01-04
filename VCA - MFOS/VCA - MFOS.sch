@@ -420,7 +420,7 @@ Connection ~ 1750 6300
 Wire Wire Line
 	2200 6400 2200 6300
 Wire Wire Line
-	2200 6300 1750 6300
+	2200 6300 2100 6300
 Wire Wire Line
 	1300 7300 1300 7400
 Wire Wire Line
@@ -429,7 +429,7 @@ Wire Wire Line
 	1750 7400 1750 7300
 Connection ~ 1750 7400
 Wire Wire Line
-	1750 7400 2200 7400
+	1750 7400 2100 7400
 Wire Wire Line
 	2200 7400 2200 7300
 Wire Wire Line
@@ -439,7 +439,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 6700 2200 6850
 Wire Wire Line
-	2200 6850 2700 6850
+	2200 6850 2600 6850
 Connection ~ 2200 6850
 Wire Wire Line
 	2200 6850 2200 7000
@@ -1793,42 +1793,6 @@ Wire Wire Line
 NoConn ~ 8050 4100
 NoConn ~ 2900 3850
 $Comp
-L Connector:Conn_01x01_Female J5
-U 1 1 6015D3CB
-P 2200 6100
-F 0 "J5" H 2092 6285 50  0000 C CNN
-F 1 "12V_Conn" H 2092 6194 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 2200 6100 50  0001 C CNN
-F 3 "~" H 2200 6100 50  0001 C CNN
-	1    2200 6100
-	0    1    -1   0   
-$EndComp
-Connection ~ 2200 6300
-$Comp
-L Connector:Conn_01x01_Female J7
-U 1 1 6015E206
-P 2700 6650
-F 0 "J7" H 2592 6835 50  0000 C CNN
-F 1 "Gnd_Conn" H 2592 6744 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 2700 6650 50  0001 C CNN
-F 3 "~" H 2700 6650 50  0001 C CNN
-	1    2700 6650
-	0    1    -1   0   
-$EndComp
-Connection ~ 2700 6850
-$Comp
-L Connector:Conn_01x01_Female J6
-U 1 1 6015EAA9
-P 2200 7600
-F 0 "J6" H 2092 7785 50  0000 C CNN
-F 1 "-12V_Conn" H 2092 7694 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 2200 7600 50  0001 C CNN
-F 3 "~" H 2200 7600 50  0001 C CNN
-	1    2200 7600
-	0    -1   1    0   
-$EndComp
-Connection ~ 2200 7400
-$Comp
 L Amplifier_Operational:TL084 U1
 U 2 1 601B7B55
 P 7500 3000
@@ -1905,4 +1869,49 @@ F 3 "" H 9500 1850 50  0001 C CNN
 	1    9500 1850
 	-1   0    0    1   
 $EndComp
+Connection ~ 2200 6300
+$Comp
+L Connector:Conn_01x02_Female J5
+U 1 1 5FF6A6A5
+P 2100 6100
+F 0 "J5" V 2038 5912 50  0000 R CNN
+F 1 "+12V_Conn" V 1947 5912 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 2100 6100 50  0001 C CNN
+F 3 "~" H 2100 6100 50  0001 C CNN
+	1    2100 6100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1750 6300 2100 6300
+Connection ~ 2100 6300
+$Comp
+L Connector:Conn_01x02_Female J7
+U 1 1 5FF882B9
+P 2600 6650
+F 0 "J7" V 2538 6462 50  0000 R CNN
+F 1 "GND_Conn" V 2447 6462 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 2600 6650 50  0001 C CNN
+F 3 "~" H 2600 6650 50  0001 C CNN
+	1    2600 6650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 6850 2700 6850
+Connection ~ 2600 6850
+Connection ~ 2700 6850
+$Comp
+L Connector:Conn_01x02_Female J6
+U 1 1 5FF9BBBD
+P 2100 7600
+F 0 "J6" V 1946 7412 50  0000 R CNN
+F 1 "-12V_Conn" V 2037 7412 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 2100 7600 50  0001 C CNN
+F 3 "~" H 2100 7600 50  0001 C CNN
+	1    2100 7600
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2100 7400 2200 7400
+Connection ~ 2100 7400
+Connection ~ 2200 7400
 $EndSCHEMATC

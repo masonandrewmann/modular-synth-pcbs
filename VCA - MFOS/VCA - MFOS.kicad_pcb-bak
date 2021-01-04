@@ -2562,7 +2562,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5FF3024D)
-    (at 89.662 36.322)
+    (at 89.408 36.068)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /60070FEA)
@@ -2603,7 +2603,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5FF30264)
-    (at 89.662 39.624)
+    (at 89.408 39.37)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /60070FF0)
@@ -2726,7 +2726,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5FF302A9)
-    (at 89.662 33.02)
+    (at 89.408 32.766)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /60071077)
@@ -2808,7 +2808,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5FF302D7)
-    (at 97.282 29.718 180)
+    (at 89.408 29.464)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /60070F78)
@@ -2837,9 +2837,9 @@
     (fp_line (start 6.96 1.25) (end 6.96 -1.25) (layer F.Fab) (width 0.1))
     (fp_line (start 0.66 1.25) (end 6.96 1.25) (layer F.Fab) (width 0.1))
     (fp_line (start 0.66 -1.25) (end 0.66 1.25) (layer F.Fab) (width 0.1))
-    (pad 2 thru_hole oval (at 7.62 0 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad 2 thru_hole oval (at 7.62 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 42 "Net-(R39-Pad1)"))
-    (pad 1 thru_hole circle (at 0 0 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 46 "Net-(J19-Pad1)"))
     (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.wrl
       (at (xyz 0 0 0))

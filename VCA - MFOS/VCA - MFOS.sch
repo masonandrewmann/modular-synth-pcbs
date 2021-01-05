@@ -199,7 +199,7 @@ F 1 "2N3906" H 3790 2405 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 3800 2375 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 3600 2450 50  0001 L CNN
 	1    3600 2450
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:Earth #PWR017
@@ -545,12 +545,12 @@ $EndComp
 $Comp
 L Device:R_US R7
 U 1 1 5FCD04D9
-P 1950 4300
-F 0 "R7" H 2018 4346 50  0000 L CNN
-F 1 "150" H 2018 4255 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1990 4290 50  0001 C CNN
-F 3 "~" H 1950 4300 50  0001 C CNN
-	1    1950 4300
+P 1950 4250
+F 0 "R7" H 2018 4296 50  0000 L CNN
+F 1 "150" H 2018 4205 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1990 4240 50  0001 C CNN
+F 3 "~" H 1950 4250 50  0001 C CNN
+	1    1950 4250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -798,15 +798,6 @@ Wire Wire Line
 Connection ~ 1950 3700
 Wire Wire Line
 	1950 3700 1950 3750
-Wire Wire Line
-	1950 4050 1950 4100
-Wire Wire Line
-	1950 4100 2900 4100
-Wire Wire Line
-	2900 4100 2900 3950
-Connection ~ 1950 4100
-Wire Wire Line
-	1950 4100 1950 4150
 Wire Wire Line
 	2150 3700 2900 3700
 Wire Wire Line
@@ -1203,7 +1194,7 @@ F 1 "2N3906" H 8940 2655 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 8950 2625 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 8750 2700 50  0001 L CNN
 	1    8750 2700
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:Earth #PWR033
@@ -1406,12 +1397,12 @@ $EndComp
 $Comp
 L Device:R_US R28
 U 1 1 60070FCC
-P 7100 4550
-F 0 "R28" H 7168 4596 50  0000 L CNN
-F 1 "150" H 7168 4505 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7140 4540 50  0001 C CNN
-F 3 "~" H 7100 4550 50  0001 C CNN
-	1    7100 4550
+P 7100 4500
+F 0 "R28" H 7168 4546 50  0000 L CNN
+F 1 "150" H 7168 4455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7140 4490 50  0001 C CNN
+F 3 "~" H 7100 4500 50  0001 C CNN
+	1    7100 4500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1615,15 +1606,6 @@ Wire Wire Line
 Connection ~ 7100 3950
 Wire Wire Line
 	7100 3950 7100 4000
-Wire Wire Line
-	7100 4300 7100 4350
-Wire Wire Line
-	7100 4350 8050 4350
-Wire Wire Line
-	8050 4350 8050 4200
-Connection ~ 7100 4350
-Wire Wire Line
-	7100 4350 7100 4400
 Wire Wire Line
 	7300 3950 8050 3950
 Wire Wire Line
@@ -1914,4 +1896,22 @@ Wire Wire Line
 	2100 7400 2200 7400
 Connection ~ 2100 7400
 Connection ~ 2200 7400
+Wire Wire Line
+	1950 4100 1950 4050
+Wire Wire Line
+	1950 4400 1950 4450
+Wire Wire Line
+	2900 4400 1950 4400
+Wire Wire Line
+	2900 3950 2900 4400
+Connection ~ 1950 4400
+Wire Wire Line
+	7100 4350 7100 4300
+Wire Wire Line
+	7100 4650 7100 4700
+Wire Wire Line
+	8050 4650 7100 4650
+Wire Wire Line
+	8050 4200 8050 4650
+Connection ~ 7100 4650
 $EndSCHEMATC

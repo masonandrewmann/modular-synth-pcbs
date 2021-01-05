@@ -2,7 +2,7 @@ G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.2-1)-1*
 G04 #@! TF.CreationDate,2021-01-05T14:52:28-05:00*
 G04 #@! TF.ProjectId,Power Supply,506f7765-7220-4537-9570-706c792e6b69,rev?*
 G04 #@! TF.SameCoordinates,Original*
-G04 #@! TF.FileFunction,Soldermask,Top*
+G04 #@! TF.FileFunction,Soldermask,Bot*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*

@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:D_Bridge_+-AA D1
-U 1 1 5F56E05F
-P 1750 1900
-F 0 "D1" H 2000 2100 50  0000 L CNN
-F 1 "KBU401" H 1900 2200 50  0000 L CNN
-F 2 "Diode_THT:Diode_Bridge_Vishay_KBU" H 1750 1900 50  0001 C CNN
-F 3 "~" H 1750 1900 50  0001 C CNN
-	1    1750 1900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:CP1 C1
 U 1 1 5F56FCD4
 P 2350 2250
@@ -436,7 +425,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 1700 7550 1700
 Connection ~ 7050 1700
-Text Label 7450 1700 0    50   ~ 0
+Text Label 7550 1600 0    50   ~ 0
 VPOS
 Connection ~ 4450 2950
 $Comp
@@ -495,7 +484,7 @@ Connection ~ 3050 4350
 Wire Wire Line
 	3050 4350 3050 4550
 Wire Wire Line
-	3050 5000 3050 4850
+	3050 5000 3050 4950
 Wire Wire Line
 	3950 5150 3950 5100
 Wire Wire Line
@@ -604,7 +593,7 @@ L Connector:Conn_01x01_Female J5
 U 1 1 5F59F396
 P 7750 1700
 F 0 "J5" H 7778 1726 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 7778 1635 50  0000 L CNN
+F 1 "+V_Conn" H 7778 1635 50  0000 L CNN
 F 2 "Connector_Pin:Pin_D1.1mm_L10.2mm_W3.5mm_Flat" H 7750 1700 50  0001 C CNN
 F 3 "~" H 7750 1700 50  0001 C CNN
 	1    7750 1700
@@ -615,7 +604,7 @@ L Connector:Conn_01x01_Female J4
 U 1 1 5F59FE01
 P 7150 4350
 F 0 "J4" H 7178 4376 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 7178 4285 50  0000 L CNN
+F 1 "-V_Conn" H 7178 4285 50  0000 L CNN
 F 2 "Connector_Pin:Pin_D1.1mm_L10.2mm_W3.5mm_Flat" H 7150 4350 50  0001 C CNN
 F 3 "~" H 7150 4350 50  0001 C CNN
 	1    7150 4350
@@ -667,4 +656,66 @@ Wire Wire Line
 	4750 1700 5250 1700
 Wire Wire Line
 	3650 1700 4150 1700
+$Comp
+L Connector:Conn_01x01_Female J6
+U 1 1 5FFF08B4
+P 7750 2250
+F 0 "J6" H 7778 2276 50  0000 L CNN
+F 1 "GND_Conn" H 7778 2185 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.1mm_L10.2mm_W3.5mm_Flat" H 7750 2250 50  0001 C CNN
+F 3 "~" H 7750 2250 50  0001 C CNN
+	1    7750 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 2250 7050 2250
+Connection ~ 7050 2250
+$Comp
+L Device:D_Bridge_-AA+ D1
+U 1 1 5FFF44BB
+P 1750 1900
+F 0 "D1" H 2000 2150 50  0000 L CNN
+F 1 "KBU401" H 1900 2050 50  0000 L CNN
+F 2 "Diode_THT:Diode_Bridge_Vishay_KBU" H 1750 1900 50  0001 C CNN
+F 3 "~" H 1750 1900 50  0001 C CNN
+	1    1750 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5FFFA6FC
+P 3050 4950
+F 0 "#FLG0101" H 3050 5025 50  0001 C CNN
+F 1 "PWR_FLAG" V 3050 5077 50  0000 L CNN
+F 2 "" H 3050 4950 50  0001 C CNN
+F 3 "~" H 3050 4950 50  0001 C CNN
+	1    3050 4950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3050 4950
+Wire Wire Line
+	3050 4950 3050 4850
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5FFFB313
+P 1400 1900
+F 0 "#FLG0102" H 1400 1975 50  0001 C CNN
+F 1 "PWR_FLAG" V 1400 2027 50  0000 L CNN
+F 2 "" H 1400 1900 50  0001 C CNN
+F 3 "~" H 1400 1900 50  0001 C CNN
+	1    1400 1900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1400 1900
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5FFFB8C8
+P 2350 1900
+F 0 "#FLG0103" H 2350 1975 50  0001 C CNN
+F 1 "PWR_FLAG" H 2400 2050 50  0000 C CNN
+F 2 "" H 2350 1900 50  0001 C CNN
+F 3 "~" H 2350 1900 50  0001 C CNN
+	1    2350 1900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

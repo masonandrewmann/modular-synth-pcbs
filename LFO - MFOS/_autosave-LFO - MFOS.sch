@@ -295,7 +295,7 @@ U 1 1 606B9F3B
 P 8350 1100
 F 0 "C5" H 8465 1146 50  0000 L CNN
 F 1 "0.1uF" H 8465 1055 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 8350 1100 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 8350 1100 50  0001 C CNN
 F 3 "~" H 8350 1100 50  0001 C CNN
 	1    8350 1100
 	1    0    0    -1  
@@ -306,7 +306,7 @@ U 1 1 606BAE9E
 P 8850 1100
 F 0 "C7" H 8965 1146 50  0000 L CNN
 F 1 "0.1uF" H 8965 1055 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 8850 1100 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 8850 1100 50  0001 C CNN
 F 3 "~" H 8850 1100 50  0001 C CNN
 	1    8850 1100
 	1    0    0    -1  
@@ -317,7 +317,7 @@ U 1 1 606BB32D
 P 9300 1100
 F 0 "C9" H 9415 1146 50  0000 L CNN
 F 1 "0.1uF" H 9415 1055 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 9300 1100 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 9300 1100 50  0001 C CNN
 F 3 "~" H 9300 1100 50  0001 C CNN
 	1    9300 1100
 	1    0    0    -1  
@@ -339,7 +339,7 @@ U 1 1 606BBBA9
 P 8350 1650
 F 0 "C6" H 8465 1696 50  0000 L CNN
 F 1 "0.1uF" H 8465 1605 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 8350 1650 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 8350 1650 50  0001 C CNN
 F 3 "~" H 8350 1650 50  0001 C CNN
 	1    8350 1650
 	1    0    0    -1  
@@ -350,7 +350,7 @@ U 1 1 606BC620
 P 8850 1650
 F 0 "C8" H 8965 1696 50  0000 L CNN
 F 1 "0.1uF" H 8965 1605 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 8850 1650 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 8850 1650 50  0001 C CNN
 F 3 "~" H 8850 1650 50  0001 C CNN
 	1    8850 1650
 	1    0    0    -1  
@@ -361,7 +361,7 @@ U 1 1 606BCD01
 P 9300 1650
 F 0 "C10" H 9415 1696 50  0000 L CNN
 F 1 "0.1uF" H 9415 1605 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 9300 1650 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 9300 1650 50  0001 C CNN
 F 3 "~" H 9300 1650 50  0001 C CNN
 	1    9300 1650
 	1    0    0    -1  
@@ -2442,4 +2442,55 @@ F 3 "~" H 9950 3600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 9950 3400
+$Comp
+L Connector:Conn_01x02_Female J17
+U 1 1 60223451
+P 7850 650
+F 0 "J17" V 7788 462 50  0000 R CNN
+F 1 "+12V_Conn" V 7697 462 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 7850 650 50  0001 C CNN
+F 3 "~" H 7850 650 50  0001 C CNN
+	1    7850 650 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J18
+U 1 1 60224A8B
+P 7850 1150
+F 0 "J18" V 7788 962 50  0000 R CNN
+F 1 "GND_Conn" V 7697 962 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 7850 1150 50  0001 C CNN
+F 3 "~" H 7850 1150 50  0001 C CNN
+	1    7850 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J19
+U 1 1 60225244
+P 7850 1700
+F 0 "J19" V 7788 1512 50  0000 R CNN
+F 1 "-12V_Conn" V 7697 1512 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 7850 1700 50  0001 C CNN
+F 3 "~" H 7850 1700 50  0001 C CNN
+	1    7850 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8200 850  7950 850 
+Connection ~ 8200 850 
+Wire Wire Line
+	7850 850  7950 850 
+Connection ~ 7950 850 
+Wire Wire Line
+	7850 1350 7950 1350
+Wire Wire Line
+	8200 1350 7950 1350
+Connection ~ 8200 1350
+Connection ~ 7950 1350
+Wire Wire Line
+	7850 1900 7950 1900
+Wire Wire Line
+	7950 1900 8200 1900
+Connection ~ 7950 1900
+Connection ~ 8200 1900
 $EndSCHEMATC

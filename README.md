@@ -1,0 +1,1 @@
+A collection of PCBs I've designed since getting into DIY modular synths. Do not assume that any of these designs work or are good, many of them have errors I have not fixed yet. If you want to get some manufactured, go ahead but I'd urge you to contact me first and I can let you know any quirks of the board first! :~)

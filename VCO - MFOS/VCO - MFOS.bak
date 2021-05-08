@@ -658,24 +658,24 @@ Connection ~ 3250 2500
 $Comp
 L Transistor_BJT:SSM2210 Q1
 U 2 1 5F99D44C
-P 5050 2700
-F 0 "Q1" H 5241 2654 50  0000 L CNN
-F 1 "SSM2210" H 5241 2745 50  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 5050 2700 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/SSM2210.pdf" H 5050 2700 50  0001 C CNN
-	2    5050 2700
-	-1   0    0    1   
-$EndComp
-$Comp
-L Transistor_BJT:SSM2210 Q1
-U 1 1 5F9A02FE
 P 4350 2700
 F 0 "Q1" H 4541 2654 50  0000 L CNN
 F 1 "SSM2210" H 4541 2745 50  0000 L CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 4350 2700 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/SSM2210.pdf" H 4350 2700 50  0001 C CNN
-	1    4350 2700
+	2    4350 2700
 	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:SSM2210 Q1
+U 1 1 5F9A02FE
+P 5050 2700
+F 0 "Q1" H 5241 2654 50  0000 L CNN
+F 1 "SSM2210" H 5241 2745 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 5050 2700 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/SSM2210.pdf" H 5050 2700 50  0001 C CNN
+	1    5050 2700
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	4450 2500 4450 2450
@@ -1214,12 +1214,12 @@ $EndComp
 Wire Wire Line
 	7750 3400 7750 3500
 $Comp
-L Device:Q_PJFET_DSG Q?
+L Device:Q_PJFET_DSG Q2
 U 1 1 5FDC50C1
 P 6950 5700
-F 0 "Q?" V 7278 5700 50  0000 C CNN
+F 0 "Q2" V 7278 5700 50  0000 C CNN
 F 1 "Q_PJFET_DSG" V 7187 5700 50  0000 C CNN
-F 2 "" H 7150 5800 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Inline_Wide" H 7150 5800 50  0001 C CNN
 F 3 "~" H 6950 5700 50  0001 C CNN
 	1    6950 5700
 	0    -1   -1   0   

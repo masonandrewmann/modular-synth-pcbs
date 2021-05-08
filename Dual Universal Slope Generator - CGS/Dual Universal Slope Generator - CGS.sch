@@ -1866,4 +1866,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2000 6950 50  0001 C CNN
 	3    2000 6950
 	1    0    0    -1  
 $EndComp
+Text Notes 7100 5700 0    50   ~ 0
+LED and driver deadbugged (not on PCB)\n
 $EndSCHEMATC

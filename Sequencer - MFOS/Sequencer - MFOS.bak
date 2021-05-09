@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:Sequencer - MFOS-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -25,10 +26,10 @@ F 3 "~" H 1050 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR01
 U 1 1 6045597B
 P 750 900
-F 0 "#PWR?" H 750 750 50  0001 C CNN
+F 0 "#PWR01" H 750 750 50  0001 C CNN
 F 1 "+12V" H 765 1073 50  0000 C CNN
 F 2 "" H 750 900 50  0001 C CNN
 F 3 "" H 750 900 50  0001 C CNN
@@ -91,13 +92,13 @@ F 3 "~" H 2650 1200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4xxx_IEEE:40106 U1
+L 4xxx:40106 U1
 U 1 1 6045827F
 P 3250 1000
 F 0 "U1" H 3400 1300 50  0000 L CNN
 F 1 "40106" H 3350 1200 50  0000 L CNN
 F 2 "" H 3250 1000 50  0001 C CNN
-F 3 "" H 3250 1000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 3250 1000 50  0001 C CNN
 	1    3250 1000
 	1    0    0    -1  
 $EndComp
@@ -124,21 +125,21 @@ F 3 "~" H 3900 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx_IEEE:40106 U1
+L 4xxx:40106 U1
 U 2 1 6045A03B
 P 3250 1900
 F 0 "U1" H 3400 2200 50  0000 L CNN
 F 1 "40106" H 3350 2100 50  0000 L CNN
 F 2 "" H 3250 1900 50  0001 C CNN
-F 3 "" H 3250 1900 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 3250 1900 50  0001 C CNN
 	2    3250 1900
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR?
+L power:Earth #PWR010
 U 1 1 6045D585
 P 2050 1450
-F 0 "#PWR?" H 2050 1200 50  0001 C CNN
+F 0 "#PWR010" H 2050 1200 50  0001 C CNN
 F 1 "Earth" H 2050 1300 50  0001 C CNN
 F 2 "" H 2050 1450 50  0001 C CNN
 F 3 "~" H 2050 1450 50  0001 C CNN
@@ -146,10 +147,10 @@ F 3 "~" H 2050 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR018
 U 1 1 6045E037
 P 4900 900
-F 0 "#PWR?" H 4900 750 50  0001 C CNN
+F 0 "#PWR018" H 4900 750 50  0001 C CNN
 F 1 "+12V" H 4915 1073 50  0000 C CNN
 F 2 "" H 4900 900 50  0001 C CNN
 F 3 "" H 4900 900 50  0001 C CNN
@@ -245,28 +246,6 @@ F 3 "~" H 3100 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx_IEEE:40106 U1
-U 5 1 60466E96
-P 3750 3450
-F 0 "U1" H 3850 3750 50  0000 L CNN
-F 1 "40106" H 3850 3650 50  0000 L CNN
-F 2 "" H 3750 3450 50  0001 C CNN
-F 3 "" H 3750 3450 50  0001 C CNN
-	5    3750 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L 4xxx_IEEE:40106 U1
-U 6 1 60467BB6
-P 3750 2750
-F 0 "U1" H 3850 3050 50  0000 L CNN
-F 1 "40106" H 3850 2950 50  0000 L CNN
-F 2 "" H 3750 2750 50  0001 C CNN
-F 3 "" H 3750 2750 50  0001 C CNN
-	6    3750 2750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C22
 U 1 1 60468D25
 P 2450 4450
@@ -300,10 +279,10 @@ F 3 "~" H 2650 4800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:Earth #PWR?
+L power:Earth #PWR012
 U 1 1 60469D3E
 P 2450 4850
-F 0 "#PWR?" H 2450 4600 50  0001 C CNN
+F 0 "#PWR012" H 2450 4600 50  0001 C CNN
 F 1 "Earth" H 2450 4700 50  0001 C CNN
 F 2 "" H 2450 4850 50  0001 C CNN
 F 3 "~" H 2450 4850 50  0001 C CNN
@@ -355,10 +334,10 @@ F 3 "~" H 4100 4800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:Earth #PWR?
+L power:Earth #PWR015
 U 1 1 6046BB38
 P 3900 4850
-F 0 "#PWR?" H 3900 4600 50  0001 C CNN
+F 0 "#PWR015" H 3900 4600 50  0001 C CNN
 F 1 "Earth" H 3900 4700 50  0001 C CNN
 F 2 "" H 3900 4850 50  0001 C CNN
 F 3 "~" H 3900 4850 50  0001 C CNN
@@ -377,13 +356,13 @@ F 3 "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF" H 3450 5850 50  0001 C
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx_IEEE:40106 U1
+L 4xxx:40106 U1
 U 3 1 6046E74C
 P 2250 5950
 F 0 "U1" H 2300 6250 50  0000 L CNN
 F 1 "40106" H 2300 6150 50  0000 L CNN
 F 2 "" H 2250 5950 50  0001 C CNN
-F 3 "" H 2250 5950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 2250 5950 50  0001 C CNN
 	3    2250 5950
 	1    0    0    -1  
 $EndComp
@@ -432,10 +411,10 @@ F 3 "~" H 1800 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR?
+L power:Earth #PWR05
 U 1 1 604713B0
 P 1200 6850
-F 0 "#PWR?" H 1200 6600 50  0001 C CNN
+F 0 "#PWR05" H 1200 6600 50  0001 C CNN
 F 1 "Earth" H 1200 6700 50  0001 C CNN
 F 2 "" H 1200 6850 50  0001 C CNN
 F 3 "~" H 1200 6850 50  0001 C CNN
@@ -465,10 +444,10 @@ F 3 "~" H 1150 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR06
 U 1 1 60472713
 P 1400 5900
-F 0 "#PWR?" H 1400 5750 50  0001 C CNN
+F 0 "#PWR06" H 1400 5750 50  0001 C CNN
 F 1 "+12V" H 1415 6073 50  0000 C CNN
 F 2 "" H 1400 5900 50  0001 C CNN
 F 3 "" H 1400 5900 50  0001 C CNN
@@ -542,24 +521,24 @@ F 3 "~" H 4800 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx_IEEE:40106 U1
+L 4xxx:40106 U1
 U 4 1 604775EE
 P 5450 6500
 F 0 "U1" H 5750 6450 50  0000 L CNN
 F 1 "40106" H 5700 6350 50  0000 L CNN
 F 2 "" H 5450 6500 50  0001 C CNN
-F 3 "" H 5450 6500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 5450 6500 50  0001 C CNN
 	4    5450 6500
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx_IEEE:40106 U2
+L 4xxx:40106 U2
 U 4 1 60478BE4
 P 6450 6100
-F 0 "U2" H 6500 6400 50  0000 L CNN
-F 1 "40106" H 6500 6300 50  0000 L CNN
+F 0 "U2" H 6600 6400 50  0000 L CNN
+F 1 "40106" H 6600 6300 50  0000 L CNN
 F 2 "" H 6450 6100 50  0001 C CNN
-F 3 "" H 6450 6100 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 6450 6100 50  0001 C CNN
 	4    6450 6100
 	1    0    0    -1  
 $EndComp
@@ -619,10 +598,10 @@ F 3 "~" H 4900 1850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR019
 U 1 1 6047BBDF
 P 4900 1650
-F 0 "#PWR?" H 4900 1500 50  0001 C CNN
+F 0 "#PWR019" H 4900 1500 50  0001 C CNN
 F 1 "+12V" H 4915 1823 50  0000 C CNN
 F 2 "" H 4900 1650 50  0001 C CNN
 F 3 "" H 4900 1650 50  0001 C CNN
@@ -630,90 +609,46 @@ F 3 "" H 4900 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx_IEEE:40106 U2
+L 4xxx:40106 U2
 U 1 1 6047C877
 P 5400 2100
 F 0 "U2" H 5550 2400 50  0000 L CNN
 F 1 "40106" H 5500 2300 50  0000 L CNN
 F 2 "" H 5400 2100 50  0001 C CNN
-F 3 "" H 5400 2100 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 5400 2100 50  0001 C CNN
 	1    5400 2100
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR?
-U 1 1 6047DAFB
-P 3250 800
-F 0 "#PWR?" H 3250 650 50  0001 C CNN
-F 1 "+12V" H 3265 973 50  0000 C CNN
-F 2 "" H 3250 800 50  0001 C CNN
-F 3 "" H 3250 800 50  0001 C CNN
-	1    3250 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR?
-U 1 1 6047E017
-P 5400 1900
-F 0 "#PWR?" H 5400 1750 50  0001 C CNN
-F 1 "+12V" H 5415 2073 50  0000 C CNN
-F 2 "" H 5400 1900 50  0001 C CNN
-F 3 "" H 5400 1900 50  0001 C CNN
-	1    5400 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR?
-U 1 1 6047E476
-P 3250 1200
-F 0 "#PWR?" H 3250 950 50  0001 C CNN
-F 1 "Earth" H 3250 1050 50  0001 C CNN
-F 2 "" H 3250 1200 50  0001 C CNN
-F 3 "~" H 3250 1200 50  0001 C CNN
-	1    3250 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR?
-U 1 1 6047E911
-P 5400 2300
-F 0 "#PWR?" H 5400 2050 50  0001 C CNN
-F 1 "Earth" H 5400 2150 50  0001 C CNN
-F 2 "" H 5400 2300 50  0001 C CNN
-F 3 "~" H 5400 2300 50  0001 C CNN
-	1    5400 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L 4xxx_IEEE:40106 U2
+L 4xxx:40106 U2
 U 6 1 6047F563
 P 5400 1350
 F 0 "U2" H 5500 1650 50  0000 L CNN
 F 1 "40106" H 5450 1550 50  0000 L CNN
 F 2 "" H 5400 1350 50  0001 C CNN
-F 3 "" H 5400 1350 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 5400 1350 50  0001 C CNN
 	6    5400 1350
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx_IEEE:40106 U2
+L 4xxx:40106 U2
 U 5 1 60480599
 P 6400 1350
 F 0 "U2" H 6500 1650 50  0000 L CNN
 F 1 "40106" H 6450 1550 50  0000 L CNN
 F 2 "" H 6400 1350 50  0001 C CNN
-F 3 "" H 6400 1350 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 6400 1350 50  0001 C CNN
 	5    6400 1350
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx_IEEE:40106 U2
+L 4xxx:40106 U2
 U 2 1 604814F6
 P 6400 2100
 F 0 "U2" H 6500 2400 50  0000 L CNN
 F 1 "40106" H 6450 2300 50  0000 L CNN
 F 2 "" H 6400 2100 50  0001 C CNN
-F 3 "" H 6400 2100 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 6400 2100 50  0001 C CNN
 	2    6400 2100
 	1    0    0    -1  
 $EndComp
@@ -729,10 +664,10 @@ F 3 "~" H 8050 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR023
 U 1 1 604828EF
 P 7800 2750
-F 0 "#PWR?" H 7800 2600 50  0001 C CNN
+F 0 "#PWR023" H 7800 2600 50  0001 C CNN
 F 1 "+12V" H 7815 2923 50  0000 C CNN
 F 2 "" H 7800 2750 50  0001 C CNN
 F 3 "" H 7800 2750 50  0001 C CNN
@@ -740,21 +675,21 @@ F 3 "" H 7800 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT_US RV?
+L Device:R_POT_US RV1
 U 1 1 60483B24
 P 5650 6100
-F 0 "RV?" V 5537 6100 50  0000 C CNN
-F 1 "1M" V 5446 6100 50  0000 C CNN
+F 0 "RV1" V 5550 6200 50  0000 C CNN
+F 1 "1M" V 5500 6150 50  0000 C CNN
 F 2 "" H 5650 6100 50  0001 C CNN
 F 3 "~" H 5650 6100 50  0001 C CNN
 	1    5650 6100
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW?
+L Switch:SW_Push SW3
 U 1 1 60485148
 P 7300 4350
-F 0 "SW?" H 7300 4635 50  0000 C CNN
+F 0 "SW3" H 7300 4635 50  0000 C CNN
 F 1 "SW_Push" H 7300 4544 50  0000 C CNN
 F 2 "" H 7300 4550 50  0001 C CNN
 F 3 "~" H 7300 4550 50  0001 C CNN
@@ -795,10 +730,10 @@ F 3 "~" H 8650 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR025
 U 1 1 6048731E
 P 8400 4250
-F 0 "#PWR?" H 8400 4100 50  0001 C CNN
+F 0 "#PWR025" H 8400 4100 50  0001 C CNN
 F 1 "+12V" H 8415 4423 50  0000 C CNN
 F 2 "" H 8400 4250 50  0001 C CNN
 F 3 "" H 8400 4250 50  0001 C CNN
@@ -828,24 +763,13 @@ F 3 "~" H 8400 4750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:Earth #PWR?
-U 1 1 6048819F
-P 7950 4800
-F 0 "#PWR?" H 7950 4550 50  0001 C CNN
-F 1 "Earth" H 7950 4650 50  0001 C CNN
-F 2 "" H 7950 4800 50  0001 C CNN
-F 3 "~" H 7950 4800 50  0001 C CNN
-	1    7950 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L 4xxx_IEEE:40106 U2
+L 4xxx:40106 U2
 U 3 1 60489051
 P 9350 4350
 F 0 "U2" H 9450 4650 50  0000 L CNN
 F 1 "40106" H 9400 4550 50  0000 L CNN
 F 2 "" H 9350 4350 50  0001 C CNN
-F 3 "" H 9350 4350 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 9350 4350 50  0001 C CNN
 	3    9350 4350
 	1    0    0    -1  
 $EndComp
@@ -872,10 +796,10 @@ F 3 "~" H 10250 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR?
+L power:Earth #PWR028
 U 1 1 6048ACC1
 P 10250 4750
-F 0 "#PWR?" H 10250 4500 50  0001 C CNN
+F 0 "#PWR028" H 10250 4500 50  0001 C CNN
 F 1 "Earth" H 10250 4600 50  0001 C CNN
 F 2 "" H 10250 4750 50  0001 C CNN
 F 3 "~" H 10250 4750 50  0001 C CNN
@@ -929,10 +853,10 @@ Connection ~ 2050 1400
 Wire Wire Line
 	2050 1450 2050 1400
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR02
 U 1 1 6049F7D3
 P 750 1800
-F 0 "#PWR?" H 750 1650 50  0001 C CNN
+F 0 "#PWR02" H 750 1650 50  0001 C CNN
 F 1 "+12V" H 765 1973 50  0000 C CNN
 F 2 "" H 750 1800 50  0001 C CNN
 F 3 "" H 750 1800 50  0001 C CNN
@@ -975,10 +899,10 @@ Wire Wire Line
 Wire Wire Line
 	1400 1900 1300 1900
 $Comp
-L power:Earth #PWR?
+L power:Earth #PWR011
 U 1 1 6049F7F7
 P 2050 2350
-F 0 "#PWR?" H 2050 2100 50  0001 C CNN
+F 0 "#PWR011" H 2050 2100 50  0001 C CNN
 F 1 "Earth" H 2050 2200 50  0001 C CNN
 F 2 "" H 2050 2350 50  0001 C CNN
 F 3 "~" H 2050 2350 50  0001 C CNN
@@ -1040,41 +964,17 @@ F 3 "~" H 1550 1900 50  0001 C CNN
 	1    1550 1900
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2800 1900 2650 1900
 Connection ~ 2650 1900
-Wire Wire Line
-	2800 1000 2650 1000
 Connection ~ 2650 1000
-Wire Wire Line
-	3250 800  3250 850 
-Wire Wire Line
-	3250 1200 3250 1150
-NoConn ~ 3250 1750
-NoConn ~ 3250 2050
-Wire Wire Line
-	3750 1900 3700 1900
-Wire Wire Line
-	3750 1000 3700 1000
 Wire Wire Line
 	4900 950  4900 900 
 Wire Wire Line
 	4900 1250 4900 1350
 Wire Wire Line
-	4900 1350 4950 1350
-Wire Wire Line
 	4050 1000 4100 1000
 Wire Wire Line
 	4100 1000 4100 1350
 Connection ~ 4900 1350
-Wire Wire Line
-	5950 1350 5850 1350
-Wire Wire Line
-	5400 2300 5400 2250
-Wire Wire Line
-	5400 1950 5400 1900
-Wire Wire Line
-	4950 2100 4900 2100
 Wire Wire Line
 	4900 2100 4900 2000
 Wire Wire Line
@@ -1086,13 +986,11 @@ Wire Wire Line
 Wire Wire Line
 	4200 2100 4900 2100
 Connection ~ 4900 2100
-Wire Wire Line
-	5950 2100 5850 2100
 $Comp
-L power:Earth #PWR?
+L power:Earth #PWR08
 U 1 1 604CA42A
 P 1650 2700
-F 0 "#PWR?" H 1650 2450 50  0001 C CNN
+F 0 "#PWR08" H 1650 2450 50  0001 C CNN
 F 1 "Earth" H 1650 2550 50  0001 C CNN
 F 2 "" H 1650 2700 50  0001 C CNN
 F 3 "~" H 1650 2700 50  0001 C CNN
@@ -1146,10 +1044,10 @@ F 3 "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF" H 2150 3350 50  0001 C
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR?
+L power:Earth #PWR07
 U 1 1 60461D47
 P 1500 4100
-F 0 "#PWR?" H 1500 3850 50  0001 C CNN
+F 0 "#PWR07" H 1500 3850 50  0001 C CNN
 F 1 "Earth" H 1500 3950 50  0001 C CNN
 F 2 "" H 1500 4100 50  0001 C CNN
 F 3 "~" H 1500 4100 50  0001 C CNN
@@ -1195,10 +1093,10 @@ Wire Wire Line
 	2150 3700 2150 3650
 Connection ~ 1700 3700
 $Comp
-L power:Earth #PWR?
+L power:Earth #PWR09
 U 1 1 604DCC4F
 P 1800 3400
-F 0 "#PWR?" H 1800 3150 50  0001 C CNN
+F 0 "#PWR09" H 1800 3150 50  0001 C CNN
 F 1 "Earth" H 1800 3250 50  0001 C CNN
 F 2 "" H 1800 3400 50  0001 C CNN
 F 3 "~" H 1800 3400 50  0001 C CNN
@@ -1214,30 +1112,20 @@ Wire Wire Line
 Wire Wire Line
 	1800 3250 1800 3350
 Connection ~ 1800 3350
-Text GLabel 900  2650 0    50   BiDi ~ 0
+Text GLabel 800  2650 0    50   BiDi ~ 0
 RST
-Text GLabel 900  3000 0    50   BiDi ~ 0
+Text GLabel 800  3000 0    50   BiDi ~ 0
 FWD
-Text GLabel 1300 3700 0    50   BiDi ~ 0
+Text GLabel 1300 3700 1    50   BiDi ~ 0
 REV
-Wire Wire Line
-	3300 3450 3300 3300
 Wire Wire Line
 	3300 3300 3250 3300
 Wire Wire Line
-	3300 3450 3300 3600
-Wire Wire Line
 	3300 3600 3250 3600
-Connection ~ 3300 3450
-Wire Wire Line
-	3300 2750 3300 2900
 Wire Wire Line
 	3300 2900 3250 2900
 Wire Wire Line
-	3300 2750 3300 2600
-Wire Wire Line
 	3300 2600 3250 2600
-Connection ~ 3300 2750
 Wire Wire Line
 	2950 2900 2900 2900
 Wire Wire Line
@@ -1279,7 +1167,7 @@ Wire Wire Line
 	2900 4800 2850 4800
 Connection ~ 2850 4800
 Wire Wire Line
-	3750 4450 3500 4450
+	3750 4450 3550 4450
 Wire Wire Line
 	3500 4450 3500 4800
 Wire Wire Line
@@ -1342,10 +1230,10 @@ Wire Wire Line
 	1800 6400 1800 5950
 Connection ~ 1800 6400
 $Comp
-L 4xxx:4013 U?
+L 4xxx:4013 U5
 U 3 1 6055FA33
 P 950 4800
-F 0 "U?" H 1180 4846 50  0000 L CNN
+F 0 "U5" H 1180 4846 50  0000 L CNN
 F 1 "4013" H 1180 4755 50  0000 L CNN
 F 2 "" H 950 4800 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF" H 950 4800 50  0001 C CNN
@@ -1353,10 +1241,10 @@ F 3 "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF" H 950 4800 50  0001 C 
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR03
 U 1 1 60560988
 P 950 4350
-F 0 "#PWR?" H 950 4200 50  0001 C CNN
+F 0 "#PWR03" H 950 4200 50  0001 C CNN
 F 1 "+12V" H 965 4523 50  0000 C CNN
 F 2 "" H 950 4350 50  0001 C CNN
 F 3 "" H 950 4350 50  0001 C CNN
@@ -1364,10 +1252,10 @@ F 3 "" H 950 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR?
+L power:Earth #PWR04
 U 1 1 60560EA4
 P 950 5250
-F 0 "#PWR?" H 950 5000 50  0001 C CNN
+F 0 "#PWR04" H 950 5000 50  0001 C CNN
 F 1 "Earth" H 950 5100 50  0001 C CNN
 F 2 "" H 950 5250 50  0001 C CNN
 F 3 "~" H 950 5250 50  0001 C CNN
@@ -1397,10 +1285,10 @@ Wire Wire Line
 Wire Wire Line
 	4150 5750 3750 5750
 $Comp
-L power:Earth #PWR?
+L power:Earth #PWR016
 U 1 1 6058A072
 P 4150 6450
-F 0 "#PWR?" H 4150 6200 50  0001 C CNN
+F 0 "#PWR016" H 4150 6200 50  0001 C CNN
 F 1 "Earth" H 4150 6300 50  0001 C CNN
 F 2 "" H 4150 6450 50  0001 C CNN
 F 3 "~" H 4150 6450 50  0001 C CNN
@@ -1419,10 +1307,10 @@ Wire Wire Line
 Wire Wire Line
 	4800 6450 4800 6500
 $Comp
-L power:Earth #PWR?
+L power:Earth #PWR017
 U 1 1 605A52B0
 P 4800 6900
-F 0 "#PWR?" H 4800 6650 50  0001 C CNN
+F 0 "#PWR017" H 4800 6650 50  0001 C CNN
 F 1 "Earth" H 4800 6750 50  0001 C CNN
 F 2 "" H 4800 6900 50  0001 C CNN
 F 3 "~" H 4800 6900 50  0001 C CNN
@@ -1431,8 +1319,6 @@ F 3 "~" H 4800 6900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4800 6850 4800 6900
-Wire Wire Line
-	5000 6500 4800 6500
 Connection ~ 4800 6500
 Wire Wire Line
 	4800 6500 4800 6550
@@ -1451,21 +1337,17 @@ Connection ~ 5400 6100
 Wire Wire Line
 	5400 6100 5350 6100
 Wire Wire Line
-	5900 6500 5950 6500
-Wire Wire Line
 	5950 6500 5950 6100
 Wire Wire Line
-	5950 6100 5800 6100
-Wire Wire Line
-	6000 6100 5950 6100
+	5950 6100 5850 6100
 Connection ~ 5950 6100
 Wire Wire Line
 	7000 6100 6950 6100
 $Comp
-L Device:LED D?
+L Device:LED D10
 U 1 1 605DE69D
 P 7550 6100
-F 0 "D?" H 7543 5845 50  0000 C CNN
+F 0 "D10" H 7543 5845 50  0000 C CNN
 F 1 "LED" H 7543 5936 50  0000 C CNN
 F 2 "" H 7550 6100 50  0001 C CNN
 F 3 "~" H 7550 6100 50  0001 C CNN
@@ -1473,10 +1355,10 @@ F 3 "~" H 7550 6100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:Earth #PWR?
+L power:Earth #PWR022
 U 1 1 605E5F4E
 P 7750 6150
-F 0 "#PWR?" H 7750 5900 50  0001 C CNN
+F 0 "#PWR022" H 7750 5900 50  0001 C CNN
 F 1 "Earth" H 7750 6000 50  0001 C CNN
 F 2 "" H 7750 6150 50  0001 C CNN
 F 3 "~" H 7750 6150 50  0001 C CNN
@@ -1499,10 +1381,6 @@ Wire Wire Line
 	4300 5550 3450 5550
 Connection ~ 4300 4800
 Wire Wire Line
-	4250 2750 4200 2750
-Wire Wire Line
-	4250 3450 4200 3450
-Wire Wire Line
 	4550 3450 4900 3450
 Wire Wire Line
 	4900 3450 4900 2100
@@ -1523,7 +1401,7 @@ Connection ~ 2900 3300
 Text GLabel 5950 3950 2    50   Input ~ 0
 CLK
 Wire Wire Line
-	7500 4350 7600 4350
+	7500 4350 7550 4350
 Wire Wire Line
 	7900 4350 7950 4350
 Wire Wire Line
@@ -1555,13 +1433,7 @@ Wire Wire Line
 Connection ~ 7950 4750
 Wire Wire Line
 	7950 4750 7800 4750
-Wire Wire Line
-	7950 4800 7950 4750
-Wire Wire Line
-	8900 4350 8850 4350
 Connection ~ 8850 4350
-Wire Wire Line
-	9900 4350 9800 4350
 Wire Wire Line
 	10250 4400 10250 4350
 Wire Wire Line
@@ -1571,10 +1443,10 @@ Wire Wire Line
 Text GLabel 9850 4350 1    50   Input ~ 0
 RST
 $Comp
-L power:Earth #PWR?
+L power:Earth #PWR027
 U 1 1 606C72DB
 P 9800 1350
-F 0 "#PWR?" H 9800 1100 50  0001 C CNN
+F 0 "#PWR027" H 9800 1100 50  0001 C CNN
 F 1 "Earth" H 9800 1200 50  0001 C CNN
 F 2 "" H 9800 1350 50  0001 C CNN
 F 3 "~" H 9800 1350 50  0001 C CNN
@@ -1582,10 +1454,10 @@ F 3 "~" H 9800 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR026
 U 1 1 606D6807
 P 9600 1400
-F 0 "#PWR?" H 9600 1250 50  0001 C CNN
+F 0 "#PWR026" H 9600 1250 50  0001 C CNN
 F 1 "+12V" H 9450 1500 50  0000 C CNN
 F 2 "" H 9600 1400 50  0001 C CNN
 F 3 "" H 9600 1400 50  0001 C CNN
@@ -1619,8 +1491,6 @@ Wire Wire Line
 Wire Wire Line
 	8200 1700 9100 1700
 Wire Wire Line
-	6850 2100 8200 2100
-Wire Wire Line
 	8200 2100 8200 1850
 Wire Wire Line
 	8200 1850 9100 1850
@@ -1629,15 +1499,13 @@ UP
 Text GLabel 7000 2100 3    50   BiDi ~ 0
 DN
 Wire Wire Line
-	6850 1350 8200 1350
-Wire Wire Line
 	7800 2750 7800 2800
 Wire Wire Line
 	7800 2800 7900 2800
 Wire Wire Line
 	8200 2800 8500 2800
 Wire Wire Line
-	8500 2800 8500 2000
+	8500 2800 8500 2550
 Wire Wire Line
 	8500 2000 9100 2000
 Text GLabel 8500 2800 3    50   BiDi ~ 0
@@ -1654,10 +1522,10 @@ Connection ~ 10250 4350
 Text GLabel 10250 3850 2    50   BiDi ~ 0
 CLR
 $Comp
-L Connector:Conn_01x01_Female J?
+L Connector:Conn_01x01_Female J1
 U 1 1 60763611
 P 1300 1200
-F 0 "J?" V 1350 1000 50  0000 L CNN
+F 0 "J1" V 1350 1000 50  0000 L CNN
 F 1 "STUP" V 1250 950 50  0000 L CNN
 F 2 "" H 1300 1200 50  0001 C CNN
 F 3 "~" H 1300 1200 50  0001 C CNN
@@ -1668,10 +1536,10 @@ Connection ~ 1300 1000
 Wire Wire Line
 	1300 1000 1250 1000
 $Comp
-L Connector:Conn_01x01_Female J?
+L Connector:Conn_01x01_Female J2
 U 1 1 607645CF
 P 1300 1700
-F 0 "J?" V 1450 1600 50  0000 L CNN
+F 0 "J2" V 1450 1600 50  0000 L CNN
 F 1 "STDN" V 1350 1550 50  0000 L CNN
 F 2 "" H 1300 1700 50  0001 C CNN
 F 3 "~" H 1300 1700 50  0001 C CNN
@@ -1695,21 +1563,17 @@ $EndComp
 Text Notes 5300 5800 0    50   ~ 0
 Clock Rate Adj
 Wire Wire Line
-	7400 6100 7300 6100
+	7400 6100 7350 6100
 Wire Wire Line
 	6950 5650 6950 6100
 Wire Wire Line
 	6950 5650 7450 5650
 Connection ~ 6950 6100
-Wire Wire Line
-	6950 6100 6900 6100
-Text GLabel 7350 6100 3    50   BiDi ~ 0
-RIN
 $Comp
-L Connector:Conn_01x01_Female J?
+L Connector:Conn_01x01_Female J5
 U 1 1 60798897
 P 7950 5650
-F 0 "J?" H 7978 5676 50  0000 L CNN
+F 0 "J5" H 7978 5676 50  0000 L CNN
 F 1 "CKOUT" H 7978 5585 50  0000 L CNN
 F 2 "" H 7950 5650 50  0001 C CNN
 F 3 "~" H 7950 5650 50  0001 C CNN
@@ -1717,10 +1581,10 @@ F 3 "~" H 7950 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L Connector:Conn_01x01_Female J4
 U 1 1 607998D5
 P 4600 6500
-F 0 "J?" H 4600 6300 50  0000 C CNN
+F 0 "J4" H 4600 6300 50  0000 C CNN
 F 1 "XCLK" H 4600 6400 50  0000 C CNN
 F 2 "" H 4600 6500 50  0001 C CNN
 F 3 "~" H 4600 6500 50  0001 C CNN
@@ -1728,10 +1592,10 @@ F 3 "~" H 4600 6500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L Connector:Conn_01x01_Female J3
 U 1 1 6079AB07
 P 1850 4450
-F 0 "J?" H 1742 4225 50  0000 C CNN
+F 0 "J3" H 1742 4225 50  0000 C CNN
 F 1 "XSTP" H 1742 4316 50  0000 C CNN
 F 2 "" H 1850 4450 50  0001 C CNN
 F 3 "~" H 1850 4450 50  0001 C CNN
@@ -1751,4 +1615,263 @@ U 6079CAD5
 F0 "rando" 50
 F1 "rando.sch" 50
 $EndSheet
+$Sheet
+S 1750 7100 750  550 
+U 60D4F9D9
+F0 "Analog" 50
+F1 "Analog.sch" 50
+$EndSheet
+NoConn ~ 10100 1900
+NoConn ~ 10100 1750
+$Comp
+L 4xxx:40106 U1
+U 6 1 60467BB6
+P 3750 2750
+F 0 "U1" H 3850 3050 50  0000 L CNN
+F 1 "40106" H 3850 2950 50  0000 L CNN
+F 2 "" H 3750 2750 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 3750 2750 50  0001 C CNN
+	6    3750 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:40106 U1
+U 5 1 60466E96
+P 3750 3450
+F 0 "U1" H 3850 3750 50  0000 L CNN
+F 1 "40106" H 3850 3650 50  0000 L CNN
+F 2 "" H 3750 3450 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 3750 3450 50  0001 C CNN
+	5    3750 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 2600 3300 2750
+Wire Wire Line
+	3300 3300 3300 3450
+Wire Wire Line
+	1950 5950 1800 5950
+Wire Wire Line
+	2550 5950 2700 5950
+Wire Wire Line
+	5750 6500 5950 6500
+Wire Wire Line
+	4800 6500 5150 6500
+Wire Wire Line
+	5950 6100 6150 6100
+Wire Wire Line
+	6750 6100 6950 6100
+Wire Wire Line
+	8850 4350 9050 4350
+Wire Wire Line
+	9650 4350 9900 4350
+Wire Wire Line
+	6700 2100 8200 2100
+Wire Wire Line
+	5700 2100 6100 2100
+Wire Wire Line
+	5700 1350 6100 1350
+Wire Wire Line
+	6700 1350 8200 1350
+Wire Wire Line
+	4900 2100 5100 2100
+Wire Wire Line
+	4900 1350 5100 1350
+Wire Wire Line
+	3550 1900 3750 1900
+Wire Wire Line
+	2650 1900 2950 1900
+Wire Wire Line
+	3550 1000 3750 1000
+Wire Wire Line
+	2650 1000 2950 1000
+$Comp
+L 4xxx:40106 U1
+U 7 1 618F27A4
+P 5950 3050
+F 0 "U1" H 6180 3096 50  0000 L CNN
+F 1 "40106" H 6180 3005 50  0000 L CNN
+F 2 "" H 5950 3050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 5950 3050 50  0001 C CNN
+	7    5950 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:40106 U2
+U 7 1 618F43DB
+P 6650 3050
+F 0 "U2" H 6880 3096 50  0000 L CNN
+F 1 "40106" H 6880 3005 50  0000 L CNN
+F 2 "" H 6650 3050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 6650 3050 50  0001 C CNN
+	7    6650 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR013
+U 1 1 618F563B
+P 6300 2550
+F 0 "#PWR013" H 6300 2400 50  0001 C CNN
+F 1 "+12V" H 6315 2723 50  0000 C CNN
+F 2 "" H 6300 2550 50  0001 C CNN
+F 3 "" H 6300 2550 50  0001 C CNN
+	1    6300 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR014
+U 1 1 618F5C53
+P 6300 3550
+F 0 "#PWR014" H 6300 3300 50  0001 C CNN
+F 1 "Earth" H 6300 3400 50  0001 C CNN
+F 2 "" H 6300 3550 50  0001 C CNN
+F 3 "~" H 6300 3550 50  0001 C CNN
+	1    6300 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 3550 6650 3550
+Wire Wire Line
+	6650 2550 6300 2550
+Wire Wire Line
+	5950 2550 6300 2550
+Connection ~ 6300 2550
+Wire Wire Line
+	5950 3550 6300 3550
+Connection ~ 6300 3550
+Wire Wire Line
+	4050 2750 4250 2750
+Wire Wire Line
+	3450 2750 3300 2750
+Connection ~ 3300 2750
+Wire Wire Line
+	3300 2750 3300 2900
+Wire Wire Line
+	3450 3450 3300 3450
+Connection ~ 3300 3450
+Wire Wire Line
+	3300 3450 3300 3600
+Wire Wire Line
+	4050 3450 4250 3450
+$Comp
+L Connector:Conn_01x01_Female J22
+U 1 1 619B77D5
+P 7350 6300
+F 0 "J22" V 7350 6350 50  0000 L CNN
+F 1 "RIN" V 7400 6200 50  0000 L CNN
+F 2 "" H 7350 6300 50  0001 C CNN
+F 3 "~" H 7350 6300 50  0001 C CNN
+	1    7350 6300
+	0    1    1    0   
+$EndComp
+Connection ~ 7350 6100
+Wire Wire Line
+	7350 6100 7300 6100
+$Comp
+L Connector:Conn_01x01_Female J63
+U 1 1 61C9ECFB
+P 5400 6300
+F 0 "J63" V 5300 6150 50  0000 L CNN
+F 1 "CK_RT1W" V 5350 5950 50  0000 L CNN
+F 2 "" H 5400 6300 50  0001 C CNN
+F 3 "~" H 5400 6300 50  0001 C CNN
+	1    5400 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J64
+U 1 1 61CA1803
+P 5850 6300
+F 0 "J64" V 5800 6150 50  0000 L CNN
+F 1 "CK_RT3" V 5900 6050 50  0000 L CNN
+F 2 "" H 5850 6300 50  0001 C CNN
+F 3 "~" H 5850 6300 50  0001 C CNN
+	1    5850 6300
+	0    1    1    0   
+$EndComp
+Connection ~ 5850 6100
+Wire Wire Line
+	5850 6100 5800 6100
+$Comp
+L Connector:Conn_01x01_Female J65
+U 1 1 61CA5888
+P 650 5950
+F 0 "J65" H 542 5725 50  0000 C CNN
+F 1 "STRN" H 542 5816 50  0000 C CNN
+F 2 "" H 650 5950 50  0001 C CNN
+F 3 "~" H 650 5950 50  0001 C CNN
+	1    650  5950
+	-1   0    0    1   
+$EndComp
+Connection ~ 850  5950
+$Comp
+L Connector:Conn_01x01_Female J66
+U 1 1 61CBE61D
+P 1100 3700
+F 0 "J66" H 1100 3500 50  0000 C CNN
+F 1 "REV" H 1100 3600 50  0000 C CNN
+F 2 "" H 1100 3700 50  0001 C CNN
+F 3 "~" H 1100 3700 50  0001 C CNN
+	1    1100 3700
+	-1   0    0    1   
+$EndComp
+Connection ~ 1300 3700
+Wire Wire Line
+	900  3000 800  3000
+Wire Wire Line
+	800  2650 900  2650
+$Comp
+L power:Earth #PWR020
+U 1 1 61CF9BDF
+P 7000 4750
+F 0 "#PWR020" H 7000 4500 50  0001 C CNN
+F 1 "Earth" H 7000 4600 50  0001 C CNN
+F 2 "" H 7000 4750 50  0001 C CNN
+F 3 "~" H 7000 4750 50  0001 C CNN
+	1    7000 4750
+	1    0    0    -1  
+$EndComp
+Connection ~ 7000 4750
+$Comp
+L Connector:Conn_01x01_Female J68
+U 1 1 61D085D8
+P 7550 4150
+F 0 "J68" V 7750 4200 50  0000 R CNN
+F 1 "RESET" V 7650 4200 50  0000 R CNN
+F 2 "" H 7550 4150 50  0001 C CNN
+F 3 "~" H 7550 4150 50  0001 C CNN
+	1    7550 4150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7550 4350
+Wire Wire Line
+	7550 4350 7600 4350
+$Comp
+L Connector:Conn_01x01_Female J69
+U 1 1 61D0CE7B
+P 8700 2550
+F 0 "J69" H 8728 2576 50  0000 L CNN
+F 1 "RAND" H 8600 2450 50  0000 L CNN
+F 2 "" H 8700 2550 50  0001 C CNN
+F 3 "~" H 8700 2550 50  0001 C CNN
+	1    8700 2550
+	1    0    0    -1  
+$EndComp
+Connection ~ 8500 2550
+Wire Wire Line
+	8500 2550 8500 2000
+$Comp
+L Connector:Conn_01x01_Female J67
+U 1 1 61D11F8C
+P 3550 4250
+F 0 "J67" V 3488 4162 50  0000 R CNN
+F 1 "STP" V 3397 4162 50  0000 R CNN
+F 2 "" H 3550 4250 50  0001 C CNN
+F 3 "~" H 3550 4250 50  0001 C CNN
+	1    3550 4250
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3550 4450
+Wire Wire Line
+	3550 4450 3500 4450
 $EndSCHEMATC

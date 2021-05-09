@@ -612,13 +612,13 @@ Wire Wire Line
 	2150 4750 1900 4750
 Connection ~ 2150 3800
 Wire Wire Line
-	2150 3800 2550 3800
+	2150 3800 2400 3800
 Wire Wire Line
 	2150 3500 2550 3500
 Wire Wire Line
 	2550 3500 2550 3400
 Wire Wire Line
-	2850 3800 3250 3800
+	2850 3800 3000 3800
 Wire Wire Line
 	3250 3800 3250 3400
 Wire Wire Line
@@ -1224,4 +1224,32 @@ F 3 "~" H 6950 5700 50  0001 C CNN
 	1    6950 5700
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62012E0D
+P 2400 4000
+F 0 "J?" V 2246 4048 50  0000 L CNN
+F 1 "R11_inv" V 2337 4048 50  0000 L CNN
+F 2 "" H 2400 4000 50  0001 C CNN
+F 3 "~" H 2400 4000 50  0001 C CNN
+	1    2400 4000
+	0    1    1    0   
+$EndComp
+Connection ~ 2400 3800
+Wire Wire Line
+	2400 3800 2550 3800
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62013AE0
+P 3000 4000
+F 0 "J?" V 2846 4048 50  0000 L CNN
+F 1 "R11_out" V 2937 4048 50  0000 L CNN
+F 2 "" H 3000 4000 50  0001 C CNN
+F 3 "~" H 3000 4000 50  0001 C CNN
+	1    3000 4000
+	0    1    1    0   
+$EndComp
+Connection ~ 3000 3800
+Wire Wire Line
+	3000 3800 3250 3800
 $EndSCHEMATC

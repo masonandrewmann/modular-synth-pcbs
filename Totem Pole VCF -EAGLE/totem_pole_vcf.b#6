@@ -2156,12 +2156,12 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="-55.338028125" y="35.131821875" size="1.778" layer="27" rot="R225" display="off"/>
 <attribute name="VALUE" x="49.641165625" y="47.434771875" size="1.27" layer="27" ratio="10" rot="R225" display="off"/>
 </element>
-<element name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO41Z10" package3d_urn="urn:adsk.eagle:package:43341/1" value="" x="61.195065625" y="88.3924625" smashed="yes" rot="R270">
+<element name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO41Z10" package3d_urn="urn:adsk.eagle:package:43341/1" value="7.5V" x="61.195065625" y="88.3924625" smashed="yes" rot="R270">
 <attribute name="NAME" x="57.519840625" y="87.6483125" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="8" x="-4.844934375" y="-5.5875375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="58.401065625" y="90.2974625" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="D-10" package3d_urn="urn:adsk.eagle:package:43434/1" value="" x="9.0699125" y="67.84195" smashed="yes" rot="R23.2">
+<element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="D-10" package3d_urn="urn:adsk.eagle:package:43434/1" value="0.2V" x="9.0699125" y="67.84195" smashed="yes" rot="R23.2">
 <attribute name="NAME" x="8.74785625" y="67.065096875" size="1.27" layer="25" ratio="10" rot="R23.2"/>
 <attribute name="POPULARITY" value="1" x="61.26678125" y="16.981684375" size="1.778" layer="27" rot="R23.2" display="off"/>
 <attribute name="VALUE" x="7.402421875" y="63.672928125" size="1.27" layer="27" ratio="10" rot="R23.2"/>
@@ -2176,7 +2176,7 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="0" x="-24.77305625" y="-23.865665625" size="1.778" layer="27" rot="R247.2" display="off"/>
 <attribute name="VALUE" x="36.257403125" y="40.493584375" size="1.27" layer="27" ratio="10" rot="R247.2"/>
 </element>
-<element name="J1" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="1X4MTA" package3d_urn="urn:adsk.eagle:package:8081564/1" value="" x="8.860240625" y="34.812721875" smashed="yes" rot="R90">
+<element name="J1" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="1X4MTA" package3d_urn="urn:adsk.eagle:package:8081564/1" value="PWR_CON" x="8.860240625" y="34.812721875" smashed="yes" rot="R90">
 <attribute name="NAME" x="15.637146875" y="35.9237" size="1.778" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="1" x="17.750240625" y="56.402721875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="4.445440625" y="27.673821875" size="1.27" layer="27" rot="R90"/>

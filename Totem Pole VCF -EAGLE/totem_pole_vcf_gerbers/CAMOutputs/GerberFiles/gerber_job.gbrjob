@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2021-05-09T21:45:49Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "totem_pole_vcf"
+        },
+        "Owner": "Mason Mann <mmann33@gatech.edu>",
+        "Size": {
+            "X": 160,
+            "Y": 100
+        }
+    }
+}

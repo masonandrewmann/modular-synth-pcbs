@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 46)
+    (drawings 49)
     (tracks 267)
     (zones 0)
     (modules 78)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.8128)
+    (last_trace_width 0.25)
     (user_trace_width 0.4064)
     (user_trace_width 0.8128)
     (trace_clearance 0.2)
@@ -3446,6 +3446,15 @@
     )
   )
 
+  (gr_text GND (at 85.344 41.021 90) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text -12V (at 79.0448 49.276) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text +12V (at 80.264 27.7622) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_line (start 76.4286 24.0284) (end 77.0128 23.622) (layer F.SilkS) (width 0.12))
   (gr_line (start 76.4286 24.4602) (end 77.1144 24.257) (layer F.SilkS) (width 0.12))
   (gr_line (start 76.5556 24.8158) (end 77.6478 24.8158) (layer F.SilkS) (width 0.12))

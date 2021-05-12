@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Noise Cornucopia - MFOS-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1684,7 +1685,7 @@ L Connector:Conn_01x01_Female J10
 U 1 1 60D25FE1
 P 5500 6500
 F 0 "J10" H 5528 6526 50  0000 L CNN
-F 1 "Q4" H 5528 6435 50  0000 L CNN
+F 1 "Q3" H 5528 6435 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_Drill1mm" H 5500 6500 50  0001 C CNN
 F 3 "~" H 5500 6500 50  0001 C CNN
 	1    5500 6500
@@ -1695,7 +1696,7 @@ L Connector:Conn_01x01_Female J11
 U 1 1 60D2634D
 P 5500 6600
 F 0 "J11" H 5528 6626 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 5528 6535 50  0000 L CNN
+F 1 "Q4" H 5528 6535 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_Drill1mm" H 5500 6600 50  0001 C CNN
 F 3 "~" H 5500 6600 50  0001 C CNN
 	1    5500 6600

@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 48)
+    (drawings 43)
     (tracks 376)
     (zones 0)
     (modules 80)
@@ -30,7 +30,7 @@
     (46 B.CrtYd user)
     (47 F.CrtYd user)
     (48 B.Fab user hide)
-    (49 F.Fab user hide)
+    (49 F.Fab user)
   )
 
   (setup
@@ -3371,21 +3371,6 @@
     )
   )
 
-  (gr_text TL072 (at 62.7126 47.2186) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (gr_text TL072 (at 48.7172 59.0804 90) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (gr_text CD4024 (at 23.0886 37.8968 90) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (gr_text TL072 (at 55.1688 18.6436 70) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (gr_text TL072 (at 47.9298 37.4142 70) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
   (gr_text Q1 (at 30.3022 40.132) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

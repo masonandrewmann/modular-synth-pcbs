@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Dual Micro Sample Hold - MFOS-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -528,12 +529,12 @@ Connection ~ 5000 1800
 $Comp
 L Connector:Conn_01x01_Female J11
 U 1 1 609F2DA6
-P 5200 1300
-F 0 "J11" H 5228 1326 50  0000 L CNN
-F 1 "CV_OUT_A" H 5228 1235 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill1mm" H 5200 1300 50  0001 C CNN
-F 3 "~" H 5200 1300 50  0001 C CNN
-	1    5200 1300
+P 5500 1300
+F 0 "J11" H 5528 1326 50  0000 L CNN
+F 1 "CV_OUT_A" H 5528 1235 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1mm" H 5500 1300 50  0001 C CNN
+F 3 "~" H 5500 1300 50  0001 C CNN
+	1    5500 1300
 	1    0    0    -1  
 $EndComp
 Connection ~ 5000 1300
@@ -1088,17 +1089,6 @@ F 3 "~" H 9400 1650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_US R29
-U 1 1 60A4FEC1
-P 9800 1850
-F 0 "R29" V 9595 1850 50  0000 C CNN
-F 1 "75k" V 9686 1850 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9840 1840 50  0001 C CNN
-F 3 "~" H 9800 1850 50  0001 C CNN
-	1    9800 1850
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:C C12
 U 1 1 60A4FEC7
 P 8350 2150
@@ -1415,24 +1405,24 @@ Connection ~ 10150 1850
 $Comp
 L Connector:Conn_01x01_Female J21
 U 1 1 60A4FF74
-P 10800 2800
-F 0 "J21" H 10828 2826 50  0000 L CNN
-F 1 "GLIDE_OUT_B" H 10828 2735 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill1mm" H 10800 2800 50  0001 C CNN
-F 3 "~" H 10800 2800 50  0001 C CNN
-	1    10800 2800
+P 11100 2800
+F 0 "J21" H 11128 2826 50  0000 L CNN
+F 1 "GLIDE_OUT_B" H 11128 2735 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1mm" H 11100 2800 50  0001 C CNN
+F 3 "~" H 11100 2800 50  0001 C CNN
+	1    11100 2800
 	1    0    0    -1  
 $EndComp
 Connection ~ 10600 2800
 $Comp
 L Connector:Conn_01x01_Female J20
 U 1 1 60A4FF7B
-P 10350 1350
-F 0 "J20" H 10378 1376 50  0000 L CNN
-F 1 "CV_OUT_B" H 10378 1285 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill1mm" H 10350 1350 50  0001 C CNN
-F 3 "~" H 10350 1350 50  0001 C CNN
-	1    10350 1350
+P 10650 1350
+F 0 "J20" H 10678 1376 50  0000 L CNN
+F 1 "CV_OUT_B" H 10678 1285 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1mm" H 10650 1350 50  0001 C CNN
+F 3 "~" H 10650 1350 50  0001 C CNN
+	1    10650 1350
 	1    0    0    -1  
 $EndComp
 Connection ~ 10150 1350
@@ -1678,12 +1668,12 @@ Connection ~ 4200 2650
 $Comp
 L Connector:Conn_01x01_Female J12
 U 1 1 609F2975
-P 5650 2750
-F 0 "J12" H 5678 2776 50  0000 L CNN
-F 1 "GLIDE_OUT_A" H 5678 2685 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill1mm" H 5650 2750 50  0001 C CNN
-F 3 "~" H 5650 2750 50  0001 C CNN
-	1    5650 2750
+P 5950 2750
+F 0 "J12" H 5978 2776 50  0000 L CNN
+F 1 "GLIDE_OUT_A" H 5978 2685 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1mm" H 5950 2750 50  0001 C CNN
+F 3 "~" H 5950 2750 50  0001 C CNN
+	1    5950 2750
 	1    0    0    -1  
 $EndComp
 Connection ~ 5450 2750
@@ -1697,5 +1687,60 @@ F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2350 1200 50  0001 C CNN
 F 3 "" H 2350 1200 50  0001 C CNN
 	5    2350 1200
 	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R30
+U 1 1 60A80D7A
+P 5150 1300
+F 0 "R30" V 5355 1300 50  0000 C CNN
+F 1 "1k" V 5264 1300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5190 1290 50  0001 C CNN
+F 3 "~" H 5150 1300 50  0001 C CNN
+	1    5150 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R31
+U 1 1 60A82316
+P 5600 2750
+F 0 "R31" V 5805 2750 50  0000 C CNN
+F 1 "1k" V 5714 2750 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5640 2740 50  0001 C CNN
+F 3 "~" H 5600 2750 50  0001 C CNN
+	1    5600 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R29
+U 1 1 60A4FEC1
+P 9800 1850
+F 0 "R29" V 9595 1850 50  0000 C CNN
+F 1 "75k" V 9686 1850 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9840 1840 50  0001 C CNN
+F 3 "~" H 9800 1850 50  0001 C CNN
+	1    9800 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R32
+U 1 1 60A86659
+P 10300 1350
+F 0 "R32" V 10095 1350 50  0000 C CNN
+F 1 "1k" V 10186 1350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10340 1340 50  0001 C CNN
+F 3 "~" H 10300 1350 50  0001 C CNN
+	1    10300 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R33
+U 1 1 60A86E10
+P 10750 2800
+F 0 "R33" V 10545 2800 50  0000 C CNN
+F 1 "1k" V 10636 2800 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10790 2790 50  0001 C CNN
+F 3 "~" H 10750 2800 50  0001 C CNN
+	1    10750 2800
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC

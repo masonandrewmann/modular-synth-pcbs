@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Triple Waveshaper - CGS-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -184,7 +185,7 @@ U 1 1 60AFFFD5
 P 3150 1550
 F 0 "RV1" V 3037 1550 50  0000 C CNN
 F 1 "20k" V 2946 1550 50  0000 C CNN
-F 2 "" H 3150 1550 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical" H 3150 1550 50  0001 C CNN
 F 3 "~" H 3150 1550 50  0001 C CNN
 	1    3150 1550
 	0    -1   -1   0   
@@ -547,7 +548,7 @@ U 1 1 60B3A205
 P 3150 3650
 F 0 "RV2" V 3037 3650 50  0000 C CNN
 F 1 "20k" V 2946 3650 50  0000 C CNN
-F 2 "" H 3150 3650 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical" H 3150 3650 50  0001 C CNN
 F 3 "~" H 3150 3650 50  0001 C CNN
 	1    3150 3650
 	0    -1   -1   0   
@@ -913,7 +914,7 @@ U 1 1 60B481D3
 P 3150 5900
 F 0 "RV3" V 3037 5900 50  0000 C CNN
 F 1 "20k" V 2946 5900 50  0000 C CNN
-F 2 "" H 3150 5900 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical" H 3150 5900 50  0001 C CNN
 F 3 "~" H 3150 5900 50  0001 C CNN
 	1    3150 5900
 	0    -1   -1   0   

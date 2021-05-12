@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/Users/masonmann/Documents/KiCad/Modular Synth/Triple Waveshaper - CGS/Triple Waveshaper - CGS.sch")
-    (date "Wednesday, May 12, 2021 at 02:19:18 AM")
+    (date "Wednesday, May 12, 2021 at 10:45:29 AM")
     (tool "Eeschema (5.1.2-1)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -121,6 +121,7 @@
       (tstamp 60AF903F))
     (comp (ref RV1)
       (value 20k)
+      (footprint Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical)
       (datasheet ~)
       (libsource (lib Device) (part R_POT_US) (description "Potentiometer, US symbol"))
       (sheetpath (names /) (tstamps /))
@@ -274,6 +275,7 @@
       (tstamp 60B3A1FF))
     (comp (ref RV2)
       (value 20k)
+      (footprint Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical)
       (datasheet ~)
       (libsource (lib Device) (part R_POT_US) (description "Potentiometer, US symbol"))
       (sheetpath (names /) (tstamps /))
@@ -427,6 +429,7 @@
       (tstamp 60B481CD))
     (comp (ref RV3)
       (value 20k)
+      (footprint Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical)
       (datasheet ~)
       (libsource (lib Device) (part R_POT_US) (description "Potentiometer, US symbol"))
       (sheetpath (names /) (tstamps /))

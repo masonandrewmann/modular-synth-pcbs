@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 1353)
+    (drawings 1354)
     (tracks 545)
     (zones 0)
     (modules 120)
@@ -40,7 +40,7 @@
   )
 
   (setup
-    (last_trace_width 0.4064)
+    (last_trace_width 0.25)
     (user_trace_width 0.4064)
     (user_trace_width 0.8128)
     (trace_clearance 0.5)
@@ -5385,6 +5385,9 @@
     )
   )
 
+  (gr_text "Rev:2\n" (at 31.3436 102.7684 10) (layer F.Cu)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_line (start 120.9675 110.871) (end 120.9675 110.8075) (layer F.SilkS) (width 0.12))
   (gr_line (start 120.9675 110.9345) (end 120.9675 110.871) (layer F.SilkS) (width 0.12))
   (gr_line (start 120.8405 111.1885) (end 120.9675 110.9345) (layer F.SilkS) (width 0.12))

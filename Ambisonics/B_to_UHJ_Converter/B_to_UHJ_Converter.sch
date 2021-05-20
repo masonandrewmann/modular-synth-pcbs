@@ -401,17 +401,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3200 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:TL074 U2
-U 5 1 60F4932D
-P 3150 2600
-F 0 "U2" H 3108 2646 50  0000 L CNN
-F 1 "TL074" H 3108 2555 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3100 2700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3200 2800 50  0001 C CNN
-	5    3150 2600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_US R27
 U 1 1 60F49333
 P 2950 3200
@@ -421,28 +410,6 @@ F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2990 3190 
 F 3 "~" H 2950 3200 50  0001 C CNN
 	1    2950 3200
 	0    1    1    0   
-$EndComp
-$Comp
-L power:+9V #PWR09
-U 1 1 60F49339
-P 3050 2300
-F 0 "#PWR09" H 3050 2150 50  0001 C CNN
-F 1 "+9V" H 3065 2473 50  0000 C CNN
-F 2 "" H 3050 2300 50  0001 C CNN
-F 3 "" H 3050 2300 50  0001 C CNN
-	1    3050 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:-9V #PWR010
-U 1 1 60F4933F
-P 3050 2900
-F 0 "#PWR010" H 3050 2775 50  0001 C CNN
-F 1 "-9V" H 3065 3073 50  0000 C CNN
-F 2 "" H 3050 2900 50  0001 C CNN
-F 3 "" H 3050 2900 50  0001 C CNN
-	1    3050 2900
-	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	2800 3200 2800 2700
@@ -754,10 +721,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3250 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:TL074 U3
+L Amplifier_Operational:TL074 U2
 U 5 1 60F5F7E9
 P 3200 4000
-F 0 "U3" H 3158 4046 50  0000 L CNN
+F 0 "U2" H 3158 4046 50  0000 L CNN
 F 1 "TL074" H 3158 3955 50  0000 L CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3150 4100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3250 4200 50  0001 C CNN
@@ -1114,17 +1081,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3300 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:TL074 U4
-U 5 1 60F7D674
-P 3250 5350
-F 0 "U4" H 3208 5396 50  0000 L CNN
-F 1 "TL074" H 3208 5305 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3200 5450 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3300 5550 50  0001 C CNN
-	5    3250 5350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_US R29
 U 1 1 60F7D67A
 P 3050 5950
@@ -1134,28 +1090,6 @@ F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3090 5940 
 F 3 "~" H 3050 5950 50  0001 C CNN
 	1    3050 5950
 	0    1    1    0   
-$EndComp
-$Comp
-L power:+9V #PWR013
-U 1 1 60F7D680
-P 3150 5050
-F 0 "#PWR013" H 3150 4900 50  0001 C CNN
-F 1 "+9V" H 3165 5223 50  0000 C CNN
-F 2 "" H 3150 5050 50  0001 C CNN
-F 3 "" H 3150 5050 50  0001 C CNN
-	1    3150 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:-9V #PWR014
-U 1 1 60F7D686
-P 3150 5650
-F 0 "#PWR014" H 3150 5525 50  0001 C CNN
-F 1 "-9V" H 3165 5823 50  0000 C CNN
-F 2 "" H 3150 5650 50  0001 C CNN
-F 3 "" H 3150 5650 50  0001 C CNN
-	1    3150 5650
-	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	2900 5950 2900 5450
@@ -1474,10 +1408,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3300 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:TL074 U5
+L Amplifier_Operational:TL074 U3
 U 5 1 60FBAE9C
 P 3250 6800
-F 0 "U5" H 3208 6846 50  0000 L CNN
+F 0 "U3" H 3208 6846 50  0000 L CNN
 F 1 "TL074" H 3208 6755 50  0000 L CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3200 6900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3300 7000 50  0001 C CNN
@@ -2539,4 +2473,5 @@ Wire Wire Line
 	9700 5800 9700 6100
 Wire Wire Line
 	9700 6100 9300 6100
+NoConn ~ 850  4600
 $EndSCHEMATC

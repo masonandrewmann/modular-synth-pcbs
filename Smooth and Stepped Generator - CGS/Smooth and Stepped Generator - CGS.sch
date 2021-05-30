@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Smooth and Stepped Generator - CGS-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -214,13 +215,13 @@ $EndComp
 $Comp
 L Connector:Conn_01x01_Female J3
 U 1 1 606CE775
-P 700 2250
-F 0 "J3" H 592 2025 50  0000 C CNN
-F 1 "VC_A" H 592 2116 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill1mm" H 700 2250 50  0001 C CNN
-F 3 "~" H 700 2250 50  0001 C CNN
-	1    700  2250
-	-1   0    0    1   
+P 1200 2250
+F 0 "J3" V 1350 2250 50  0000 C CNN
+F 1 "VC_A" V 1250 2250 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1mm" H 1200 2250 50  0001 C CNN
+F 3 "~" H 1200 2250 50  0001 C CNN
+	1    1200 2250
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_US R7
@@ -238,7 +239,7 @@ L Device:R_US R13
 U 1 1 606CFFF1
 P 1450 2450
 F 0 "R13" V 1245 2450 50  0000 C CNN
-F 1 "2M7" V 1336 2450 50  0000 C CNN
+F 1 "2M7" V 1350 2450 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1490 2440 50  0001 C CNN
 F 3 "~" H 1450 2450 50  0001 C CNN
 	1    1450 2450
@@ -959,13 +960,13 @@ $EndComp
 $Comp
 L Connector:Conn_01x01_Female J4
 U 1 1 6074F552
-P 700 5850
-F 0 "J4" H 592 5625 50  0000 C CNN
-F 1 "VC_B" H 592 5716 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill1mm" H 700 5850 50  0001 C CNN
-F 3 "~" H 700 5850 50  0001 C CNN
-	1    700  5850
-	-1   0    0    1   
+P 1200 5850
+F 0 "J4" V 1350 5850 50  0000 C CNN
+F 1 "VC_B" V 1250 5850 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1mm" H 1200 5850 50  0001 C CNN
+F 3 "~" H 1200 5850 50  0001 C CNN
+	1    1200 5850
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_US R8
@@ -1911,7 +1912,7 @@ U 1 1 6086CCEA
 P 8750 3500
 F 0 "D8" V 8700 3350 50  0000 L CNN
 F 1 "D" V 8800 3350 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill1mm" H 8750 3500 50  0001 C CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 8750 3500 50  0001 C CNN
 F 3 "~" H 8750 3500 50  0001 C CNN
 	1    8750 3500
 	0    -1   -1   0   
@@ -2054,7 +2055,7 @@ U 1 1 60934E42
 P 9550 4100
 F 0 "J18" H 9578 4126 50  0000 L CNN
 F 1 "RD_OUT" H 9578 4035 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 9550 4100 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1mm" H 9550 4100 50  0001 C CNN
 F 3 "~" H 9550 4100 50  0001 C CNN
 	1    9550 4100
 	1    0    0    -1  

@@ -2256,10 +2256,10 @@ Connection ~ 10400 1550
 Wire Wire Line
 	10400 1550 10400 1650
 $Comp
-L Connector:Conn_01x01_Female J?
+L Connector:Conn_01x01_Female J14
 U 1 1 6102E865
 P 10750 4300
-F 0 "J?" H 10778 4326 50  0000 L CNN
+F 0 "J14" H 10778 4326 50  0000 L CNN
 F 1 "Vadj" H 10778 4235 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_Drill1mm" H 10750 4300 50  0001 C CNN
 F 3 "~" H 10750 4300 50  0001 C CNN

@@ -1225,12 +1225,12 @@ F 3 "~" H 6950 5700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L Connector:Conn_01x01_Female J24
 U 1 1 62012E0D
 P 2400 4000
-F 0 "J?" V 2246 4048 50  0000 L CNN
+F 0 "J24" V 2246 4048 50  0000 L CNN
 F 1 "R11_inv" V 2337 4048 50  0000 L CNN
-F 2 "" H 2400 4000 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1mm" H 2400 4000 50  0001 C CNN
 F 3 "~" H 2400 4000 50  0001 C CNN
 	1    2400 4000
 	0    1    1    0   
@@ -1239,12 +1239,12 @@ Connection ~ 2400 3800
 Wire Wire Line
 	2400 3800 2550 3800
 $Comp
-L Connector:Conn_01x01_Female J?
+L Connector:Conn_01x01_Female J25
 U 1 1 62013AE0
 P 3000 4000
-F 0 "J?" V 2846 4048 50  0000 L CNN
+F 0 "J25" V 2846 4048 50  0000 L CNN
 F 1 "R11_out" V 2937 4048 50  0000 L CNN
-F 2 "" H 3000 4000 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1mm" H 3000 4000 50  0001 C CNN
 F 3 "~" H 3000 4000 50  0001 C CNN
 	1    3000 4000
 	0    1    1    0   

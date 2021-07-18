@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 11)
+    (drawings 14)
     (tracks 186)
     (zones 0)
     (modules 37)
@@ -4167,6 +4167,15 @@
     )
   )
 
+  (gr_text "Butt Up" (at 112.1664 30.0482) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text "Butt Up" (at 109.474 98.044) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text "DENT THIS WAY\n" (at 49.4284 105.283) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_text SEC1 (at 23.495 99.695) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

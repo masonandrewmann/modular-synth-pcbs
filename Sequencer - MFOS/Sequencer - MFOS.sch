@@ -1868,7 +1868,5 @@ Connection ~ 3550 4450
 Wire Wire Line
 	3550 4450 3500 4450
 Entry Wire Line
-	5150 3800 5250 3700
-Entry Wire Line
 	6350 -750 6450 -650
 $EndSCHEMATC

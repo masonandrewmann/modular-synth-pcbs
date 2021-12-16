@@ -108,7 +108,7 @@ U 1 1 60F5DCDA
 P 2400 3150
 F 0 "U1" H 2450 2850 50  0000 C CNN
 F 1 "TL074" H 2500 2950 50  0000 C CNN
-F 2 "Package_DIP:DIP-12_W7.62mm_Socket" H 2350 3250 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2350 3250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2450 3350 50  0001 C CNN
 	1    2400 3150
 	1    0    0    1   
@@ -119,7 +119,7 @@ U 5 1 60F5F313
 P 2400 3150
 F 0 "U1" H 2400 3000 50  0000 L CNN
 F 1 "TL074" H 2350 2900 50  0000 L CNN
-F 2 "Package_DIP:DIP-12_W7.62mm_Socket" H 2350 3250 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2350 3250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2450 3350 50  0001 C CNN
 	5    2400 3150
 	1    0    0    -1  
@@ -582,7 +582,7 @@ U 2 1 60F7F5EE
 P 8300 3850
 F 0 "U1" H 8300 3483 50  0000 C CNN
 F 1 "TL074" H 8300 3574 50  0000 C CNN
-F 2 "Package_DIP:DIP-12_W7.62mm_Socket" H 8250 3950 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 8250 3950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8350 4050 50  0001 C CNN
 	2    8300 3850
 	1    0    0    1   
@@ -648,7 +648,7 @@ U 3 1 60F89B15
 P 9450 3950
 F 0 "U1" H 9450 3583 50  0000 C CNN
 F 1 "TL074" H 9450 3674 50  0000 C CNN
-F 2 "Package_DIP:DIP-12_W7.62mm_Socket" H 9400 4050 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 9400 4050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 9500 4150 50  0001 C CNN
 	3    9450 3950
 	1    0    0    1   
@@ -798,7 +798,7 @@ U 4 1 60FCF7DC
 P 9400 5400
 F 0 "U1" H 9400 5033 50  0000 C CNN
 F 1 "TL074" H 9400 5124 50  0000 C CNN
-F 2 "Package_DIP:DIP-12_W7.62mm_Socket" H 9350 5500 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 9350 5500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 9450 5600 50  0001 C CNN
 	4    9400 5400
 	1    0    0    1   

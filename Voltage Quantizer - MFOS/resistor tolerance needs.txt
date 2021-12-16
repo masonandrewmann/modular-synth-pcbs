@@ -1,0 +1,8 @@
+doesnt need 0.1%
+100k
+R44, R42, R39, R43  - ray wilson version
+ R40, R41, R42, 32 - my version
+
+200k
+R1 - ray wilson version
+ R1 - my version

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Diode VCF - Synthi Clone-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -290,4 +291,48 @@ Wire Wire Line
 Connection ~ 6900 2950
 Wire Wire Line
 	6900 2950 6900 2900
+$Comp
+L Amplifier_Operational:TL074 U?
+U 1 1 616F305C
+P 8800 2300
+F 0 "U?" H 8850 2000 50  0000 C CNN
+F 1 "TL074" H 8850 2100 50  0000 C CNN
+F 2 "" H 8750 2400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8850 2500 50  0001 C CNN
+	1    8800 2300
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL074 U?
+U 5 1 616F3F1A
+P 8800 2300
+F 0 "U?" H 8758 2346 50  0000 L CNN
+F 1 "TL074" H 8758 2255 50  0000 L CNN
+F 2 "" H 8750 2400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8850 2500 50  0001 C CNN
+	5    8800 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 616F7A58
+P 8700 2000
+F 0 "#PWR?" H 8700 1850 50  0001 C CNN
+F 1 "+12V" H 8715 2173 50  0000 C CNN
+F 2 "" H 8700 2000 50  0001 C CNN
+F 3 "" H 8700 2000 50  0001 C CNN
+	1    8700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR?
+U 1 1 616F8190
+P 8700 2600
+F 0 "#PWR?" H 8700 2700 50  0001 C CNN
+F 1 "-12V" H 8715 2773 50  0000 C CNN
+F 2 "" H 8700 2600 50  0001 C CNN
+F 3 "" H 8700 2600 50  0001 C CNN
+	1    8700 2600
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

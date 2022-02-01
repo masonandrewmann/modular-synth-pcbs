@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 4)
+    (drawings 8)
     (tracks 395)
     (zones 0)
     (modules 90)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.8128)
+    (last_trace_width 0.25)
     (user_trace_width 0.4064)
     (user_trace_width 0.8128)
     (trace_clearance 0.2)
@@ -87,7 +87,7 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
       (outputdirectory ""))
   )
@@ -4035,6 +4035,10 @@
     )
   )
 
+  (gr_line (start 89 12) (end 12 12) (layer Edge.Cuts) (width 0.05) (tstamp 61D72FF7))
+  (gr_line (start 89 77) (end 89 12) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 12 77) (end 89 77) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 12 12) (end 12 77) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 89 12) (end 12 12) (layer F.SilkS) (width 0.12) (tstamp 61D55FDF))
   (gr_line (start 89 77) (end 89 12) (layer F.SilkS) (width 0.12))
   (gr_line (start 12 77) (end 89 77) (layer F.SilkS) (width 0.12))

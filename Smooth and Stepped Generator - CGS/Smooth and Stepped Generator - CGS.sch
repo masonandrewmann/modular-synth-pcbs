@@ -2562,4 +2562,6 @@ F 3 "~" H 1100 7400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 1100 7600
+Text Notes 7400 4850 0    50   ~ 0
+should be +12
 $EndSCHEMATC

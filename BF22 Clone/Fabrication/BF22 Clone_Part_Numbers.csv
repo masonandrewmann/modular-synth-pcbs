@@ -1,0 +1,29 @@
+Comment,Designator,Footprint,LCSC
+1n,"C1, C3, C5,",Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C100040
+3n3,"C2,",Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C1613
+220u,"C4,",Capacitor_SMD:CP_Elec_6.3x5.4,C3345
+10u,"C6, C10, C11,",Capacitor_SMD:CP_Elec_4x5.4,C72485
+33u,"C8,",Capacitor_SMD:CP_Elec_5x5.7,C249890
+220p,"C9, C7,",Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C106210
+D_Small,"D2, D3, D1,",Diode_SMD:D_SOD-323F,C2128
+47k,"R3, R12,",Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C25819
+43k,"R4,",Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C23172
+100k,"R5, R6, R7, R1, R2, R8, R27, R28,",Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C25803
+10k,"R10, R9, R11, R22, R23, R15, R18, R38,",Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C25804
+680,"R13,",Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C23228
+470k,"R14,",Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C23178
+47,"R16, R21,",Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C23182
+15k,"R19,",Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C22809
+220,"R20, R17,",Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C22962
+470,"R24,",Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C23179
+5k6,"R25,",Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C23189
+820,"R26,",Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C23253
+4k7,"R29, R35,",Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C99782
+3k,"R31, R30,",Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C4211
+270k,"R33,",Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C22965
+27k,"R34,",Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C22967
+33k,"R36,",Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C4216
+82k,"R37,",Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C23254
+910k,"R39,",Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C228240
+1k,"R40,",Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C21190
+TL074,"U1,",Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,C12594

@@ -1,4 +1,4 @@
-15949519458895717
+15959402711459059
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44092,6 +44092,13 @@ single digit 7 segemnt red/green LED
 0
 10
 10
+ESP32-DEVKITC-32D-1
+MODULE_ESP32-DEVKITC-32D
+
+
+0
+38
+38
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -49097,6 +49104,41 @@ Yellow 5381 Series LED
 0
 2
 2
+mason_parts
+AD1933_THT_ADAPTER
+
+
+0
+64
+64
+mason_parts
+DIN5_MIDI
+
+
+0
+9
+6
+mason_parts
+DIP-10_w0.6in
+
+
+0
+10
+10
+mason_parts
+MODULE_STM32F429I-DISC1
+
+
+0
+132
+132
+mason_parts
+MODULE_STM32F429I-DISC1_NO_TOP
+
+
+0
+128
+128
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet

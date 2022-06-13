@@ -1,0 +1,1513 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4650 650  4600 650 
+Wire Wire Line
+	5400 650  5450 650 
+$Comp
+L power:Earth #PWR?
+U 1 1 62966F99
+P 5900 2950
+F 0 "#PWR?" H 5900 2700 50  0001 C CNN
+F 1 "Earth" H 5900 2800 50  0001 C CNN
+F 2 "" H 5900 2950 50  0001 C CNN
+F 3 "~" H 5900 2950 50  0001 C CNN
+	1    5900 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 2950 5900 2900
+Wire Wire Line
+	6100 2900 5900 2900
+Connection ~ 5900 2900
+Wire Wire Line
+	5900 2900 5900 2850
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 62983671
+P 5200 6500
+F 0 "J?" H 5092 6175 50  0000 C CNN
+F 1 "+12v_Conn" H 5092 6266 50  0000 C CNN
+F 2 "" H 5200 6500 50  0001 C CNN
+F 3 "~" H 5200 6500 50  0001 C CNN
+	1    5200 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 62984334
+P 5200 7000
+F 0 "J?" H 5092 6675 50  0000 C CNN
+F 1 "GND_Con" H 5092 6766 50  0000 C CNN
+F 2 "" H 5200 7000 50  0001 C CNN
+F 3 "~" H 5200 7000 50  0001 C CNN
+	1    5200 7000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 62984AED
+P 5200 7500
+F 0 "J?" H 5092 7175 50  0000 C CNN
+F 1 "-12v_Conn" H 5092 7266 50  0000 C CNN
+F 2 "" H 5200 7500 50  0001 C CNN
+F 3 "~" H 5200 7500 50  0001 C CNN
+	1    5200 7500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 629852AD
+P 5800 6700
+F 0 "C?" H 5915 6746 50  0000 L CNN
+F 1 "10u" H 5915 6655 50  0000 L CNN
+F 2 "" H 5800 6700 50  0001 C CNN
+F 3 "~" H 5800 6700 50  0001 C CNN
+	1    5800 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 62985D93
+P 5800 7200
+F 0 "C?" H 5915 7246 50  0000 L CNN
+F 1 "10u" H 5915 7155 50  0000 L CNN
+F 2 "" H 5800 7200 50  0001 C CNN
+F 3 "~" H 5800 7200 50  0001 C CNN
+	1    5800 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 629863F2
+P 6150 6700
+F 0 "C?" H 6242 6746 50  0000 L CNN
+F 1 "100n" H 6242 6655 50  0000 L CNN
+F 2 "" H 6150 6700 50  0001 C CNN
+F 3 "~" H 6150 6700 50  0001 C CNN
+	1    6150 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 62986EE8
+P 6150 7200
+F 0 "C?" H 6242 7246 50  0000 L CNN
+F 1 "100n" H 6242 7155 50  0000 L CNN
+F 2 "" H 6150 7200 50  0001 C CNN
+F 3 "~" H 6150 7200 50  0001 C CNN
+	1    6150 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 629873B1
+P 6600 7200
+F 0 "C?" H 6692 7246 50  0000 L CNN
+F 1 "100n" H 6692 7155 50  0000 L CNN
+F 2 "" H 6600 7200 50  0001 C CNN
+F 3 "~" H 6600 7200 50  0001 C CNN
+	1    6600 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 62987835
+P 6600 6700
+F 0 "C?" H 6692 6746 50  0000 L CNN
+F 1 "100n" H 6692 6655 50  0000 L CNN
+F 2 "" H 6600 6700 50  0001 C CNN
+F 3 "~" H 6600 6700 50  0001 C CNN
+	1    6600 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 6400 5450 6400
+Wire Wire Line
+	6600 6400 6600 6600
+Wire Wire Line
+	6150 6600 6150 6400
+Connection ~ 6150 6400
+Wire Wire Line
+	6150 6400 6600 6400
+Wire Wire Line
+	5800 6550 5800 6400
+Connection ~ 5800 6400
+Wire Wire Line
+	5800 6400 6150 6400
+Wire Wire Line
+	5400 6500 5450 6500
+Wire Wire Line
+	5450 6500 5450 6400
+Connection ~ 5450 6400
+Wire Wire Line
+	5450 6400 5800 6400
+Wire Wire Line
+	5400 6900 5800 6900
+Wire Wire Line
+	5800 6900 5800 6850
+Wire Wire Line
+	5800 6900 6150 6900
+Wire Wire Line
+	6150 6900 6150 6800
+Connection ~ 5800 6900
+Wire Wire Line
+	6150 6900 6600 6900
+Wire Wire Line
+	6600 6900 6600 6800
+Connection ~ 6150 6900
+Wire Wire Line
+	5400 7000 5800 7000
+Wire Wire Line
+	5800 7000 5800 7050
+Wire Wire Line
+	5800 7000 6150 7000
+Wire Wire Line
+	6150 7000 6150 7100
+Connection ~ 5800 7000
+Wire Wire Line
+	6150 7000 6600 7000
+Wire Wire Line
+	6600 7000 6600 7100
+Connection ~ 6150 7000
+Wire Wire Line
+	6600 7000 6600 6900
+Connection ~ 6600 7000
+Connection ~ 6600 6900
+Wire Wire Line
+	5400 7500 5450 7500
+Wire Wire Line
+	6600 7500 6600 7300
+Wire Wire Line
+	6150 7300 6150 7500
+Connection ~ 6150 7500
+Wire Wire Line
+	6150 7500 6600 7500
+Wire Wire Line
+	5800 7350 5800 7500
+Connection ~ 5800 7500
+Wire Wire Line
+	5800 7500 6150 7500
+Wire Wire Line
+	5400 7400 5450 7400
+Wire Wire Line
+	5450 7400 5450 7500
+Connection ~ 5450 7500
+Wire Wire Line
+	5450 7500 5800 7500
+$Comp
+L power:+12V #PWR?
+U 1 1 629AF3F6
+P 6150 6400
+F 0 "#PWR?" H 6150 6250 50  0001 C CNN
+F 1 "+12V" H 6165 6573 50  0000 C CNN
+F 2 "" H 6150 6400 50  0001 C CNN
+F 3 "" H 6150 6400 50  0001 C CNN
+	1    6150 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR?
+U 1 1 629B0518
+P 6150 7500
+F 0 "#PWR?" H 6150 7600 50  0001 C CNN
+F 1 "-12V" H 6165 7673 50  0000 C CNN
+F 2 "" H 6150 7500 50  0001 C CNN
+F 3 "" H 6150 7500 50  0001 C CNN
+	1    6150 7500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 629B113D
+P 6600 6900
+F 0 "#PWR?" H 6600 6650 50  0001 C CNN
+F 1 "Earth" H 6600 6750 50  0001 C CNN
+F 2 "" H 6600 6900 50  0001 C CNN
+F 3 "~" H 6600 6900 50  0001 C CNN
+	1    6600 6900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 629B1CA1
+P 6600 6400
+F 0 "#FLG?" H 6600 6475 50  0001 C CNN
+F 1 "PWR_FLAG" H 6600 6573 50  0000 C CNN
+F 2 "" H 6600 6400 50  0001 C CNN
+F 3 "~" H 6600 6400 50  0001 C CNN
+	1    6600 6400
+	1    0    0    -1  
+$EndComp
+Connection ~ 6600 6400
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 629B2667
+P 6600 7000
+F 0 "#FLG?" H 6600 7075 50  0001 C CNN
+F 1 "PWR_FLAG" V 6600 7128 50  0000 L CNN
+F 2 "" H 6600 7000 50  0001 C CNN
+F 3 "~" H 6600 7000 50  0001 C CNN
+	1    6600 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 629B2C60
+P 6600 7500
+F 0 "#FLG?" H 6600 7575 50  0001 C CNN
+F 1 "PWR_FLAG" H 6600 7673 50  0000 C CNN
+F 2 "" H 6600 7500 50  0001 C CNN
+F 3 "~" H 6600 7500 50  0001 C CNN
+	1    6600 7500
+	-1   0    0    1   
+$EndComp
+Connection ~ 6600 7500
+Connection ~ 5000 650 
+Wire Wire Line
+	5000 650  5200 650 
+Wire Wire Line
+	4850 650  5000 650 
+Wire Wire Line
+	3650 2550 3650 2500
+Wire Wire Line
+	3600 2550 3650 2550
+Wire Wire Line
+	2850 2550 2900 2550
+Wire Wire Line
+	2850 2600 2850 2550
+$Comp
+L power:Earth #PWR?
+U 1 1 6297FB97
+P 2850 2600
+F 0 "#PWR?" H 2850 2350 50  0001 C CNN
+F 1 "Earth" H 2850 2450 50  0001 C CNN
+F 2 "" H 2850 2600 50  0001 C CNN
+F 3 "~" H 2850 2600 50  0001 C CNN
+	1    2850 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 6297F315
+P 3650 2500
+F 0 "#PWR?" H 3650 2350 50  0001 C CNN
+F 1 "+12V" H 3665 2673 50  0000 C CNN
+F 2 "" H 3650 2500 50  0001 C CNN
+F 3 "" H 3650 2500 50  0001 C CNN
+	1    3650 2500
+	1    0    0    -1  
+$EndComp
+Connection ~ 3250 2550
+Wire Wire Line
+	3200 2550 3250 2550
+Wire Wire Line
+	3300 2550 3250 2550
+Wire Wire Line
+	3250 1900 3250 2550
+Wire Wire Line
+	3300 1900 3250 1900
+$Comp
+L Device:R_US R?
+U 1 1 6297990C
+P 3050 2550
+F 0 "R?" V 3255 2550 50  0000 C CNN
+F 1 "15k" V 3164 2550 50  0000 C CNN
+F 2 "" V 3090 2540 50  0001 C CNN
+F 3 "~" H 3050 2550 50  0001 C CNN
+	1    3050 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 62979566
+P 3450 2550
+F 0 "R?" V 3655 2550 50  0000 C CNN
+F 1 "100k" V 3564 2550 50  0000 C CNN
+F 2 "" V 3490 2540 50  0001 C CNN
+F 3 "~" H 3450 2550 50  0001 C CNN
+	1    3450 2550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7750 2000
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62978A48
+P 7950 2000
+F 0 "J?" H 7978 2026 50  0000 L CNN
+F 1 "OUT" H 7978 1935 50  0000 L CNN
+F 2 "" H 7950 2000 50  0001 C CNN
+F 3 "~" H 7950 2000 50  0001 C CNN
+	1    7950 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 629782D2
+P 7750 2350
+F 0 "#PWR?" H 7750 2100 50  0001 C CNN
+F 1 "Earth" H 7750 2200 50  0001 C CNN
+F 2 "" H 7750 2350 50  0001 C CNN
+F 3 "~" H 7750 2350 50  0001 C CNN
+	1    7750 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 2000 7750 2050
+$Comp
+L Device:R_US R?
+U 1 1 629766D3
+P 7750 2200
+F 0 "R?" H 7682 2154 50  0000 R CNN
+F 1 "100k" H 7682 2245 50  0000 R CNN
+F 2 "" V 7790 2190 50  0001 C CNN
+F 3 "~" H 7750 2200 50  0001 C CNN
+	1    7750 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 62975C1F
+P 7600 2000
+F 0 "C?" V 7852 2000 50  0000 C CNN
+F 1 "10u" V 7761 2000 50  0000 C CNN
+F 2 "" H 7600 2000 50  0001 C CNN
+F 3 "~" H 7600 2000 50  0001 C CNN
+	1    7600 2000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7100 2000
+Wire Wire Line
+	7150 2000 7100 2000
+$Comp
+L Device:R_US R?
+U 1 1 62973BAE
+P 7300 2000
+F 0 "R?" V 7095 2000 50  0000 C CNN
+F 1 "1k" V 7186 2000 50  0000 C CNN
+F 2 "" V 7340 1990 50  0001 C CNN
+F 3 "~" H 7300 2000 50  0001 C CNN
+	1    7300 2000
+	0    1    1    0   
+$EndComp
+Connection ~ 7100 1650
+Wire Wire Line
+	7100 1300 6900 1300
+Wire Wire Line
+	7100 1650 7100 1300
+Wire Wire Line
+	7100 2000 7050 2000
+Wire Wire Line
+	7100 1650 7100 2000
+Wire Wire Line
+	6950 1650 7100 1650
+Wire Wire Line
+	6400 1650 6400 1900
+Connection ~ 6400 1650
+Wire Wire Line
+	6650 1650 6400 1650
+Wire Wire Line
+	6400 1900 6250 1900
+Connection ~ 6400 1900
+Wire Wire Line
+	6400 1300 6400 1650
+Wire Wire Line
+	6700 1300 6400 1300
+$Comp
+L Device:C_Small C?
+U 1 1 6296FDF8
+P 6800 1300
+F 0 "C?" V 7029 1300 50  0000 C CNN
+F 1 "47p" V 6938 1300 50  0000 C CNN
+F 2 "" H 6800 1300 50  0001 C CNN
+F 3 "~" H 6800 1300 50  0001 C CNN
+	1    6800 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 6296F94D
+P 6800 1650
+F 0 "R?" V 6595 1650 50  0000 C CNN
+F 1 "100k" V 6686 1650 50  0000 C CNN
+F 2 "" V 6840 1640 50  0001 C CNN
+F 3 "~" H 6800 1650 50  0001 C CNN
+	1    6800 1650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6450 1900 6400 1900
+Wire Wire Line
+	6400 2100 6450 2100
+Wire Wire Line
+	6400 2150 6400 2100
+$Comp
+L power:Earth #PWR?
+U 1 1 6296D7EF
+P 6400 2150
+F 0 "#PWR?" H 6400 1900 50  0001 C CNN
+F 1 "Earth" H 6400 2000 50  0001 C CNN
+F 2 "" H 6400 2150 50  0001 C CNN
+F 3 "~" H 6400 2150 50  0001 C CNN
+	1    6400 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U?
+U 2 1 62968D77
+P 6750 2000
+F 0 "U?" H 6800 1800 50  0000 C CNN
+F 1 "TL072" H 6950 1900 50  0000 C CNN
+F 2 "" H 6750 2000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6750 2000 50  0001 C CNN
+	2    6750 2000
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6100 2700 6100 2900
+Wire Wire Line
+	6050 2700 6100 2700
+Wire Wire Line
+	5900 2250 5900 2550
+$Comp
+L Device:R_POT_US RV?
+U 1 1 629657B9
+P 5900 2700
+F 0 "RV?" H 5832 2746 50  0000 R CNN
+F 1 "50k" H 5832 2655 50  0000 R CNN
+F 2 "" H 5900 2700 50  0001 C CNN
+F 3 "~" H 5900 2700 50  0001 C CNN
+	1    5900 2700
+	1    0    0    -1  
+$EndComp
+Connection ~ 5900 1900
+Wire Wire Line
+	5950 1900 5900 1900
+Wire Wire Line
+	5900 1900 5850 1900
+Wire Wire Line
+	5900 1950 5900 1900
+$Comp
+L Device:LED D?
+U 1 1 6296374B
+P 5900 2100
+F 0 "D?" V 5939 1983 50  0000 R CNN
+F 1 "LED" V 5848 1983 50  0000 R CNN
+F 2 "" H 5900 2100 50  0001 C CNN
+F 3 "~" H 5900 2100 50  0001 C CNN
+	1    5900 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 629631E7
+P 6100 1900
+F 0 "R?" V 5895 1900 50  0000 C CNN
+F 1 "100k" V 5986 1900 50  0000 C CNN
+F 2 "" V 6140 1890 50  0001 C CNN
+F 3 "~" H 6100 1900 50  0001 C CNN
+	1    6100 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5550 1900 5450 1900
+$Comp
+L Device:R_US R?
+U 1 1 62962457
+P 5700 1900
+F 0 "R?" V 5495 1900 50  0000 C CNN
+F 1 "6k8" V 5586 1900 50  0000 C CNN
+F 2 "" V 5740 1890 50  0001 C CNN
+F 3 "~" H 5700 1900 50  0001 C CNN
+	1    5700 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 6296208E
+P 4300 2900
+F 0 "#PWR?" H 4300 2650 50  0001 C CNN
+F 1 "Earth" H 4300 2750 50  0001 C CNN
+F 2 "" H 4300 2900 50  0001 C CNN
+F 3 "~" H 4300 2900 50  0001 C CNN
+	1    4300 2900
+	1    0    0    -1  
+$EndComp
+Connection ~ 4300 1800
+$Comp
+L Device:R_US R?
+U 1 1 62961512
+P 4300 2750
+F 0 "R?" H 4232 2704 50  0000 R CNN
+F 1 "680" H 4232 2795 50  0000 R CNN
+F 2 "" V 4340 2740 50  0001 C CNN
+F 3 "~" H 4300 2750 50  0001 C CNN
+	1    4300 2750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 2000 4600 2000
+Wire Wire Line
+	4500 2500 4500 2000
+Wire Wire Line
+	4550 2500 4500 2500
+Text Notes 5650 2350 0    50   ~ 0
+RES
+$Comp
+L power:Earth #PWR?
+U 1 1 629603E1
+P 5450 2650
+F 0 "#PWR?" H 5450 2400 50  0001 C CNN
+F 1 "Earth" H 5450 2500 50  0001 C CNN
+F 2 "" H 5450 2650 50  0001 C CNN
+F 3 "~" H 5450 2650 50  0001 C CNN
+	1    5450 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2500 4850 2500
+Connection ~ 5450 1900
+Wire Wire Line
+	5450 2350 5450 1900
+$Comp
+L Device:R_POT_US RV?
+U 1 1 6295EA68
+P 5450 2500
+F 0 "RV?" H 5382 2454 50  0000 R CNN
+F 1 "100k" H 5382 2545 50  0000 R CNN
+F 2 "" H 5450 2500 50  0001 C CNN
+F 3 "~" H 5450 2500 50  0001 C CNN
+	1    5450 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 6295D777
+P 4700 2500
+F 0 "R?" V 4495 2500 50  0000 C CNN
+F 1 "2M2" V 4586 2500 50  0000 C CNN
+F 2 "" V 4740 2490 50  0001 C CNN
+F 3 "~" H 4700 2500 50  0001 C CNN
+	1    4700 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 1250 4600 1250
+Wire Wire Line
+	5450 1250 5450 1900
+Connection ~ 5450 1250
+Wire Wire Line
+	5350 1250 5450 1250
+Wire Wire Line
+	5450 1900 5250 1900
+Wire Wire Line
+	5450 650  5450 1250
+Wire Wire Line
+	4600 650  4600 1250
+$Comp
+L Device:C_Small C?
+U 1 1 6295B3A2
+P 5300 650
+F 0 "C?" V 5529 650 50  0000 C CNN
+F 1 "1n" V 5438 650 50  0000 C CNN
+F 2 "" H 5300 650 50  0001 C CNN
+F 3 "~" H 5300 650 50  0001 C CNN
+	1    5300 650 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6295AE69
+P 4750 650
+F 0 "C?" V 4979 650 50  0000 C CNN
+F 1 "1n" V 4888 650 50  0000 C CNN
+F 2 "" H 4750 650 50  0001 C CNN
+F 3 "~" H 4750 650 50  0001 C CNN
+	1    4750 650 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 6295A95E
+P 5000 950
+F 0 "#PWR?" H 5000 700 50  0001 C CNN
+F 1 "Earth" H 5000 800 50  0001 C CNN
+F 2 "" H 5000 950 50  0001 C CNN
+F 3 "~" H 5000 950 50  0001 C CNN
+	1    5000 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 6295A23E
+P 5000 800
+F 0 "R?" H 4932 754 50  0000 R CNN
+F 1 "470k" H 4932 845 50  0000 R CNN
+F 2 "" V 5040 790 50  0001 C CNN
+F 3 "~" H 5000 800 50  0001 C CNN
+	1    5000 800 
+	-1   0    0    1   
+$EndComp
+Connection ~ 5000 1250
+Wire Wire Line
+	5050 1250 5000 1250
+Wire Wire Line
+	5000 1250 4950 1250
+Wire Wire Line
+	5000 1300 5000 1250
+$Comp
+L Device:R_US R?
+U 1 1 629594F1
+P 5200 1250
+F 0 "R?" V 4995 1250 50  0000 C CNN
+F 1 "1M5" V 5086 1250 50  0000 C CNN
+F 2 "" V 5240 1240 50  0001 C CNN
+F 3 "~" H 5200 1250 50  0001 C CNN
+	1    5200 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 62958F02
+P 4800 1250
+F 0 "R?" V 4595 1250 50  0000 C CNN
+F 1 "1M5" V 4686 1250 50  0000 C CNN
+F 2 "" V 4840 1240 50  0001 C CNN
+F 3 "~" H 4800 1250 50  0001 C CNN
+	1    4800 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 629584B1
+P 5000 1500
+F 0 "#PWR?" H 5000 1250 50  0001 C CNN
+F 1 "Earth" H 5000 1350 50  0001 C CNN
+F 2 "" H 5000 1500 50  0001 C CNN
+F 3 "~" H 5000 1500 50  0001 C CNN
+	1    5000 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6295755E
+P 5000 1400
+F 0 "C?" H 4908 1354 50  0000 R CNN
+F 1 "10n" H 4908 1445 50  0000 R CNN
+F 2 "" H 5000 1400 50  0001 C CNN
+F 3 "~" H 5000 1400 50  0001 C CNN
+	1    5000 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U?
+U 1 1 6294A708
+P 4950 1900
+F 0 "U?" H 5150 2150 50  0000 C CNN
+F 1 "TL072" H 5150 2050 50  0000 C CNN
+F 2 "" H 4950 1900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4950 1900 50  0001 C CNN
+	1    4950 1900
+	1    0    0    -1  
+$EndComp
+Connection ~ 1850 1700
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62949DEE
+P 1650 1700
+F 0 "J?" H 1542 1475 50  0000 C CNN
+F 1 "in1" H 1542 1566 50  0000 C CNN
+F 2 "" H 1650 1700 50  0001 C CNN
+F 3 "~" H 1650 1700 50  0001 C CNN
+	1    1650 1700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3950 1800 3900 1800
+Connection ~ 3950 1800
+Wire Wire Line
+	3950 1250 3750 1250
+Wire Wire Line
+	3950 1800 3950 1250
+Wire Wire Line
+	4000 1800 3950 1800
+$Comp
+L Device:R_US R?
+U 1 1 62948A67
+P 4150 1800
+F 0 "R?" V 3945 1800 50  0000 C CNN
+F 1 "22k" V 4036 1800 50  0000 C CNN
+F 2 "" V 4190 1790 50  0001 C CNN
+F 3 "~" H 4150 1800 50  0001 C CNN
+	1    4150 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 629485CF
+P 2550 2100
+F 0 "#PWR?" H 2550 1850 50  0001 C CNN
+F 1 "Earth" H 2550 1950 50  0001 C CNN
+F 2 "" H 2550 2100 50  0001 C CNN
+F 3 "~" H 2550 2100 50  0001 C CNN
+	1    2550 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 62947E44
+P 1850 2100
+F 0 "#PWR?" H 1850 1850 50  0001 C CNN
+F 1 "Earth" H 1850 1950 50  0001 C CNN
+F 2 "" H 1850 2100 50  0001 C CNN
+F 3 "~" H 1850 2100 50  0001 C CNN
+	1    1850 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 1700 1950 1700
+Wire Wire Line
+	1850 1800 1850 1700
+Wire Wire Line
+	2550 1700 2550 1800
+Wire Wire Line
+	2550 1700 2450 1700
+Connection ~ 2550 1700
+Connection ~ 3250 1700
+Wire Wire Line
+	3250 1700 2550 1700
+Wire Wire Line
+	3250 1700 3300 1700
+Wire Wire Line
+	3250 1250 3250 1700
+Wire Wire Line
+	3450 1250 3250 1250
+$Comp
+L Device:R_US R?
+U 1 1 62946F2F
+P 3600 1250
+F 0 "R?" V 3395 1250 50  0000 C CNN
+F 1 "4M7" V 3486 1250 50  0000 C CNN
+F 2 "" V 3640 1240 50  0001 C CNN
+F 3 "~" H 3600 1250 50  0001 C CNN
+	1    3600 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U?
+U 1 1 62941EFF
+P 3600 1800
+F 0 "U?" H 3600 2167 50  0000 C CNN
+F 1 "TL072" H 3600 2076 50  0000 C CNN
+F 2 "" H 3600 1800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3600 1800 50  0001 C CNN
+	1    3600 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 629413E7
+P 2550 1950
+F 0 "R?" H 2618 1996 50  0000 L CNN
+F 1 "100k" H 2618 1905 50  0000 L CNN
+F 2 "" V 2590 1940 50  0001 C CNN
+F 3 "~" H 2550 1950 50  0001 C CNN
+	1    2550 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6294031F
+P 2050 1700
+F 0 "C?" V 1821 1700 50  0000 C CNN
+F 1 "10n" V 1912 1700 50  0000 C CNN
+F 2 "" H 2050 1700 50  0001 C CNN
+F 3 "~" H 2050 1700 50  0001 C CNN
+	1    2050 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 6293FCBB
+P 2300 1700
+F 0 "R?" V 2095 1700 50  0000 C CNN
+F 1 "47k" V 2186 1700 50  0000 C CNN
+F 2 "" V 2340 1690 50  0001 C CNN
+F 3 "~" H 2300 1700 50  0001 C CNN
+	1    2300 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 6293E9DE
+P 1850 1950
+F 0 "R?" H 1918 1996 50  0000 L CNN
+F 1 "100k" H 1918 1905 50  0000 L CNN
+F 2 "" V 1890 1940 50  0001 C CNN
+F 3 "~" H 1850 1950 50  0001 C CNN
+	1    1850 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3250 4550 3250
+Wire Wire Line
+	5350 3250 5400 3250
+$Comp
+L power:Earth #PWR?
+U 1 1 629EF82E
+P 5850 5550
+F 0 "#PWR?" H 5850 5300 50  0001 C CNN
+F 1 "Earth" H 5850 5400 50  0001 C CNN
+F 2 "" H 5850 5550 50  0001 C CNN
+F 3 "~" H 5850 5550 50  0001 C CNN
+	1    5850 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 5550 5850 5500
+Wire Wire Line
+	6050 5500 5850 5500
+Connection ~ 5850 5500
+Wire Wire Line
+	5850 5500 5850 5450
+Connection ~ 4950 3250
+Wire Wire Line
+	4950 3250 5150 3250
+Wire Wire Line
+	4800 3250 4950 3250
+Wire Wire Line
+	3600 5150 3600 5100
+Wire Wire Line
+	3550 5150 3600 5150
+Wire Wire Line
+	2800 5150 2850 5150
+Wire Wire Line
+	2800 5200 2800 5150
+$Comp
+L power:Earth #PWR?
+U 1 1 629EF83F
+P 2800 5200
+F 0 "#PWR?" H 2800 4950 50  0001 C CNN
+F 1 "Earth" H 2800 5050 50  0001 C CNN
+F 2 "" H 2800 5200 50  0001 C CNN
+F 3 "~" H 2800 5200 50  0001 C CNN
+	1    2800 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 629EF845
+P 3600 5100
+F 0 "#PWR?" H 3600 4950 50  0001 C CNN
+F 1 "+12V" H 3615 5273 50  0000 C CNN
+F 2 "" H 3600 5100 50  0001 C CNN
+F 3 "" H 3600 5100 50  0001 C CNN
+	1    3600 5100
+	1    0    0    -1  
+$EndComp
+Connection ~ 3200 5150
+Wire Wire Line
+	3150 5150 3200 5150
+Wire Wire Line
+	3250 5150 3200 5150
+Wire Wire Line
+	3200 4500 3200 5150
+Wire Wire Line
+	3250 4500 3200 4500
+$Comp
+L Device:R_US R?
+U 1 1 629EF850
+P 3000 5150
+F 0 "R?" V 3205 5150 50  0000 C CNN
+F 1 "15k" V 3114 5150 50  0000 C CNN
+F 2 "" V 3040 5140 50  0001 C CNN
+F 3 "~" H 3000 5150 50  0001 C CNN
+	1    3000 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 629EF856
+P 3400 5150
+F 0 "R?" V 3605 5150 50  0000 C CNN
+F 1 "100k" V 3514 5150 50  0000 C CNN
+F 2 "" V 3440 5140 50  0001 C CNN
+F 3 "~" H 3400 5150 50  0001 C CNN
+	1    3400 5150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7700 4600
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 629EF85D
+P 7900 4600
+F 0 "J?" H 7928 4626 50  0000 L CNN
+F 1 "OUT" H 7928 4535 50  0000 L CNN
+F 2 "" H 7900 4600 50  0001 C CNN
+F 3 "~" H 7900 4600 50  0001 C CNN
+	1    7900 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 629EF863
+P 7700 4950
+F 0 "#PWR?" H 7700 4700 50  0001 C CNN
+F 1 "Earth" H 7700 4800 50  0001 C CNN
+F 2 "" H 7700 4950 50  0001 C CNN
+F 3 "~" H 7700 4950 50  0001 C CNN
+	1    7700 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 4600 7700 4650
+$Comp
+L Device:R_US R?
+U 1 1 629EF86A
+P 7700 4800
+F 0 "R?" H 7632 4754 50  0000 R CNN
+F 1 "100k" H 7632 4845 50  0000 R CNN
+F 2 "" V 7740 4790 50  0001 C CNN
+F 3 "~" H 7700 4800 50  0001 C CNN
+	1    7700 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 629EF870
+P 7550 4600
+F 0 "C?" V 7802 4600 50  0000 C CNN
+F 1 "10u" V 7711 4600 50  0000 C CNN
+F 2 "" H 7550 4600 50  0001 C CNN
+F 3 "~" H 7550 4600 50  0001 C CNN
+	1    7550 4600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7050 4600
+Wire Wire Line
+	7100 4600 7050 4600
+$Comp
+L Device:R_US R?
+U 1 1 629EF878
+P 7250 4600
+F 0 "R?" V 7045 4600 50  0000 C CNN
+F 1 "1k" V 7136 4600 50  0000 C CNN
+F 2 "" V 7290 4590 50  0001 C CNN
+F 3 "~" H 7250 4600 50  0001 C CNN
+	1    7250 4600
+	0    1    1    0   
+$EndComp
+Connection ~ 7050 4250
+Wire Wire Line
+	7050 3900 6850 3900
+Wire Wire Line
+	7050 4250 7050 3900
+Wire Wire Line
+	7050 4600 7000 4600
+Wire Wire Line
+	7050 4250 7050 4600
+Wire Wire Line
+	6900 4250 7050 4250
+Wire Wire Line
+	6350 4250 6350 4500
+Connection ~ 6350 4250
+Wire Wire Line
+	6600 4250 6350 4250
+Wire Wire Line
+	6350 4500 6200 4500
+Connection ~ 6350 4500
+Wire Wire Line
+	6350 3900 6350 4250
+Wire Wire Line
+	6650 3900 6350 3900
+$Comp
+L Device:C_Small C?
+U 1 1 629EF88B
+P 6750 3900
+F 0 "C?" V 6979 3900 50  0000 C CNN
+F 1 "47p" V 6888 3900 50  0000 C CNN
+F 2 "" H 6750 3900 50  0001 C CNN
+F 3 "~" H 6750 3900 50  0001 C CNN
+	1    6750 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 629EF891
+P 6750 4250
+F 0 "R?" V 6545 4250 50  0000 C CNN
+F 1 "100k" V 6636 4250 50  0000 C CNN
+F 2 "" V 6790 4240 50  0001 C CNN
+F 3 "~" H 6750 4250 50  0001 C CNN
+	1    6750 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6400 4500 6350 4500
+Wire Wire Line
+	6350 4700 6400 4700
+Wire Wire Line
+	6350 4750 6350 4700
+$Comp
+L power:Earth #PWR?
+U 1 1 629EF89A
+P 6350 4750
+F 0 "#PWR?" H 6350 4500 50  0001 C CNN
+F 1 "Earth" H 6350 4600 50  0001 C CNN
+F 2 "" H 6350 4750 50  0001 C CNN
+F 3 "~" H 6350 4750 50  0001 C CNN
+	1    6350 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U?
+U 2 1 629EF8A0
+P 6700 4600
+F 0 "U?" H 6750 4400 50  0000 C CNN
+F 1 "TL072" H 6900 4500 50  0000 C CNN
+F 2 "" H 6700 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6700 4600 50  0001 C CNN
+	2    6700 4600
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6050 5300 6050 5500
+Wire Wire Line
+	6000 5300 6050 5300
+Wire Wire Line
+	5850 4850 5850 5150
+$Comp
+L Device:R_POT_US RV?
+U 1 1 629EF8A9
+P 5850 5300
+F 0 "RV?" H 5782 5346 50  0000 R CNN
+F 1 "50k" H 5782 5255 50  0000 R CNN
+F 2 "" H 5850 5300 50  0001 C CNN
+F 3 "~" H 5850 5300 50  0001 C CNN
+	1    5850 5300
+	1    0    0    -1  
+$EndComp
+Connection ~ 5850 4500
+Wire Wire Line
+	5900 4500 5850 4500
+Wire Wire Line
+	5850 4500 5800 4500
+Wire Wire Line
+	5850 4550 5850 4500
+$Comp
+L Device:LED D?
+U 1 1 629EF8B3
+P 5850 4700
+F 0 "D?" V 5889 4583 50  0000 R CNN
+F 1 "LED" V 5798 4583 50  0000 R CNN
+F 2 "" H 5850 4700 50  0001 C CNN
+F 3 "~" H 5850 4700 50  0001 C CNN
+	1    5850 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 629EF8B9
+P 6050 4500
+F 0 "R?" V 5845 4500 50  0000 C CNN
+F 1 "100k" V 5936 4500 50  0000 C CNN
+F 2 "" V 6090 4490 50  0001 C CNN
+F 3 "~" H 6050 4500 50  0001 C CNN
+	1    6050 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 4500 5400 4500
+$Comp
+L Device:R_US R?
+U 1 1 629EF8C0
+P 5650 4500
+F 0 "R?" V 5445 4500 50  0000 C CNN
+F 1 "6k8" V 5536 4500 50  0000 C CNN
+F 2 "" V 5690 4490 50  0001 C CNN
+F 3 "~" H 5650 4500 50  0001 C CNN
+	1    5650 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 629EF8C6
+P 4250 4850
+F 0 "#PWR?" H 4250 4600 50  0001 C CNN
+F 1 "Earth" H 4250 4700 50  0001 C CNN
+F 2 "" H 4250 4850 50  0001 C CNN
+F 3 "~" H 4250 4850 50  0001 C CNN
+	1    4250 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 4250 4400
+Wire Wire Line
+	4250 4550 4250 4400
+$Comp
+L Device:R_US R?
+U 1 1 629EF8CE
+P 4250 4700
+F 0 "R?" H 4182 4654 50  0000 R CNN
+F 1 "2k2?" H 4182 4745 50  0000 R CNN
+F 2 "" V 4290 4690 50  0001 C CNN
+F 3 "~" H 4250 4700 50  0001 C CNN
+	1    4250 4700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4450 4600 4550 4600
+Wire Wire Line
+	4450 5100 4450 4600
+Wire Wire Line
+	4500 5100 4450 5100
+Text Notes 5600 4950 0    50   ~ 0
+RES
+$Comp
+L power:Earth #PWR?
+U 1 1 629EF8D8
+P 5400 5250
+F 0 "#PWR?" H 5400 5000 50  0001 C CNN
+F 1 "Earth" H 5400 5100 50  0001 C CNN
+F 2 "" H 5400 5250 50  0001 C CNN
+F 3 "~" H 5400 5250 50  0001 C CNN
+	1    5400 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 5100 4800 5100
+Connection ~ 5400 4500
+Wire Wire Line
+	5400 4950 5400 4500
+$Comp
+L Device:R_POT_US RV?
+U 1 1 629EF8E1
+P 5400 5100
+F 0 "RV?" H 5332 5054 50  0000 R CNN
+F 1 "100k" H 5332 5145 50  0000 R CNN
+F 2 "" H 5400 5100 50  0001 C CNN
+F 3 "~" H 5400 5100 50  0001 C CNN
+	1    5400 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 629EF8E7
+P 4650 5100
+F 0 "R?" V 4445 5100 50  0000 C CNN
+F 1 "2M2" V 4536 5100 50  0000 C CNN
+F 2 "" V 4690 5090 50  0001 C CNN
+F 3 "~" H 4650 5100 50  0001 C CNN
+	1    4650 5100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 3850 4550 3850
+Wire Wire Line
+	5400 3850 5400 4500
+Connection ~ 5400 3850
+Wire Wire Line
+	5300 3850 5400 3850
+Wire Wire Line
+	5400 4500 5200 4500
+Wire Wire Line
+	5400 3250 5400 3850
+Wire Wire Line
+	4550 3250 4550 3850
+$Comp
+L Device:C_Small C?
+U 1 1 629EF8F8
+P 5250 3250
+F 0 "C?" V 5479 3250 50  0000 C CNN
+F 1 "1n" V 5388 3250 50  0000 C CNN
+F 2 "" H 5250 3250 50  0001 C CNN
+F 3 "~" H 5250 3250 50  0001 C CNN
+	1    5250 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 629EF8FE
+P 4700 3250
+F 0 "C?" V 4929 3250 50  0000 C CNN
+F 1 "1n" V 4838 3250 50  0000 C CNN
+F 2 "" H 4700 3250 50  0001 C CNN
+F 3 "~" H 4700 3250 50  0001 C CNN
+	1    4700 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 629EF904
+P 4950 3550
+F 0 "#PWR?" H 4950 3300 50  0001 C CNN
+F 1 "Earth" H 4950 3400 50  0001 C CNN
+F 2 "" H 4950 3550 50  0001 C CNN
+F 3 "~" H 4950 3550 50  0001 C CNN
+	1    4950 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 629EF90A
+P 4950 3400
+F 0 "R?" H 4882 3354 50  0000 R CNN
+F 1 "470k" H 4882 3445 50  0000 R CNN
+F 2 "" V 4990 3390 50  0001 C CNN
+F 3 "~" H 4950 3400 50  0001 C CNN
+	1    4950 3400
+	-1   0    0    1   
+$EndComp
+Connection ~ 4950 3850
+Wire Wire Line
+	5000 3850 4950 3850
+Wire Wire Line
+	4950 3850 4900 3850
+Wire Wire Line
+	4950 3900 4950 3850
+$Comp
+L Device:R_US R?
+U 1 1 629EF914
+P 5150 3850
+F 0 "R?" V 4945 3850 50  0000 C CNN
+F 1 "1M5" V 5036 3850 50  0000 C CNN
+F 2 "" V 5190 3840 50  0001 C CNN
+F 3 "~" H 5150 3850 50  0001 C CNN
+	1    5150 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 629EF91A
+P 4750 3850
+F 0 "R?" V 4545 3850 50  0000 C CNN
+F 1 "1M5" V 4636 3850 50  0000 C CNN
+F 2 "" V 4790 3840 50  0001 C CNN
+F 3 "~" H 4750 3850 50  0001 C CNN
+	1    4750 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 629EF920
+P 4950 4100
+F 0 "#PWR?" H 4950 3850 50  0001 C CNN
+F 1 "Earth" H 4950 3950 50  0001 C CNN
+F 2 "" H 4950 4100 50  0001 C CNN
+F 3 "~" H 4950 4100 50  0001 C CNN
+	1    4950 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 629EF926
+P 4950 4000
+F 0 "C?" H 4858 3954 50  0000 R CNN
+F 1 "10n" H 4858 4045 50  0000 R CNN
+F 2 "" H 4950 4000 50  0001 C CNN
+F 3 "~" H 4950 4000 50  0001 C CNN
+	1    4950 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U?
+U 1 1 629EF92D
+P 4900 4500
+F 0 "U?" H 5100 4750 50  0000 C CNN
+F 1 "TL072" H 5100 4650 50  0000 C CNN
+F 2 "" H 4900 4500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4900 4500 50  0001 C CNN
+	1    4900 4500
+	1    0    0    -1  
+$EndComp
+Connection ~ 1800 4300
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 629EF934
+P 1600 4300
+F 0 "J?" H 1492 4075 50  0000 C CNN
+F 1 "in1" H 1492 4166 50  0000 C CNN
+F 2 "" H 1600 4300 50  0001 C CNN
+F 3 "~" H 1600 4300 50  0001 C CNN
+	1    1600 4300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3900 4400 3850 4400
+Connection ~ 3900 4400
+Wire Wire Line
+	3900 3850 3700 3850
+Wire Wire Line
+	3900 4400 3900 3850
+Wire Wire Line
+	3950 4400 3900 4400
+$Comp
+L Device:R_US R?
+U 1 1 629EF93F
+P 4100 4400
+F 0 "R?" V 3895 4400 50  0000 C CNN
+F 1 "22k" V 3986 4400 50  0000 C CNN
+F 2 "" V 4140 4390 50  0001 C CNN
+F 3 "~" H 4100 4400 50  0001 C CNN
+	1    4100 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 629EF945
+P 2500 4700
+F 0 "#PWR?" H 2500 4450 50  0001 C CNN
+F 1 "Earth" H 2500 4550 50  0001 C CNN
+F 2 "" H 2500 4700 50  0001 C CNN
+F 3 "~" H 2500 4700 50  0001 C CNN
+	1    2500 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 629EF94B
+P 1800 4700
+F 0 "#PWR?" H 1800 4450 50  0001 C CNN
+F 1 "Earth" H 1800 4550 50  0001 C CNN
+F 2 "" H 1800 4700 50  0001 C CNN
+F 3 "~" H 1800 4700 50  0001 C CNN
+	1    1800 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 4300 1900 4300
+Wire Wire Line
+	1800 4400 1800 4300
+Wire Wire Line
+	2500 4300 2500 4400
+Wire Wire Line
+	2500 4300 2400 4300
+Connection ~ 2500 4300
+Connection ~ 3200 4300
+Wire Wire Line
+	3200 4300 2500 4300
+Wire Wire Line
+	3200 4300 3250 4300
+Wire Wire Line
+	3200 3850 3200 4300
+Wire Wire Line
+	3400 3850 3200 3850
+$Comp
+L Device:R_US R?
+U 1 1 629EF95B
+P 3550 3850
+F 0 "R?" V 3345 3850 50  0000 C CNN
+F 1 "4M7" V 3436 3850 50  0000 C CNN
+F 2 "" V 3590 3840 50  0001 C CNN
+F 3 "~" H 3550 3850 50  0001 C CNN
+	1    3550 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U?
+U 1 1 629EF961
+P 3550 4400
+F 0 "U?" H 3550 4767 50  0000 C CNN
+F 1 "TL072" H 3550 4676 50  0000 C CNN
+F 2 "" H 3550 4400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3550 4400 50  0001 C CNN
+	1    3550 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 629EF967
+P 2500 4550
+F 0 "R?" H 2568 4596 50  0000 L CNN
+F 1 "100k" H 2568 4505 50  0000 L CNN
+F 2 "" V 2540 4540 50  0001 C CNN
+F 3 "~" H 2500 4550 50  0001 C CNN
+	1    2500 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 629EF96D
+P 2000 4300
+F 0 "C?" V 1771 4300 50  0000 C CNN
+F 1 "10n" V 1862 4300 50  0000 C CNN
+F 2 "" H 2000 4300 50  0001 C CNN
+F 3 "~" H 2000 4300 50  0001 C CNN
+	1    2000 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 629EF973
+P 2250 4300
+F 0 "R?" V 2045 4300 50  0000 C CNN
+F 1 "47k" V 2136 4300 50  0000 C CNN
+F 2 "" V 2290 4290 50  0001 C CNN
+F 3 "~" H 2250 4300 50  0001 C CNN
+	1    2250 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 629EF979
+P 1800 4550
+F 0 "R?" H 1868 4596 50  0000 L CNN
+F 1 "100k" H 1868 4505 50  0000 L CNN
+F 2 "" V 1840 4540 50  0001 C CNN
+F 3 "~" H 1800 4550 50  0001 C CNN
+	1    1800 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 1800 4650 1800
+Wire Wire Line
+	4600 1250 4600 2000
+Connection ~ 4600 1250
+Connection ~ 4600 2000
+Wire Wire Line
+	4600 2000 4650 2000
+Wire Wire Line
+	4250 4400 4600 4400
+Wire Wire Line
+	4550 3850 4550 4600
+Connection ~ 4550 3850
+Connection ~ 4550 4600
+Wire Wire Line
+	4550 4600 4600 4600
+$Comp
+L Device:R_POT_TRIM_US RV?
+U 1 1 62A1336B
+P 4300 2300
+F 0 "RV?" H 4232 2254 50  0000 R CNN
+F 1 "1k" H 4232 2345 50  0000 R CNN
+F 2 "" H 4300 2300 50  0001 C CNN
+F 3 "~" H 4300 2300 50  0001 C CNN
+	1    4300 2300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4300 2450 4300 2550
+Wire Wire Line
+	4300 2550 4100 2550
+Wire Wire Line
+	4100 2550 4100 2300
+Wire Wire Line
+	4100 2300 4150 2300
+Connection ~ 4300 2550
+Wire Wire Line
+	4300 2550 4300 2600
+Wire Wire Line
+	4300 1800 4300 2150
+$EndSCHEMATC

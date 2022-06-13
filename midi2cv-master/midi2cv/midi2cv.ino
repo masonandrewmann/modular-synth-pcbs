@@ -44,6 +44,7 @@ void setup()
  pinMode(DAC1, OUTPUT);
  pinMode(DAC2, OUTPUT);
  pinMode(DAC3, OUTPUT);
+ pinMode(9, OUTPUT);
  digitalWrite(GATE,LOW);
  digitalWrite(TRIG,LOW);
  digitalWrite(CLOCK,LOW);
@@ -53,15 +54,23 @@ void setup()
  SPI.begin();
 //  Serial.begin(9600);
  MIDI.begin(MIDI_CHANNEL_OMNI);
+ digitalWrite(9, HIGH);
 
  // Set initial pitch bend voltage to 0.5V (mid point).  With Gain = 1X, this is 1023
  // Other DAC outputs will come up as 0V, so don't need to be initialized
  setVoltage(DAC2, 0, 0, 1023);  
+ TXLED0;
+ RXLED0;
 }
 
 bool notes[88] = {0}; 
 int8_t noteOrder[20] = {0}, orderIndx = {0};
 unsigned long trigTimer = 0;
+
+unsigned long currClock = 0;
+unsigned long prevClock = 0;
+bool midPulseSent = false;
+
 
 void loop()
 {
@@ -70,12 +79,12 @@ void loop()
   static unsigned int clock_count=0;
   bool S1, S2;
 
-  if ((trigTimer > 0) && (millis() - trigTimer > 20)) { 
+  if ((trigTimer > 0) && (millis() - trigTimer > 50)) { 
     digitalWrite(TRIG,LOW); // Set trigger low after 20 msec 
     trigTimer = 0;  
   }
 
-  if ((clock_timer > 0) && (millis() - clock_timer > 20)) { 
+  if ((clock_timer > 0) && (millis() - clock_timer > 50)) { 
     digitalWrite(CLOCK,LOW); // Set clock pulse low after 20 msec 
     clock_timer = 0;  
   }
@@ -149,13 +158,20 @@ void loop()
       case midi::Clock:
         if (millis() > clock_timeout + 300) clock_count = 0; // Prevents Clock from starting in between quarter notes after clock is restarted!
         clock_timeout = millis();
+        prevClock = currClock;
+        currClock = millis();
         
         if (clock_count == 0) {
           digitalWrite(CLOCK,HIGH); // Start clock pulse
           clock_timer=millis();    
         }
         clock_count++;
-        if (clock_count == 24) {  // MIDI timing clock sends 24 pulses per quarter note.  Sent pulse only once every 24 pulses
+        // MIDI timing clock sends 24 pulses per quarter note.  Sent pulse only once every 24 pulses when clock_count = 24
+        // Quarter = 24
+        // eigth = 12
+        // sixteenth = 6
+        if (clock_count == 12) {  
+          
           clock_count = 0;  
         }
         break;

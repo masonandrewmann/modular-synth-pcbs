@@ -1,0 +1,1989 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 4xxx:40106 U?
+U 1 1 6298DC47
+P 1500 2000
+F 0 "U?" H 1500 2317 50  0000 C CNN
+F 1 "40106" H 1500 2226 50  0000 C CNN
+F 2 "" H 1500 2000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 1500 2000 50  0001 C CNN
+	1    1500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:40106 U?
+U 2 1 6298E4AF
+P 2100 2000
+F 0 "U?" H 2100 2317 50  0000 C CNN
+F 1 "40106" H 2100 2226 50  0000 C CNN
+F 2 "" H 2100 2000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 2100 2000 50  0001 C CNN
+	2    2100 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 629901C2
+P 2550 2000
+F 0 "R?" V 2345 2000 50  0000 C CNN
+F 1 "22k" V 2436 2000 50  0000 C CNN
+F 2 "" V 2590 1990 50  0001 C CNN
+F 3 "~" H 2550 2000 50  0001 C CNN
+	1    2550 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 629935C9
+P 1000 2000
+F 0 "C?" V 771 2000 50  0000 C CNN
+F 1 "3n3" V 862 2000 50  0000 C CNN
+F 2 "" H 1000 2000 50  0001 C CNN
+F 3 "~" H 1000 2000 50  0001 C CNN
+	1    1000 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62993EE9
+P 700 2000
+F 0 "J?" H 592 1775 50  0000 C CNN
+F 1 "trig" H 592 1866 50  0000 C CNN
+F 2 "" H 700 2000 50  0001 C CNN
+F 3 "~" H 700 2000 50  0001 C CNN
+	1    700  2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1100 2000 1150 2000
+$Comp
+L Device:R_US R?
+U 1 1 629947ED
+P 1150 2200
+F 0 "R?" H 1082 2154 50  0000 R CNN
+F 1 "100k" H 1082 2245 50  0000 R CNN
+F 2 "" V 1190 2190 50  0001 C CNN
+F 3 "~" H 1150 2200 50  0001 C CNN
+	1    1150 2200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1150 2000 1150 2050
+Connection ~ 1150 2000
+Wire Wire Line
+	1150 2000 1200 2000
+$Comp
+L Device:R_US R?
+U 1 1 62995FF8
+P 2750 2200
+F 0 "R?" H 2682 2154 50  0000 R CNN
+F 1 "10k" H 2682 2245 50  0000 R CNN
+F 2 "" V 2790 2190 50  0001 C CNN
+F 3 "~" H 2750 2200 50  0001 C CNN
+	1    2750 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 62996A73
+P 1150 2350
+F 0 "#PWR?" H 1150 2100 50  0001 C CNN
+F 1 "Earth" H 1150 2200 50  0001 C CNN
+F 2 "" H 1150 2350 50  0001 C CNN
+F 3 "~" H 1150 2350 50  0001 C CNN
+	1    1150 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 6299715B
+P 2750 2350
+F 0 "#PWR?" H 2750 2100 50  0001 C CNN
+F 1 "Earth" H 2750 2200 50  0001 C CNN
+F 2 "" H 2750 2350 50  0001 C CNN
+F 3 "~" H 2750 2350 50  0001 C CNN
+	1    2750 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 2050 2750 2000
+Wire Wire Line
+	2750 2000 2700 2000
+$Comp
+L Transistor_BJT:BC559 Q?
+U 1 1 62997EF7
+P 3800 1050
+F 0 "Q?" H 3991 1004 50  0000 L CNN
+F 1 "BC559" H 3991 1095 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4000 975 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H 3800 1050 50  0001 L CNN
+	1    3800 1050
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:BC549 Q?
+U 1 1 62999AD2
+P 3100 2000
+F 0 "Q?" H 3050 2250 50  0000 L CNN
+F 1 "BC549" H 2900 2150 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3300 1925 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 3100 2000 50  0001 L CNN
+	1    3100 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 2000 2750 2000
+Connection ~ 2750 2000
+$Comp
+L power:Earth #PWR?
+U 1 1 6299B4D8
+P 3200 2350
+F 0 "#PWR?" H 3200 2100 50  0001 C CNN
+F 1 "Earth" H 3200 2200 50  0001 C CNN
+F 2 "" H 3200 2350 50  0001 C CNN
+F 3 "~" H 3200 2350 50  0001 C CNN
+	1    3200 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2350 3200 2200
+$Comp
+L Device:D_Small D?
+U 1 1 6299B9FE
+P 3200 1600
+F 0 "D?" V 3246 1532 50  0000 R CNN
+F 1 "D_Small" V 3155 1532 50  0000 R CNN
+F 2 "" V 3200 1600 50  0001 C CNN
+F 3 "~" V 3200 1600 50  0001 C CNN
+	1    3200 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 6299C74E
+P 3200 850
+F 0 "R?" H 3132 804 50  0000 R CNN
+F 1 "47k" H 3132 895 50  0000 R CNN
+F 2 "" V 3240 840 50  0001 C CNN
+F 3 "~" H 3200 850 50  0001 C CNN
+	1    3200 850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 6299D585
+P 3200 700
+F 0 "#PWR?" H 3200 550 50  0001 C CNN
+F 1 "+12V" H 3215 873 50  0000 C CNN
+F 2 "" H 3200 700 50  0001 C CNN
+F 3 "" H 3200 700 50  0001 C CNN
+	1    3200 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 629A1D5C
+P 3200 1250
+F 0 "R?" H 3132 1204 50  0000 R CNN
+F 1 "100k" H 3132 1295 50  0000 R CNN
+F 2 "" V 3240 1240 50  0001 C CNN
+F 3 "~" H 3200 1250 50  0001 C CNN
+	1    3200 1250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3200 1800 3200 1700
+Wire Wire Line
+	3200 1500 3200 1450
+Wire Wire Line
+	3200 1100 3200 1050
+Connection ~ 3200 1050
+Wire Wire Line
+	3200 1050 3200 1000
+$Comp
+L power:+12V #PWR?
+U 1 1 629AB564
+P 3900 700
+F 0 "#PWR?" H 3900 550 50  0001 C CNN
+F 1 "+12V" H 3915 873 50  0000 C CNN
+F 2 "" H 3900 700 50  0001 C CNN
+F 3 "" H 3900 700 50  0001 C CNN
+	1    3900 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 700  3900 850 
+$Comp
+L Device:R_US R?
+U 1 1 629ABDDA
+P 2950 1450
+F 0 "R?" H 2882 1404 50  0000 R CNN
+F 1 "4k7" H 2882 1495 50  0000 R CNN
+F 2 "" V 2990 1440 50  0001 C CNN
+F 3 "~" H 2950 1450 50  0001 C CNN
+	1    2950 1450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3200 1450
+Wire Wire Line
+	3200 1450 3200 1400
+$Comp
+L Device:C_Small C?
+U 1 1 629ACADA
+P 2650 1450
+F 0 "C?" H 2742 1496 50  0000 L CNN
+F 1 "2n2" H 2742 1405 50  0000 L CNN
+F 2 "" H 2650 1450 50  0001 C CNN
+F 3 "~" H 2650 1450 50  0001 C CNN
+	1    2650 1450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 1450 2750 1450
+$Comp
+L power:Earth #PWR?
+U 1 1 629AD507
+P 2550 1450
+F 0 "#PWR?" H 2550 1200 50  0001 C CNN
+F 1 "Earth" H 2550 1300 50  0001 C CNN
+F 2 "" H 2550 1450 50  0001 C CNN
+F 3 "~" H 2550 1450 50  0001 C CNN
+	1    2550 1450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 1050 3600 1050
+$Comp
+L Device:R_US R?
+U 1 1 629AF908
+P 3900 1500
+F 0 "R?" H 3832 1454 50  0000 R CNN
+F 1 "2k2" H 3832 1545 50  0000 R CNN
+F 2 "" V 3940 1490 50  0001 C CNN
+F 3 "~" H 3900 1500 50  0001 C CNN
+	1    3900 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3100 1450 3200 1450
+$Comp
+L power:Earth #PWR?
+U 1 1 629B3E3A
+P 3900 1650
+F 0 "#PWR?" H 3900 1400 50  0001 C CNN
+F 1 "Earth" H 3900 1500 50  0001 C CNN
+F 2 "" H 3900 1650 50  0001 C CNN
+F 3 "~" H 3900 1650 50  0001 C CNN
+	1    3900 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1350 3900 1300
+$Comp
+L Transistor_BJT:BC559 Q?
+U 1 1 629B4FD7
+P 5200 1050
+F 0 "Q?" H 5391 1004 50  0000 L CNN
+F 1 "BC559" H 5391 1095 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5400 975 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H 5200 1050 50  0001 L CNN
+	1    5200 1050
+	1    0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 629B5D15
+P 5300 700
+F 0 "#PWR?" H 5300 550 50  0001 C CNN
+F 1 "+12V" H 5315 873 50  0000 C CNN
+F 2 "" H 5300 700 50  0001 C CNN
+F 3 "" H 5300 700 50  0001 C CNN
+	1    5300 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 850  5300 800 
+$Comp
+L Device:R_US R?
+U 1 1 629B6E4D
+P 5100 800
+F 0 "R?" V 5305 800 50  0000 C CNN
+F 1 "47k" V 5214 800 50  0000 C CNN
+F 2 "" V 5140 790 50  0001 C CNN
+F 3 "~" H 5100 800 50  0001 C CNN
+	1    5100 800 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 629B758A
+P 4750 1050
+F 0 "R?" V 4955 1050 50  0000 C CNN
+F 1 "100k" V 4864 1050 50  0000 C CNN
+F 2 "" V 4790 1040 50  0001 C CNN
+F 3 "~" H 4750 1050 50  0001 C CNN
+	1    4750 1050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 1050 4950 1050
+Wire Wire Line
+	4950 800  4950 1050
+Wire Wire Line
+	4900 1050 4950 1050
+Connection ~ 4950 1050
+Wire Wire Line
+	5250 800  5300 800 
+Connection ~ 5300 800 
+Wire Wire Line
+	5300 800  5300 700 
+$Comp
+L Device:C_Small C?
+U 1 1 629B8DE7
+P 4500 1050
+F 0 "C?" V 4271 1050 50  0000 C CNN
+F 1 "68n" V 4362 1050 50  0000 C CNN
+F 2 "" H 4500 1050 50  0001 C CNN
+F 3 "~" H 4500 1050 50  0001 C CNN
+	1    4500 1050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4400 1800 4400 1050
+Connection ~ 3200 1800
+$Comp
+L Device:D_Small D?
+U 1 1 629BAFF7
+P 4850 1500
+F 0 "D?" H 4850 1295 50  0000 C CNN
+F 1 "D_Small" H 4850 1386 50  0000 C CNN
+F 2 "" V 4850 1500 50  0001 C CNN
+F 3 "~" V 4850 1500 50  0001 C CNN
+	1    4850 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 629BB74B
+P 5100 1500
+F 0 "R?" V 5305 1500 50  0000 C CNN
+F 1 "2k2" V 5214 1500 50  0000 C CNN
+F 2 "" V 5140 1490 50  0001 C CNN
+F 3 "~" H 5100 1500 50  0001 C CNN
+	1    5100 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 629BBF54
+P 5300 1650
+F 0 "C?" H 5208 1604 50  0000 R CNN
+F 1 "330n" H 5208 1695 50  0000 R CNN
+F 2 "" H 5300 1650 50  0001 C CNN
+F 3 "~" H 5300 1650 50  0001 C CNN
+	1    5300 1650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5300 1550 5300 1500
+Wire Wire Line
+	5300 1500 5250 1500
+$Comp
+L power:Earth #PWR?
+U 1 1 629BCDD9
+P 5300 1750
+F 0 "#PWR?" H 5300 1500 50  0001 C CNN
+F 1 "Earth" H 5300 1600 50  0001 C CNN
+F 2 "" H 5300 1750 50  0001 C CNN
+F 3 "~" H 5300 1750 50  0001 C CNN
+	1    5300 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 1500 4200 1500
+Wire Wire Line
+	4200 1500 4200 1300
+Wire Wire Line
+	4200 1300 3900 1300
+Connection ~ 3900 1300
+Wire Wire Line
+	3900 1300 3900 1250
+$Comp
+L Device:R_US R?
+U 1 1 629BED4F
+P 5700 1650
+F 0 "R?" H 5768 1696 50  0000 L CNN
+F 1 "22k" H 5768 1605 50  0000 L CNN
+F 2 "" V 5740 1640 50  0001 C CNN
+F 3 "~" H 5700 1650 50  0001 C CNN
+	1    5700 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT_US RV?
+U 1 1 629BF370
+P 5700 2050
+F 0 "RV?" H 5633 2096 50  0000 R CNN
+F 1 "100k" H 5633 2005 50  0000 R CNN
+F 2 "" H 5700 2050 50  0001 C CNN
+F 3 "~" H 5700 2050 50  0001 C CNN
+	1    5700 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 2200 5700 2250
+Wire Wire Line
+	5700 2250 5900 2250
+Wire Wire Line
+	5900 2250 5900 2050
+Wire Wire Line
+	5900 2050 5850 2050
+$Comp
+L power:Earth #PWR?
+U 1 1 629C0844
+P 5700 2250
+F 0 "#PWR?" H 5700 2000 50  0001 C CNN
+F 1 "Earth" H 5700 2100 50  0001 C CNN
+F 2 "" H 5700 2250 50  0001 C CNN
+F 3 "~" H 5700 2250 50  0001 C CNN
+	1    5700 2250
+	1    0    0    -1  
+$EndComp
+Connection ~ 5700 2250
+Wire Wire Line
+	5700 1500 5300 1500
+Connection ~ 5300 1500
+Text Notes 5100 2250 0    50   ~ 0
+Tune Decay\n
+Wire Wire Line
+	5700 1900 5700 1850
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 629C3234
+P 5500 1850
+F 0 "J?" H 5392 1625 50  0000 C CNN
+F 1 "tune_pot" H 5550 1900 50  0000 C CNN
+F 2 "" H 5500 1850 50  0001 C CNN
+F 3 "~" H 5500 1850 50  0001 C CNN
+	1    5500 1850
+	-1   0    0    1   
+$EndComp
+Connection ~ 5700 1850
+Wire Wire Line
+	5700 1850 5700 1800
+$Comp
+L Device:R_US R?
+U 1 1 629C3E00
+P 6000 1500
+F 0 "R?" V 5795 1500 50  0000 C CNN
+F 1 "330k" V 5886 1500 50  0000 C CNN
+F 2 "" V 6040 1490 50  0001 C CNN
+F 3 "~" H 6000 1500 50  0001 C CNN
+	1    6000 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5850 1500 5700 1500
+Connection ~ 5700 1500
+$Comp
+L power:-12V #PWR?
+U 1 1 629C8D01
+P 6550 1900
+F 0 "#PWR?" H 6550 2000 50  0001 C CNN
+F 1 "-12V" H 6565 2073 50  0000 C CNN
+F 2 "" H 6550 1900 50  0001 C CNN
+F 3 "" H 6550 1900 50  0001 C CNN
+	1    6550 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6350 1500 6250 1500
+$Comp
+L Device:R_US R?
+U 1 1 629CD408
+P 6600 950
+F 0 "R?" V 6395 950 50  0000 C CNN
+F 1 "100k" V 6486 950 50  0000 C CNN
+F 2 "" V 6640 940 50  0001 C CNN
+F 3 "~" H 6600 950 50  0001 C CNN
+	1    6600 950 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6450 950  6250 950 
+Wire Wire Line
+	6250 950  6250 1500
+Wire Wire Line
+	6750 950  7000 950 
+Wire Wire Line
+	7000 950  7000 1600
+Wire Wire Line
+	7000 1600 6950 1600
+$Comp
+L Device:R_US R?
+U 1 1 629CF1C3
+P 6200 1900
+F 0 "R?" H 6132 1854 50  0000 R CNN
+F 1 "100k" H 6132 1945 50  0000 R CNN
+F 2 "" V 6240 1890 50  0001 C CNN
+F 3 "~" H 6200 1900 50  0001 C CNN
+	1    6200 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 629CFC4F
+P 6200 2250
+F 0 "#PWR?" H 6200 2000 50  0001 C CNN
+F 1 "Earth" H 6200 2100 50  0001 C CNN
+F 2 "" H 6200 2250 50  0001 C CNN
+F 3 "~" H 6200 2250 50  0001 C CNN
+	1    6200 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 2250 6200 2050
+Wire Wire Line
+	6200 1750 6200 1700
+Wire Wire Line
+	6200 1700 6350 1700
+$Comp
+L Device:R_POT_US RV?
+U 1 1 629D1B95
+P 7000 1800
+F 0 "RV?" H 6933 1846 50  0000 R CNN
+F 1 "100k" H 6933 1755 50  0000 R CNN
+F 2 "" H 7000 1800 50  0001 C CNN
+F 3 "~" H 7000 1800 50  0001 C CNN
+	1    7000 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 1650 7000 1600
+Connection ~ 7000 1600
+$Comp
+L Device:R_US R?
+U 1 1 629D3500
+P 7000 2200
+F 0 "R?" H 6950 2150 50  0000 R CNN
+F 1 "100k" V 6900 2400 50  0000 R CNN
+F 2 "" V 7040 2190 50  0001 C CNN
+F 3 "~" H 7000 2200 50  0001 C CNN
+	1    7000 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:-12V #PWR?
+U 1 1 629D39CB
+P 7000 2350
+F 0 "#PWR?" H 7000 2450 50  0001 C CNN
+F 1 "-12V" H 7015 2523 50  0000 C CNN
+F 2 "" H 7000 2350 50  0001 C CNN
+F 3 "" H 7000 2350 50  0001 C CNN
+	1    7000 2350
+	-1   0    0    1   
+$EndComp
+Text Notes 6900 1900 3    50   ~ 0
+Tune Depth
+Wire Wire Line
+	7000 1950 7000 2050
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 629D6392
+P 7200 2050
+F 0 "J?" H 7228 2076 50  0000 L CNN
+F 1 "depth_3" V 7200 1750 50  0000 L CNN
+F 2 "" H 7200 2050 50  0001 C CNN
+F 3 "~" H 7200 2050 50  0001 C CNN
+	1    7200 2050
+	1    0    0    -1  
+$EndComp
+Connection ~ 7000 2050
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 629D6A5F
+P 7200 1600
+F 0 "J?" H 7228 1626 50  0000 L CNN
+F 1 "depth_1" V 7150 1650 50  0000 L CNN
+F 2 "" H 7200 1600 50  0001 C CNN
+F 3 "~" H 7200 1600 50  0001 C CNN
+	1    7200 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 629D6D88
+P 7500 1800
+F 0 "R?" V 7705 1800 50  0000 C CNN
+F 1 "100k" V 7614 1800 50  0000 C CNN
+F 2 "" V 7540 1790 50  0001 C CNN
+F 3 "~" H 7500 1800 50  0001 C CNN
+	1    7500 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 629D7AA4
+P 7550 1450
+F 0 "R?" V 7755 1450 50  0000 C CNN
+F 1 "100k" V 7664 1450 50  0000 C CNN
+F 2 "" V 7590 1440 50  0001 C CNN
+F 3 "~" H 7550 1450 50  0001 C CNN
+	1    7550 1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7400 1450 7300 1450
+Wire Wire Line
+	7300 1450 7300 1800
+Connection ~ 7300 1800
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 629D9A63
+P 7300 2000
+F 0 "J?" V 7146 2048 50  0000 L CNN
+F 1 "depth_W" V 7237 2048 50  0000 L CNN
+F 2 "" H 7300 2000 50  0001 C CNN
+F 3 "~" H 7300 2000 50  0001 C CNN
+	1    7300 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Amplifier_Operational:TL074 U?
+U 1 1 629DACD5
+P 6650 1600
+F 0 "U?" H 6850 1400 50  0000 C CNN
+F 1 "TL074" H 6850 1500 50  0000 C CNN
+F 2 "" H 6600 1700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6700 1800 50  0001 C CNN
+	1    6650 1600
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL074 U?
+U 5 1 629DD21D
+P 6650 1600
+F 0 "U?" H 6608 1646 50  0000 L CNN
+F 1 "TL074" H 6608 1555 50  0000 L CNN
+F 2 "" H 6600 1700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6700 1800 50  0001 C CNN
+	5    6650 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 629DF290
+P 6550 1300
+F 0 "#PWR?" H 6550 1150 50  0001 C CNN
+F 1 "+12V" H 6565 1473 50  0000 C CNN
+F 2 "" H 6550 1300 50  0001 C CNN
+F 3 "" H 6550 1300 50  0001 C CNN
+	1    6550 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL074 U?
+U 2 1 629E001E
+P 8000 1700
+F 0 "U?" H 8150 1500 50  0000 C CNN
+F 1 "TL074" H 8150 1600 50  0000 C CNN
+F 2 "" H 7950 1800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8050 1900 50  0001 C CNN
+	2    8000 1700
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 629E3432
+P 7950 1250
+F 0 "R?" V 8155 1250 50  0000 C CNN
+F 1 "100k" V 8064 1250 50  0000 C CNN
+F 2 "" V 7990 1240 50  0001 C CNN
+F 3 "~" H 7950 1250 50  0001 C CNN
+	1    7950 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 1600 7700 1450
+Wire Wire Line
+	7700 1450 7700 1250
+Wire Wire Line
+	7700 1250 7800 1250
+Connection ~ 7700 1450
+Wire Wire Line
+	8100 1250 8350 1250
+Wire Wire Line
+	8350 1250 8350 1550
+Wire Wire Line
+	8350 1700 8300 1700
+$Comp
+L Device:R_POT_US RV?
+U 1 1 629E6E9C
+P 8550 1700
+F 0 "RV?" V 8437 1700 50  0000 C CNN
+F 1 "47k" V 8346 1700 50  0000 C CNN
+F 2 "" H 8550 1700 50  0001 C CNN
+F 3 "~" H 8550 1700 50  0001 C CNN
+	1    8550 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 1700 8350 1700
+Connection ~ 8350 1700
+Wire Wire Line
+	8350 1550 8550 1550
+Connection ~ 8350 1550
+Wire Wire Line
+	8350 1550 8350 1700
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 629EA916
+P 8550 1250
+F 0 "J?" H 8578 1276 50  0000 L CNN
+F 1 "pitch1W" H 8578 1185 50  0000 L CNN
+F 2 "" H 8550 1250 50  0001 C CNN
+F 3 "~" H 8550 1250 50  0001 C CNN
+	1    8550 1250
+	1    0    0    -1  
+$EndComp
+Connection ~ 8350 1250
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 629EB37C
+P 8750 1950
+F 0 "J?" V 8596 1998 50  0000 L CNN
+F 1 "pitch3" V 8800 1850 50  0000 L CNN
+F 2 "" H 8750 1950 50  0001 C CNN
+F 3 "~" H 8750 1950 50  0001 C CNN
+	1    8750 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8750 1750 8750 1700
+Wire Wire Line
+	8750 1700 8700 1700
+Text Notes 8250 1850 0    50   ~ 0
+Pitch
+$Comp
+L Transistor_BJT:BC559 Q?
+U 1 1 629ED4CF
+P 8050 2200
+F 0 "Q?" V 8285 2200 50  0000 C CNN
+F 1 "BC559" V 8376 2200 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8250 2125 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H 8050 2200 50  0001 L CNN
+	1    8050 2200
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	7350 1800 7300 1800
+Wire Wire Line
+	7700 1800 7650 1800
+Wire Wire Line
+	7850 2300 7700 2300
+Wire Wire Line
+	7700 2300 7700 1800
+Connection ~ 7700 1800
+$Comp
+L power:Earth #PWR?
+U 1 1 629F5403
+P 8300 2350
+F 0 "#PWR?" H 8300 2100 50  0001 C CNN
+F 1 "Earth" H 8300 2200 50  0001 C CNN
+F 2 "" H 8300 2350 50  0001 C CNN
+F 3 "~" H 8300 2350 50  0001 C CNN
+	1    8300 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 2350 8300 2300
+Wire Wire Line
+	8300 2300 8250 2300
+$Comp
+L Device:R_US R?
+U 1 1 629F76E8
+P 8450 2150
+F 0 "R?" H 8518 2196 50  0000 L CNN
+F 1 "22k" H 8518 2105 50  0000 L CNN
+F 2 "" V 8490 2140 50  0001 C CNN
+F 3 "~" H 8450 2150 50  0001 C CNN
+	1    8450 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 2000 8050 2000
+$Comp
+L power:Earth #PWR?
+U 1 1 629F94C5
+P 8450 2350
+F 0 "#PWR?" H 8450 2100 50  0001 C CNN
+F 1 "Earth" H 8450 2200 50  0001 C CNN
+F 2 "" H 8450 2350 50  0001 C CNN
+F 3 "~" H 8450 2350 50  0001 C CNN
+	1    8450 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 2350 8450 2300
+$Comp
+L Amplifier_Operational:TL074 U?
+U 3 1 629FB1AC
+P 9250 1800
+F 0 "U?" H 9400 1600 50  0000 C CNN
+F 1 "TL074" H 9450 1700 50  0000 C CNN
+F 2 "" H 9200 1900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 9300 2000 50  0001 C CNN
+	3    9250 1800
+	1    0    0    1   
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 629FE3D6
+P 8950 1950
+F 0 "#PWR?" H 8950 1700 50  0001 C CNN
+F 1 "Earth" H 8950 1800 50  0001 C CNN
+F 2 "" H 8950 1950 50  0001 C CNN
+F 3 "~" H 8950 1950 50  0001 C CNN
+	1    8950 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 1950 8950 1900
+Wire Wire Line
+	8950 1700 8900 1700
+Connection ~ 8750 1700
+$Comp
+L Device:C_Small C?
+U 1 1 62A01D85
+P 9250 1500
+F 0 "C?" V 9100 1400 50  0000 C CNN
+F 1 "33n" V 9150 1500 50  0000 C CNN
+F 2 "" H 9250 1500 50  0001 C CNN
+F 3 "~" H 9250 1500 50  0001 C CNN
+	1    9250 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_BJT:BC549 Q?
+U 1 1 62A027EB
+P 9250 1100
+F 0 "Q?" H 9200 1350 50  0000 L CNN
+F 1 "BC549" H 9050 1250 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9450 1025 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 9250 1100 50  0001 L CNN
+	1    9250 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 62A047BD
+P 9500 1350
+F 0 "R?" H 9568 1396 50  0000 L CNN
+F 1 "2k2" H 9568 1305 50  0000 L CNN
+F 2 "" V 9540 1340 50  0001 C CNN
+F 3 "~" H 9500 1350 50  0001 C CNN
+	1    9500 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 1200 9450 1200
+Wire Wire Line
+	9500 1500 9550 1500
+Wire Wire Line
+	9550 1500 9550 1800
+Wire Wire Line
+	9500 1500 9350 1500
+Connection ~ 9500 1500
+Wire Wire Line
+	9150 1500 8900 1500
+Wire Wire Line
+	8900 1500 8900 1700
+Connection ~ 8900 1700
+Wire Wire Line
+	8900 1700 8750 1700
+Wire Wire Line
+	8900 1500 8900 1200
+Wire Wire Line
+	8900 1200 9050 1200
+Connection ~ 8900 1500
+$Comp
+L Device:R_US R?
+U 1 1 62A0DF4D
+P 9250 750
+F 0 "R?" H 9318 796 50  0000 L CNN
+F 1 "330k" H 9318 705 50  0000 L CNN
+F 2 "" V 9290 740 50  0001 C CNN
+F 3 "~" H 9250 750 50  0001 C CNN
+	1    9250 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 1800 7300 1800
+Wire Wire Line
+	6150 1500 6250 1500
+Connection ~ 6250 1500
+$Comp
+L Amplifier_Operational:TL074 U?
+U 4 1 62A29F74
+P 10100 1700
+F 0 "U?" H 10250 1950 50  0000 C CNN
+F 1 "TL074" H 10250 1850 50  0000 C CNN
+F 2 "" H 10050 1800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 10150 1900 50  0001 C CNN
+	4    10100 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 1800 9550 1800
+Connection ~ 9550 1800
+$Comp
+L Device:D_Small D?
+U 1 1 62A2DA93
+P 9700 1000
+F 0 "D?" V 9746 932 50  0000 R CNN
+F 1 "D_Small" V 9655 932 50  0000 R CNN
+F 2 "" V 9700 1000 50  0001 C CNN
+F 3 "~" V 9700 1000 50  0001 C CNN
+	1    9700 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 62A2ED90
+P 9700 750
+F 0 "R?" H 9768 796 50  0000 L CNN
+F 1 "22k" H 9768 705 50  0000 L CNN
+F 2 "" V 9740 740 50  0001 C CNN
+F 3 "~" H 9700 750 50  0001 C CNN
+	1    9700 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 1100 9700 1350
+Wire Wire Line
+	9700 1600 9800 1600
+$Comp
+L Device:R_US R?
+U 1 1 62A35312
+P 10150 1350
+F 0 "R?" V 9945 1350 50  0000 C CNN
+F 1 "100k" V 10036 1350 50  0000 C CNN
+F 2 "" V 10190 1340 50  0001 C CNN
+F 3 "~" H 10150 1350 50  0001 C CNN
+	1    10150 1350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10000 1350 9700 1350
+Connection ~ 9700 1350
+Wire Wire Line
+	9700 1350 9700 1600
+Wire Wire Line
+	10400 1700 10450 1700
+Wire Wire Line
+	10450 1700 10450 1350
+Wire Wire Line
+	10450 1350 10300 1350
+$Comp
+L Device:R_US R?
+U 1 1 62A39E2E
+P 9700 2050
+F 0 "R?" H 9768 2096 50  0000 L CNN
+F 1 "47k" H 9768 2005 50  0000 L CNN
+F 2 "" V 9740 2040 50  0001 C CNN
+F 3 "~" H 9700 2050 50  0001 C CNN
+	1    9700 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 1600 9700 1900
+Connection ~ 9700 1600
+$Comp
+L power:Earth #PWR?
+U 1 1 62A3C869
+P 9700 2200
+F 0 "#PWR?" H 9700 1950 50  0001 C CNN
+F 1 "Earth" H 9700 2050 50  0001 C CNN
+F 2 "" H 9700 2200 50  0001 C CNN
+F 3 "~" H 9700 2200 50  0001 C CNN
+	1    9700 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 62A3CD35
+P 10450 1900
+F 0 "R?" H 10382 1854 50  0000 R CNN
+F 1 "100k" H 10382 1945 50  0000 R CNN
+F 2 "" V 10490 1890 50  0001 C CNN
+F 3 "~" H 10450 1900 50  0001 C CNN
+	1    10450 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10450 1750 10450 1700
+Connection ~ 10450 1700
+Connection ~ 8450 2000
+Wire Wire Line
+	8750 2000 8750 2350
+Wire Wire Line
+	8750 2350 10450 2350
+Wire Wire Line
+	10450 2350 10450 2050
+Wire Wire Line
+	8450 2000 8750 2000
+$Comp
+L Device:R_US R?
+U 1 1 62A44AC9
+P 8300 3150
+F 0 "R?" V 8505 3150 50  0000 C CNN
+F 1 "1k" V 8414 3150 50  0000 C CNN
+F 2 "" V 8340 3140 50  0001 C CNN
+F 3 "~" H 8300 3150 50  0001 C CNN
+	1    8300 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT_US RV?
+U 1 1 62A45567
+P 8700 3150
+F 0 "RV?" V 8587 3150 50  0000 C CNN
+F 1 "10k" V 8496 3150 50  0000 C CNN
+F 2 "" H 8700 3150 50  0001 C CNN
+F 3 "~" H 8700 3150 50  0001 C CNN
+	1    8700 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8450 3150 8500 3150
+Wire Wire Line
+	8500 3150 8500 3000
+Wire Wire Line
+	8500 3000 8700 3000
+Connection ~ 8500 3150
+Wire Wire Line
+	8500 3150 8550 3150
+Text Notes 8500 2900 0    50   ~ 0
+Distortion\n
+$Comp
+L Device:D_Small D?
+U 1 1 62A4BCE2
+P 9100 3400
+F 0 "D?" H 9100 3195 50  0000 C CNN
+F 1 "D_Small" H 9100 3286 50  0000 C CNN
+F 2 "" V 9100 3400 50  0001 C CNN
+F 3 "~" V 9100 3400 50  0001 C CNN
+	1    9100 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 62A4CEDA
+P 9100 3050
+F 0 "D?" H 9100 3255 50  0000 C CNN
+F 1 "D_Small" H 9100 3164 50  0000 C CNN
+F 2 "" V 9100 3050 50  0001 C CNN
+F 3 "~" V 9100 3050 50  0001 C CNN
+	1    9100 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 3050 8900 3050
+Wire Wire Line
+	8900 3050 8900 3150
+Wire Wire Line
+	8900 3400 9000 3400
+Wire Wire Line
+	8850 3150 8900 3150
+Connection ~ 8900 3150
+Wire Wire Line
+	8900 3150 8900 3400
+Wire Wire Line
+	9200 3400 9250 3400
+Wire Wire Line
+	9250 3400 9250 3050
+Wire Wire Line
+	9250 3050 9200 3050
+$Comp
+L Transistor_BJT:BC549 Q?
+U 1 1 62A55CB6
+P 10100 3350
+F 0 "Q?" H 10050 3600 50  0000 L CNN
+F 1 "BC549" H 9900 3500 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 10300 3275 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 10100 3350 50  0001 L CNN
+	1    10100 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 62A57509
+P 9600 3050
+F 0 "R?" H 9668 3096 50  0000 L CNN
+F 1 "2k2" H 9668 3005 50  0000 L CNN
+F 2 "" V 9640 3040 50  0001 C CNN
+F 3 "~" H 9600 3050 50  0001 C CNN
+	1    9600 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 62A57FC9
+P 9600 3450
+F 0 "R?" H 9668 3496 50  0000 L CNN
+F 1 "47R" H 9668 3405 50  0000 L CNN
+F 2 "" V 9640 3440 50  0001 C CNN
+F 3 "~" H 9600 3450 50  0001 C CNN
+	1    9600 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 3200 9600 3250
+Wire Wire Line
+	9600 3250 9900 3250
+Connection ~ 9600 3250
+Wire Wire Line
+	9600 3250 9600 3300
+$Comp
+L Device:R_US R?
+U 1 1 62A5E9A0
+P 10100 3700
+F 0 "R?" H 10168 3746 50  0000 L CNN
+F 1 "470k" H 10168 3655 50  0000 L CNN
+F 2 "" V 10140 3690 50  0001 C CNN
+F 3 "~" H 10100 3700 50  0001 C CNN
+	1    10100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 62A5F039
+P 9600 3600
+F 0 "#PWR?" H 9600 3350 50  0001 C CNN
+F 1 "Earth" H 9600 3450 50  0001 C CNN
+F 2 "" H 9600 3600 50  0001 C CNN
+F 3 "~" H 9600 3600 50  0001 C CNN
+	1    9600 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT_US RV?
+U 1 1 62A659DB
+P 10600 2600
+F 0 "RV?" V 10487 2600 50  0000 C CNN
+F 1 "100k" V 10396 2600 50  0000 C CNN
+F 2 "" H 10600 2600 50  0001 C CNN
+F 3 "~" H 10600 2600 50  0001 C CNN
+	1    10600 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10300 3250 10350 3250
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62A740BA
+P 11100 3150
+F 0 "J?" V 11038 3062 50  0000 R CNN
+F 1 "Out" V 10947 3062 50  0000 R CNN
+F 2 "" H 11100 3150 50  0001 C CNN
+F 3 "~" H 11100 3150 50  0001 C CNN
+	1    11100 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11100 3350 10950 3350
+$Comp
+L power:Earth #PWR?
+U 1 1 62A78A3D
+P 10350 3450
+F 0 "#PWR?" H 10350 3200 50  0001 C CNN
+F 1 "Earth" H 10350 3300 50  0001 C CNN
+F 2 "" H 10350 3450 50  0001 C CNN
+F 3 "~" H 10350 3450 50  0001 C CNN
+	1    10350 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 2900 9600 2700
+Wire Wire Line
+	9600 2700 8900 2700
+Wire Wire Line
+	8900 2700 8900 3050
+Connection ~ 8900 3050
+$Comp
+L Device:C_Small C?
+U 1 1 62A7E901
+P 10100 3950
+F 0 "C?" H 10192 3996 50  0000 L CNN
+F 1 "330n" H 10192 3905 50  0000 L CNN
+F 2 "" H 10100 3950 50  0001 C CNN
+F 3 "~" H 10100 3950 50  0001 C CNN
+	1    10100 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 62A7F737
+P 10100 4050
+F 0 "#PWR?" H 10100 3800 50  0001 C CNN
+F 1 "Earth" H 10100 3900 50  0001 C CNN
+F 2 "" H 10100 4050 50  0001 C CNN
+F 3 "~" H 10100 4050 50  0001 C CNN
+	1    10100 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 62A7FEF3
+P 9250 3400
+F 0 "#PWR?" H 9250 3150 50  0001 C CNN
+F 1 "Earth" H 9250 3250 50  0001 C CNN
+F 2 "" H 9250 3400 50  0001 C CNN
+F 3 "~" H 9250 3400 50  0001 C CNN
+	1    9250 3400
+	1    0    0    -1  
+$EndComp
+Connection ~ 9250 3400
+$Comp
+L Amplifier_Operational:TL071 U?
+U 1 1 62A8452B
+P 10650 3350
+F 0 "U?" H 10994 3304 50  0000 L CNN
+F 1 "TL071" H 10994 3395 50  0000 L CNN
+F 2 "" H 10700 3400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 10800 3500 50  0001 C CNN
+	1    10650 3350
+	1    0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 62A88CCF
+P 10550 3650
+F 0 "#PWR?" H 10550 3500 50  0001 C CNN
+F 1 "+12V" H 10565 3823 50  0000 C CNN
+F 2 "" H 10550 3650 50  0001 C CNN
+F 3 "" H 10550 3650 50  0001 C CNN
+	1    10550 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:-12V #PWR?
+U 1 1 62A89D81
+P 10550 3050
+F 0 "#PWR?" H 10550 3150 50  0001 C CNN
+F 1 "-12V" H 10565 3223 50  0000 C CNN
+F 2 "" H 10550 3050 50  0001 C CNN
+F 3 "" H 10550 3050 50  0001 C CNN
+	1    10550 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 2450 10350 2450
+Wire Wire Line
+	10350 2450 10350 2600
+Connection ~ 10350 3250
+Wire Wire Line
+	10450 2600 10350 2600
+Connection ~ 10350 2600
+Wire Wire Line
+	10350 2600 10350 3250
+Wire Wire Line
+	10750 2600 10950 2600
+Wire Wire Line
+	10950 2600 10950 3350
+Connection ~ 10950 3350
+Text Notes 10650 2400 0    50   ~ 0
+Out Level\n
+Wire Wire Line
+	9550 1800 9550 2600
+Wire Wire Line
+	9550 2600 8150 2600
+Wire Wire Line
+	8150 2600 8150 3150
+Wire Wire Line
+	5300 1250 5850 1250
+Wire Wire Line
+	5850 1250 5850 600 
+Wire Wire Line
+	5850 600  9250 600 
+Wire Wire Line
+	9700 600  9250 600 
+Connection ~ 9250 600 
+$Comp
+L Device:R_US R?
+U 1 1 62ABDBE7
+P 800 3750
+F 0 "R?" H 732 3704 50  0000 R CNN
+F 1 "4k7" H 732 3795 50  0000 R CNN
+F 2 "" V 840 3740 50  0001 C CNN
+F 3 "~" H 800 3750 50  0001 C CNN
+	1    800  3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 62AC86D6
+P 800 3900
+F 0 "#PWR?" H 800 3650 50  0001 C CNN
+F 1 "Earth" H 800 3750 50  0001 C CNN
+F 2 "" H 800 3900 50  0001 C CNN
+F 3 "~" H 800 3900 50  0001 C CNN
+	1    800  3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 1800 3600 1800
+$Comp
+L power:Earth #PWR?
+U 1 1 62B590AE
+P 4150 4550
+F 0 "#PWR?" H 4150 4300 50  0001 C CNN
+F 1 "Earth" H 4150 4400 50  0001 C CNN
+F 2 "" H 4150 4550 50  0001 C CNN
+F 3 "~" H 4150 4550 50  0001 C CNN
+	1    4150 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 4350 4150 4300
+$Comp
+L Device:C_Small C?
+U 1 1 62B4F931
+P 4150 4450
+F 0 "C?" H 4242 4496 50  0000 L CNN
+F 1 "33n" H 4242 4405 50  0000 L CNN
+F 2 "" H 4150 4450 50  0001 C CNN
+F 3 "~" H 4150 4450 50  0001 C CNN
+	1    4150 4450
+	1    0    0    -1  
+$EndComp
+Text Notes 4350 4050 0    50   ~ 0
+Compression
+$Comp
+L power:Earth #PWR?
+U 1 1 62B4DEC6
+P 4650 4450
+F 0 "#PWR?" H 4650 4200 50  0001 C CNN
+F 1 "Earth" H 4650 4300 50  0001 C CNN
+F 2 "" H 4650 4450 50  0001 C CNN
+F 3 "~" H 4650 4450 50  0001 C CNN
+	1    4650 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 4300 4150 4300
+Connection ~ 4450 4300
+Wire Wire Line
+	4450 4100 4450 4300
+Wire Wire Line
+	4650 4100 4450 4100
+Wire Wire Line
+	4650 4150 4650 4100
+Connection ~ 4150 4300
+Wire Wire Line
+	4500 4300 4450 4300
+$Comp
+L Device:R_POT_US RV?
+U 1 1 62B3B8DE
+P 4650 4300
+F 0 "RV?" H 4582 4254 50  0000 R CNN
+F 1 "1M" H 4582 4345 50  0000 R CNN
+F 2 "" H 4650 4300 50  0001 C CNN
+F 3 "~" H 4650 4300 50  0001 C CNN
+	1    4650 4300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 4300 4100 4300
+Wire Wire Line
+	4150 4250 4150 4300
+$Comp
+L Device:D_Small D?
+U 1 1 62B2AEAA
+P 4150 3850
+F 0 "D?" V 4196 3782 50  0000 R CNN
+F 1 "D_Small" V 4105 3782 50  0000 R CNN
+F 2 "" V 4150 3850 50  0001 C CNN
+F 3 "~" V 4150 3850 50  0001 C CNN
+	1    4150 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 62B2AA42
+P 4150 4100
+F 0 "R?" H 4082 4054 50  0000 R CNN
+F 1 "6k8" H 4082 4145 50  0000 R CNN
+F 2 "" V 4190 4090 50  0001 C CNN
+F 3 "~" H 4150 4100 50  0001 C CNN
+	1    4150 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 62B2A509
+P 3750 4650
+F 0 "#PWR?" H 3750 4400 50  0001 C CNN
+F 1 "Earth" H 3750 4500 50  0001 C CNN
+F 2 "" H 3750 4650 50  0001 C CNN
+F 3 "~" H 3750 4650 50  0001 C CNN
+	1    3750 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 4300 3800 4300
+Connection ~ 3750 4300
+Wire Wire Line
+	3750 4350 3750 4300
+Wire Wire Line
+	3700 4300 3750 4300
+$Comp
+L Device:R_US R?
+U 1 1 62B1B813
+P 3950 4300
+F 0 "R?" V 3745 4300 50  0000 C CNN
+F 1 "470k" V 3836 4300 50  0000 C CNN
+F 2 "" V 3990 4290 50  0001 C CNN
+F 3 "~" H 3950 4300 50  0001 C CNN
+	1    3950 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 62B1B1BE
+P 3750 4500
+F 0 "R?" H 3818 4546 50  0000 L CNN
+F 1 "470k" H 3818 4455 50  0000 L CNN
+F 2 "" V 3790 4490 50  0001 C CNN
+F 3 "~" H 3750 4500 50  0001 C CNN
+	1    3750 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 62B1AC30
+P 3400 4500
+F 0 "#PWR?" H 3400 4250 50  0001 C CNN
+F 1 "Earth" H 3400 4350 50  0001 C CNN
+F 2 "" H 3400 4500 50  0001 C CNN
+F 3 "~" H 3400 4500 50  0001 C CNN
+	1    3400 4500
+	1    0    0    -1  
+$EndComp
+Connection ~ 3000 4050
+Wire Wire Line
+	3050 4050 3000 4050
+Wire Wire Line
+	3400 4050 3350 4050
+Wire Wire Line
+	3400 4100 3400 4050
+$Comp
+L Device:R_US R?
+U 1 1 62B0BAE3
+P 3200 4050
+F 0 "R?" V 3405 4050 50  0000 C CNN
+F 1 "47k" V 3314 4050 50  0000 C CNN
+F 2 "" V 3240 4040 50  0001 C CNN
+F 3 "~" H 3200 4050 50  0001 C CNN
+	1    3200 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transistor_BJT:BC549 Q?
+U 1 1 62B09FFE
+P 3500 4300
+F 0 "Q?" H 3450 4550 50  0000 L CNN
+F 1 "BC549" H 3300 4450 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3700 4225 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 3500 4300 50  0001 L CNN
+	1    3500 4300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 3550 1750 3700
+Connection ~ 1750 3550
+Connection ~ 2750 3700
+Wire Wire Line
+	2750 3550 1750 3550
+Wire Wire Line
+	2750 3700 2750 3550
+Wire Wire Line
+	2250 3750 2250 3450
+$Comp
+L Device:D_Small D?
+U 1 1 62AF5BB7
+P 2250 3350
+F 0 "D?" V 2204 3418 50  0000 L CNN
+F 1 "D_Small" V 2295 3418 50  0000 L CNN
+F 2 "" V 2250 3350 50  0001 C CNN
+F 3 "~" V 2250 3350 50  0001 C CNN
+	1    2250 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3000 4050 3000 4000
+Wire Wire Line
+	2750 4050 3000 4050
+Wire Wire Line
+	2750 3700 2800 3700
+Wire Wire Line
+	2750 3750 2750 3700
+$Comp
+L Device:R_US R?
+U 1 1 62AE9108
+P 2750 3900
+F 0 "R?" H 2682 3854 50  0000 R CNN
+F 1 "1M" H 2682 3945 50  0000 R CNN
+F 2 "" V 2790 3890 50  0001 C CNN
+F 3 "~" H 2750 3900 50  0001 C CNN
+	1    2750 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:BC559 Q?
+U 1 1 62AE8B77
+P 3000 3800
+F 0 "Q?" V 3328 3800 50  0000 C CNN
+F 1 "BC559" V 3237 3800 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3200 3725 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H 3000 3800 50  0001 L CNN
+	1    3000 3800
+	0    1    -1   0   
+$EndComp
+Connection ~ 2000 4100
+Wire Wire Line
+	2250 4100 2000 4100
+Wire Wire Line
+	2250 4050 2250 4100
+$Comp
+L Device:R_US R?
+U 1 1 62ADBFC6
+P 2250 3900
+F 0 "R?" H 2182 3854 50  0000 R CNN
+F 1 "100k" H 2182 3945 50  0000 R CNN
+F 2 "" V 2290 3890 50  0001 C CNN
+F 3 "~" H 2250 3900 50  0001 C CNN
+	1    2250 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1750 3750 1750 3700
+Wire Wire Line
+	1750 4100 1750 4050
+Wire Wire Line
+	2000 4100 1750 4100
+Wire Wire Line
+	2000 4000 2000 4100
+$Comp
+L Device:R_US R?
+U 1 1 62AD0C8D
+P 1750 3900
+F 0 "R?" H 1682 3854 50  0000 R CNN
+F 1 "1M" H 1682 3945 50  0000 R CNN
+F 2 "" V 1790 3890 50  0001 C CNN
+F 3 "~" H 1750 3900 50  0001 C CNN
+	1    1750 3900
+	-1   0    0    1   
+$EndComp
+Connection ~ 1750 3700
+Wire Wire Line
+	1800 3700 1750 3700
+$Comp
+L Transistor_BJT:BC559 Q?
+U 1 1 62AC9705
+P 2000 3800
+F 0 "Q?" V 2328 3800 50  0000 C CNN
+F 1 "BC559" V 2237 3800 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2200 3725 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H 2000 3800 50  0001 L CNN
+	1    2000 3800
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	800  3600 1050 3600
+Connection ~ 1050 3600
+Wire Wire Line
+	1750 3700 1700 3700
+Wire Wire Line
+	1750 3050 1750 3550
+Wire Wire Line
+	1500 3050 1750 3050
+Wire Wire Line
+	1050 3600 1100 3600
+Wire Wire Line
+	1050 3050 1050 3600
+Wire Wire Line
+	1200 3050 1050 3050
+$Comp
+L Device:R_US R?
+U 1 1 62AB3223
+P 1350 3050
+F 0 "R?" V 1145 3050 50  0000 C CNN
+F 1 "10k" V 1236 3050 50  0000 C CNN
+F 2 "" V 1390 3040 50  0001 C CNN
+F 3 "~" H 1350 3050 50  0001 C CNN
+	1    1350 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:-12V #PWR?
+U 1 1 62AB21AD
+P 1300 4000
+F 0 "#PWR?" H 1300 4100 50  0001 C CNN
+F 1 "-12V" H 1315 4173 50  0000 C CNN
+F 2 "" H 1300 4000 50  0001 C CNN
+F 3 "" H 1300 4000 50  0001 C CNN
+	1    1300 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 62AB11A6
+P 1300 3400
+F 0 "#PWR?" H 1300 3250 50  0001 C CNN
+F 1 "+12V" H 1315 3573 50  0000 C CNN
+F 2 "" H 1300 3400 50  0001 C CNN
+F 3 "" H 1300 3400 50  0001 C CNN
+	1    1300 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U?
+U 3 1 62AAE231
+P 1400 3700
+F 0 "U?" H 1358 3746 50  0000 L CNN
+F 1 "TL072" H 1358 3655 50  0000 L CNN
+F 2 "" H 1400 3700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 1400 3700 50  0001 C CNN
+	3    1400 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U?
+U 1 1 62AAAE35
+P 1400 3700
+F 0 "U?" H 1550 3500 50  0000 C CNN
+F 1 "TL072" H 1600 3600 50  0000 C CNN
+F 2 "" H 1400 3700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 1400 3700 50  0001 C CNN
+	1    1400 3700
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3600 3250 3600 1800
+Wire Wire Line
+	2250 3250 3600 3250
+Connection ~ 3600 1800
+Wire Wire Line
+	3600 1800 4400 1800
+Wire Wire Line
+	4150 1500 4200 1500
+Wire Wire Line
+	4150 1500 4150 3200
+Connection ~ 4200 1500
+$Comp
+L Device:R_US R?
+U 1 1 62BA9318
+P 4450 3200
+F 0 "R?" V 4245 3200 50  0000 C CNN
+F 1 "100k" V 4336 3200 50  0000 C CNN
+F 2 "" V 4490 3190 50  0001 C CNN
+F 3 "~" H 4450 3200 50  0001 C CNN
+	1    4450 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 62BA98CD
+P 4650 3000
+F 0 "R?" H 4582 2954 50  0000 R CNN
+F 1 "22k" H 4582 3045 50  0000 R CNN
+F 2 "" V 4690 2990 50  0001 C CNN
+F 3 "~" H 4650 3000 50  0001 C CNN
+	1    4650 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 62BAA272
+P 4650 2850
+F 0 "#PWR?" H 4650 2700 50  0001 C CNN
+F 1 "+12V" H 4665 3023 50  0000 C CNN
+F 2 "" H 4650 2850 50  0001 C CNN
+F 3 "" H 4650 2850 50  0001 C CNN
+	1    4650 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC559 Q?
+U 1 1 62BAB28D
+P 4900 3200
+F 0 "Q?" H 5091 3154 50  0000 L CNN
+F 1 "BC559" H 5091 3245 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5100 3125 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H 4900 3200 50  0001 L CNN
+	1    4900 3200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4700 3200 4650 3200
+Wire Wire Line
+	4650 3150 4650 3200
+Connection ~ 4650 3200
+Wire Wire Line
+	4650 3200 4600 3200
+Wire Wire Line
+	4300 3200 4150 3200
+Connection ~ 4150 3200
+Wire Wire Line
+	4150 3200 4150 3750
+$Comp
+L Device:R_US R?
+U 1 1 62BCFD1D
+P 5000 3650
+F 0 "R?" H 4932 3604 50  0000 R CNN
+F 1 "22k" H 4932 3695 50  0000 R CNN
+F 2 "" V 5040 3640 50  0001 C CNN
+F 3 "~" H 5000 3650 50  0001 C CNN
+	1    5000 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 62BDA4A0
+P 5300 3650
+F 0 "C?" H 5392 3696 50  0000 L CNN
+F 1 "6n8" H 5392 3605 50  0000 L CNN
+F 2 "" H 5300 3650 50  0001 C CNN
+F 3 "~" H 5300 3650 50  0001 C CNN
+	1    5300 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 62BDAE4B
+P 5600 3450
+F 0 "C?" V 5371 3450 50  0000 C CNN
+F 1 "3n3" V 5462 3450 50  0000 C CNN
+F 2 "" H 5600 3450 50  0001 C CNN
+F 3 "~" H 5600 3450 50  0001 C CNN
+	1    5600 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 62BDB498
+P 5850 3450
+F 0 "R?" V 6055 3450 50  0000 C CNN
+F 1 "100k" V 5964 3450 50  0000 C CNN
+F 2 "" V 5890 3440 50  0001 C CNN
+F 3 "~" H 5850 3450 50  0001 C CNN
+	1    5850 3450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 3500 5000 3450
+Wire Wire Line
+	5000 3450 5300 3450
+Connection ~ 5000 3450
+Wire Wire Line
+	5000 3450 5000 3400
+Wire Wire Line
+	5300 3550 5300 3450
+Connection ~ 5300 3450
+Wire Wire Line
+	5300 3450 5500 3450
+$Comp
+L power:Earth #PWR?
+U 1 1 62C03561
+P 5000 3800
+F 0 "#PWR?" H 5000 3550 50  0001 C CNN
+F 1 "Earth" H 5000 3650 50  0001 C CNN
+F 2 "" H 5000 3800 50  0001 C CNN
+F 3 "~" H 5000 3800 50  0001 C CNN
+	1    5000 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 62C046ED
+P 5300 3800
+F 0 "#PWR?" H 5300 3550 50  0001 C CNN
+F 1 "Earth" H 5300 3650 50  0001 C CNN
+F 2 "" H 5300 3800 50  0001 C CNN
+F 3 "~" H 5300 3800 50  0001 C CNN
+	1    5300 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 3800 5300 3750
+$Comp
+L Device:R_US R?
+U 1 1 62C0EA0E
+P 6050 3650
+F 0 "R?" H 6118 3696 50  0000 L CNN
+F 1 "100k" H 6118 3605 50  0000 L CNN
+F 2 "" V 6090 3640 50  0001 C CNN
+F 3 "~" H 6050 3650 50  0001 C CNN
+	1    6050 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 62C0EF1F
+P 6050 3800
+F 0 "#PWR?" H 6050 3550 50  0001 C CNN
+F 1 "Earth" H 6050 3650 50  0001 C CNN
+F 2 "" H 6050 3800 50  0001 C CNN
+F 3 "~" H 6050 3800 50  0001 C CNN
+	1    6050 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 3500 6050 3450
+Wire Wire Line
+	6050 3450 6000 3450
+$Comp
+L Device:C_Small C?
+U 1 1 62C1962B
+P 6200 3450
+F 0 "C?" V 5971 3450 50  0000 C CNN
+F 1 "4n7" V 6062 3450 50  0000 C CNN
+F 2 "" H 6200 3450 50  0001 C CNN
+F 3 "~" H 6200 3450 50  0001 C CNN
+	1    6200 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 62C19D4F
+P 6200 3100
+F 0 "R?" V 6405 3100 50  0000 C CNN
+F 1 "39k" V 6314 3100 50  0000 C CNN
+F 2 "" V 6240 3090 50  0001 C CNN
+F 3 "~" H 6200 3100 50  0001 C CNN
+	1    6200 3100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6100 3450 6050 3450
+Connection ~ 6050 3450
+Wire Wire Line
+	6050 3100 6050 3450
+$Comp
+L power:+12V #PWR?
+U 1 1 62C2FC38
+P 5000 3000
+F 0 "#PWR?" H 5000 2850 50  0001 C CNN
+F 1 "+12V" H 5015 3173 50  0000 C CNN
+F 2 "" H 5000 3000 50  0001 C CNN
+F 3 "" H 5000 3000 50  0001 C CNN
+	1    5000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 62C2FFE7
+P 6400 2900
+F 0 "C?" H 6308 2854 50  0000 R CNN
+F 1 "100p" H 6350 2750 50  0000 R CNN
+F 2 "" H 6400 2900 50  0001 C CNN
+F 3 "~" H 6400 2900 50  0001 C CNN
+	1    6400 2900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6350 3100 6400 3100
+Wire Wire Line
+	6400 3100 6400 3000
+$Comp
+L power:Earth #PWR?
+U 1 1 62C3AF26
+P 6400 2800
+F 0 "#PWR?" H 6400 2550 50  0001 C CNN
+F 1 "Earth" H 6400 2650 50  0001 C CNN
+F 2 "" H 6400 2800 50  0001 C CNN
+F 3 "~" H 6400 2800 50  0001 C CNN
+	1    6400 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:BC549 Q?
+U 1 1 62C3B7C0
+P 6700 3100
+F 0 "Q?" H 6650 3350 50  0000 L CNN
+F 1 "BC549" H 6500 3250 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6900 3025 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 6700 3100 50  0001 L CNN
+	1    6700 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3100 6400 3100
+Connection ~ 6400 3100
+$Comp
+L power:+12V #PWR?
+U 1 1 62C48885
+P 6800 2900
+F 0 "#PWR?" H 6800 2750 50  0001 C CNN
+F 1 "+12V" H 6815 3073 50  0000 C CNN
+F 2 "" H 6800 2900 50  0001 C CNN
+F 3 "" H 6800 2900 50  0001 C CNN
+	1    6800 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 3450 6800 3450
+Wire Wire Line
+	6800 3450 6800 3300
+$Comp
+L Device:R_US R?
+U 1 1 62C57123
+P 6800 3600
+F 0 "R?" H 6868 3646 50  0000 L CNN
+F 1 "10k" H 6868 3555 50  0000 L CNN
+F 2 "" V 6840 3590 50  0001 C CNN
+F 3 "~" H 6800 3600 50  0001 C CNN
+	1    6800 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 6800 3450
+$Comp
+L power:-12V #PWR?
+U 1 1 62C5793B
+P 6800 3750
+F 0 "#PWR?" H 6800 3850 50  0001 C CNN
+F 1 "-12V" H 6815 3923 50  0000 C CNN
+F 2 "" H 6800 3750 50  0001 C CNN
+F 3 "" H 6800 3750 50  0001 C CNN
+	1    6800 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP1_Small C?
+U 1 1 62C59E73
+P 7050 3450
+F 0 "C?" V 6822 3450 50  0000 C CNN
+F 1 "0.47u" V 6913 3450 50  0000 C CNN
+F 2 "" H 7050 3450 50  0001 C CNN
+F 3 "~" H 7050 3450 50  0001 C CNN
+	1    7050 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6800 3450 6950 3450
+$EndSCHEMATC

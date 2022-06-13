@@ -2055,7 +2055,7 @@ U 1 1 60934E42
 P 9550 4100
 F 0 "J18" H 9578 4126 50  0000 L CNN
 F 1 "RD_OUT" H 9578 4035 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 9550 4100 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1mm" H 9550 4100 50  0001 C CNN
 F 3 "~" H 9550 4100 50  0001 C CNN
 	1    9550 4100
 	1    0    0    -1  

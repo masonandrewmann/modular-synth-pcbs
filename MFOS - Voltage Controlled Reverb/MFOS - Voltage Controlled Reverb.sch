@@ -2425,4 +2425,6 @@ NoConn ~ 7250 1400
 NoConn ~ 7150 1400
 NoConn ~ 5050 7200
 NoConn ~ 950  7100
+Text Notes 1150 2700 0    50   ~ 0
+R40 should be 100k
 $EndSCHEMATC

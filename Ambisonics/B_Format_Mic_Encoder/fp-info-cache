@@ -1,4 +1,4 @@
-15946251670030717
+15951163198078908
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -3692,6 +3692,13 @@ Capacitor_THT
 CP_Radial_D5.0mm_P2.00mm
 CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor
 CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_D5.0mm_P2.0mm_Bigger_Holes
+
+
 0
 2
 2
@@ -49090,6 +49097,13 @@ Yellow 5381 Series LED
 0
 2
 2
+mason_parts
+DIP-10_w0.6in
+
+
+0
+10
+10
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -62100,6 +62114,13 @@ Potentiometer_THT
 Potentiometer_Alps_RK097_Single_Horizontal
 Potentiometer, horizontal, Alps RK097 Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK097/RK097_list.html
 Potentiometer horizontal Alps RK097 Single
+0
+3
+3
+Potentiometer_THT
+Potentiometer_Alps_RK097_Single_Horizontal_NoClearance
+
+
 0
 3
 3

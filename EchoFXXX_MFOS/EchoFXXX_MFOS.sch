@@ -2505,4 +2505,16 @@ F 3 "~" H 9850 4200 50  0001 C CNN
 	1    9850 4200
 	1    0    0    -1  
 $EndComp
+Text Notes 9550 2400 0    50   ~ 0
+NP
+Text Notes 3950 800  0    50   ~ 0
+NP
+Text Notes 3900 1600 0    50   ~ 0
+NP
+Text Notes 7800 1850 0    50   ~ 0
+NP
+Text Notes 1350 3750 0    50   ~ 0
+NP\n
+Text Notes 8950 1850 0    50   ~ 0
+NP
 $EndSCHEMATC

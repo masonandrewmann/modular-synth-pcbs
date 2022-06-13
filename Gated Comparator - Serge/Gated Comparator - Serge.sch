@@ -2302,4 +2302,6 @@ Wire Wire Line
 Connection ~ 1900 1500
 Wire Wire Line
 	1900 1500 2100 1500
+Text Notes 7350 2200 0    50   ~ 0
+LOTS OF\nTHESE\n200Ks\nSHOULD \nBE 100k\n
 $EndSCHEMATC
